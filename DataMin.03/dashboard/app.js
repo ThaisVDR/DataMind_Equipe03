@@ -20,17 +20,33 @@
     for(const s of series){let path='';s.values.forEach((v,i)=>{if(v==null){path+=' ';return;}path+=`${i===0||s.values[i-1]==null?'M':'L'}${x(i)},${y(v)} `;});svg+=`<path class="line" stroke="${s.color}" d="${path}"/>`;s.values.forEach((v,i)=>{if(v!=null)svg+=`<circle class="point" cx="${x(i)}" cy="${y(v)}" r="4" fill="${s.color}"><title>${esc(s.name)} · ${years[i]}: ${pct(v)}</title></circle>`;});}
     $(id).innerHTML=svg+'</svg>';
   }
+  function annualBarChart(id, rows, cohort) {
+    const W=880,H=220,L=56,R=28,T=16,B=48, max=Math.max(20,Math.ceil(Math.max(...rows.map(r=>r.tada))/10)*10);
+    const slot=(W-L-R)/Math.max(1,rows.length), barW=Math.min(42,slot*.58), y=v=>T+(max-v)/(max)*(H-T-B);
+    let svg=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Desistência anual da coorte ${cohort}, em percentual da base efetiva">`;
+    for(let i=0;i<=4;i++){const v=max*i/4;svg+=`<line class="grid" x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}"/><text x="${L-9}" y="${y(v)+4}" text-anchor="end">${n(v)}%</text>`;}
+    rows.forEach((r,i)=>{const x=L+i*slot+(slot-barW)/2,top=y(r.tada),height=H-B-top,color=i<2?'#bd674d':'#b9c6bc';svg+=`<rect x="${x}" y="${top}" width="${barW}" height="${Math.max(0,height)}" rx="4" fill="${color}"><title>Ano ${r.referencia-cohort+1}: ${pct(r.tada)} da base efetiva</title></rect><text x="${x+barW/2}" y="${top-7}" text-anchor="middle">${n(r.tada,1)}%</text><text x="${x+barW/2}" y="${H-20}" text-anchor="middle">Ano ${r.referencia-cohort+1}</text>`;});
+    $(id).innerHTML=svg+'</svg>';
+  }
+  function scatterChart(id, rows, labelKey) {
+    const W=880,H=340,L=58,R=28,T=22,B=52,x=v=>L+v/100*(W-L-R),y=v=>T+(100-v)/100*(H-T-B),maxN=Math.max(1,...rows.map(r=>r.denominador));
+    let svg=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Dispersão por grupo: eixo horizontal desistência acumulada, eixo vertical diplomação; tamanho da bolha representa base efetiva">`;
+    for(let i=0;i<=4;i++){const v=i*25;svg+=`<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="${T}" y2="${H-B}"/><line class="grid" x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}"/><text x="${x(v)}" y="${H-25}" text-anchor="middle">${v}%</text><text x="${L-10}" y="${y(v)+4}" text-anchor="end">${v}%</text>`;}
+    rows.forEach(r=>{const radius=4+12*Math.sqrt(r.denominador/maxN),name=r[labelKey];svg+=`<circle class="scatter-point" cx="${x(r.tda)}" cy="${y(r.tca)}" r="${radius}" fill="#5d8198" fill-opacity=".82" stroke="#fff" stroke-width="1.5"><title>${esc(name)} · diplomação ${pct(r.tca)} · desistência ${pct(r.tda)} · base efetiva ${n(r.denominador)}</title></circle>`;});
+    svg+=`<text x="${(L+W-R)/2}" y="${H-3}" text-anchor="middle" class="axis-title">Desistência acumulada</text><text transform="translate(16 ${(T+H-B)/2}) rotate(-90)" text-anchor="middle" class="axis-title">Diplomação</text></svg>`;$(id).innerHTML=svg;
+  }
   const bar = (value, cls) => value == null ? '<span class="muted">Sem grupo elegível</span>' : `<div class="bar-track"><div class="bar-fill ${cls}" style="width:${Math.max(0,Math.min(100,Number(value)))}%"></div><span class="bar-value">${pct(value)}</span></div>`;
   function p1(){
     const cohort=Number($('coorte').value),rows=D.p1.filter(r=>r.coorte===cohort),last=rows.at(-1),peak=rows.reduce((a,b)=>a.tada>b.tada?a:b);
-    $('coorte-context').textContent=`${n(last.n)} ingressantes · ${last.cursos} cursos · ${2024-cohort+1} anos de acompanhamento`;
+    $('coorte-context').textContent=`${n(last.n)} ingressos agregados · ${last.cursos} cursos · ${2024-cohort+1} anos de acompanhamento`;
     $('outcome-stats').innerHTML=[[last.tca,'chegam ao diploma'],[last.tda,'desistem do curso'],[last.tap,'ainda permanecem']].map(([v,t])=>`<div><strong>${n(v,1)}</strong><span>${t}</span></div>`).join('');
+    const early=rows.slice(0,2);$('early-kpis').innerHTML=early.map((r,i)=>`<div class="early-kpi"><span>${i===0?'1º ano':'2º ano'}</span><strong>${pct(r.tada)}</strong><small>desistências no ano · base efetiva ${n(r.denominador)}</small></div>`).join('');annualBarChart('annual-dropout-chart',rows,cohort);
     // Maior resto: exatamente 100 pontos e arredondamento consistente.
     const rates=[last.tca,last.tda,last.tap],counts=rates.map(Math.floor);let remaining=100-counts.reduce((a,b)=>a+b,0);
     const order=rates.map((r,i)=>({i,frac:r-counts[i]})).sort((a,b)=>b.frac-a.frac);for(let j=0;j<remaining;j++)counts[order[j%3].i]++;
     $('waffle').innerHTML=counts.map((count,i)=>Array.from({length:count},()=>`<i class="${['green','coral','gold'][i]}"></i>`).join('')).join('');
-    $('peak-title').textContent=`A maior perda acontece no ${peak.referencia-cohort+1}º ano.`;
-    $('peak-text').textContent=`Em ${peak.referencia}, a desistência anual correspondeu a ${pct(peak.tada)} da base efetiva da coorte. Esse é o maior incremento anual observado nesta turma.`;
+    $('peak-title').textContent=`Maior desistência anual: ${peak.referencia-cohort+1}º ano.`;
+    $('peak-text').textContent=`No ano de referência ${peak.referencia}, ${pct(peak.tada)} da base efetiva desistiu do curso. Esse foi o maior percentual anual observado nesta coorte.`;
     lineChart('trajectory-chart',rows.map(r=>r.referencia),['tca','tda','tap'].map(k=>({name:{tca:'Conclusão',tda:'Desistência',tap:'Permanência'}[k],color:color[k],values:rows.map(r=>r[k])})));
     table('trajectory-table',['Ano','Ano do curso','Base efetiva','Conclusão','Desistência','Permanência','Desistência no ano'],rows.map(r=>[r.referencia,r.referencia-cohort+1,n(r.denominador),pct(r.tca),pct(r.tda),pct(r.tap),pct(r.tada)]));
   }
@@ -38,8 +54,9 @@
     const cohort=Number($('compare-coorte').value),level=$('level').value,dir=$('order').value==='asc'?1:-1;
     const rows=D.p2[level].filter(r=>r.coorte===cohort).sort((a,b)=>dir===1?a.tda-b.tda:b.tda-a.tda);const base=new Map(D.p2[level].filter(r=>r.coorte===2015).map(r=>[r[level],r]));
     $('comparison-label').textContent=cohort;
-    $('ranking').innerHTML=rows.slice(0,12).map(r=>`<div class="bar-row"><div class="bar-name">${esc(r[level])}<small>${r.cursos} cursos · base ${n(r.denominador)}</small></div><div>${bar(base.get(r[level])?.tda,'gray')}${bar(r.tda,'green')}</div></div>`).join('');
-    table('ranking-table',[level==='area'?'Área':'Rótulo CINE','2015 · TDA',`${cohort} · TDA`,'Variação (p.p.)','Base efetiva comparada'],rows.map(r=>{const b=base.get(r[level]);return[r[level],pct(b?.tda),pct(r.tda),b?n(r.tda-b.tda,2):'Sem correspondência',n(r.denominador)];}));
+    $('ranking').innerHTML=rows.slice(0,12).map(r=>`<div class="bar-row"><div class="bar-name">${esc(r[level])}<small>${r.cursos} cursos · base efetiva ${n(r.denominador)}</small></div><div>${bar(base.get(r[level])?.tda,'gray')}${bar(r.tda,'green')}</div></div>`).join('');
+    scatterChart('course-scatter',rows,level);
+    table('ranking-table',[level==='area'?'Área de formação':'Área detalhada','2015 · desistência',`${cohort} · desistência`,'Diferença (pontos percentuais)','Base efetiva'],rows.map(r=>{const b=base.get(r[level]);return[r[level],pct(b?.tda),pct(r.tda),b?n(r.tda-b.tda,2):'Sem correspondência',n(r.denominador)];}));
   }
   const networkNames=['Pública','Privada com fins lucrativos','Privada sem fins lucrativos'];
   const networkColors=['#28664f','#bd674d','#5d8198'];
@@ -47,15 +64,16 @@
     const modality=$('modality').value,year=Number($('census-year').value),rows=D.p3.filter(r=>r.modalidade===modality);
     lineChart('network-chart',[2021,2022,2023,2024],networkNames.map((name,i)=>({name,color:networkColors[i],values:[2021,2022,2023,2024].map(y=>rows.find(r=>r.ano===y&&r.rede===name)?.proxy)})),50);
     $('network-legend').innerHTML=networkNames.map((name,i)=>`<span><i style="background:${networkColors[i]}"></i>${esc(name)}</span>`).join('');
-    const subset=rows.filter(r=>r.ano===year),total=subset.reduce((s,r)=>s+r.matriculas,0);
+    const subset=networkNames.map(name=>rows.find(r=>r.ano===year&&r.rede===name)).filter(Boolean),total=subset.reduce((s,r)=>s+r.matriculas,0);
     $('enrollment-caption').textContent=`${year} · ${n(total)} matrículas nas redes exibidas`;
-    $('enrollment').innerHTML=subset.map(r=>`<div class="bar-row"><div class="bar-name">${esc(r.rede)}<small>${n(r.matriculas)} matrículas</small></div>${bar(100*r.matriculas/total,'green')}</div>`).join('');
+    $('enrollment').innerHTML=`<div class="stacked-track" role="img" aria-label="Composição percentual das matrículas por rede em ${year}">${subset.map(r=>{const share=total?100*r.matriculas/total:0,index=networkNames.indexOf(r.rede);return `<span style="width:${share}%;background:${networkColors[index]}" title="${esc(r.rede)}: ${pct(share)} · ${n(r.matriculas)} matrículas"></span>`;}).join('')}</div>`;
+    $('enrollment-legend').innerHTML=subset.map(r=>{const share=total?100*r.matriculas/total:0,index=networkNames.indexOf(r.rede);return `<span><i style="background:${networkColors[index]}"></i>${esc(r.rede)} · ${pct(share)} (${n(r.matriculas)})</span>`;}).join('');
     const pub=y=>rows.find(r=>r.ano===y&&r.rede==='Pública');
-    $('anomaly').textContent=`Na rede pública ${modality==='1'?'presencial':'EAD'}, a proxy passou de ${pct(pub(2022)?.proxy)} em 2022 para ${pct(pub(2023)?.proxy)} em 2023, voltando a ${pct(pub(2024)?.proxy)} em 2024. O padrão exige investigação; a causa ainda não está demonstrada.`;
-    table('network-table',['Ano','Rede','Matrículas','Base da proxy','Evasão anual'],rows.map(r=>[r.ano,r.rede,n(r.matriculas),n(r.n),pct(r.proxy)]));
+    $('anomaly').textContent=`Na rede pública ${modality==='1'?'presencial':'a distância'}, o indicador anual passou de ${pct(pub(2022)?.proxy)} em 2022 para ${pct(pub(2023)?.proxy)} em 2023, voltando a ${pct(pub(2024)?.proxy)} em 2024. O padrão exige investigação; a causa ainda não está demonstrada.`;
+    table('network-table',['Ano','Rede administrativa','Matrículas','Base do indicador','Desvinculação anual'],rows.map(r=>[r.ano,r.rede,n(r.matriculas),n(r.n),pct(r.proxy)]));
   }
   function p4(){
-    const j=D.qualidade.juncoes.find(r=>r.pergunta==='P4');metrics('cpc-stats',[[`${j.correspondentes} / ${j.origem}`,'cursos com correspondência na trajetória'],[n(j.elegiveis),'cursos elegíveis para a análise'],[n(D.correlacao_cpc.pearson,3),'Pearson por curso · sem ajustes']]);
+    const j=D.qualidade.juncoes.find(r=>r.pergunta==='P4');metrics('cpc-stats',[[`${j.correspondentes} / ${j.origem}`,'cursos com correspondência na trajetória'],[n(j.elegiveis),'cursos incluídos na análise'],[n(D.correlacao_cpc.pearson,3),'correlação de Pearson · sem ajustes']]);
     $('cpc-bars').innerHTML=D.p4.map(r=>`<div class="bar-row"><div class="bar-name">CPC faixa ${esc(r.faixa)}<small>${r.cursos} cursos · base ${n(r.denominador)}</small></div>${bar(r.tda,'coral')}</div>`).join('');
     table('cpc-table',['Faixa CPC','Cursos','Base efetiva','Desistência','Conclusão'],D.p4.map(r=>[r.faixa,r.cursos,n(r.denominador),pct(r.tda),pct(r.tca)]));
   }
@@ -66,10 +84,10 @@
     table('lic-table',['Área','Base trajetória','Desistência','Conclusão','Participantes 2025','Proficiência'],rows.map(r=>[r.area_enade,n(r.denominador),pct(r.tda),pct(r.tca),n(r.participantes),pct(r.proficiencia)]));
   }
   function eda(){
-    metrics('eda-stats',[[D.meta.fontes,'conjuntos ativos no PostgreSQL'],[n(D.meta.linhas),'registros em granularidades diferentes'],['≥ 10','base mínima dos grupos publicados']]);
+    metrics('eda-stats',[[D.meta.fontes,'conjuntos ativos no PostgreSQL'],[n(D.meta.linhas),'linhas nas diferentes fontes'],['10','base mínima; grupos menores não são exibidos']]);
     table('profile-table',['Fonte','Período','Linhas','Cursos distintos','Ausências verificadas','Sequenciais excluídos'],D.qualidade.perfis.map(r=>[r.fonte,r.periodo,n(r.linhas),n(r.cursos),n(r.campos_ausentes),n(r.excluidos_sequenciais)]));
-    table('joins-table',['Pergunta','Origem','Match','Taxa','Elegíveis'],D.qualidade.juncoes.map(r=>[r.pergunta,r.origem,r.correspondentes,pct(r.taxa_match),r.elegiveis]));
-    table('indicator-table',['Indicador','Ano','Registros','Métrica','Ausentes'],D.qualidade.indicadores.map(r=>[r.tipo,r.ano,r.linhas,r.metrica,r.ausentes]));
+    table('joins-table',['Pergunta','Cursos na fonte','Correspondências','Percentual correspondente','Incluídos na análise'],D.qualidade.juncoes.map(r=>[r.pergunta,r.origem,r.correspondentes,pct(r.taxa_match),r.elegiveis]));
+    table('indicator-table',['Indicador','Ano','Registros','Medida','Dados ausentes'],D.qualidade.indicadores.map(r=>[r.tipo,r.ano,r.linhas,r.metrica,r.ausentes]));
     table('ibge-table',['Tabela SIDRA','Estado original','Registros preservados'],D.qualidade.ibge.map(r=>[r.tabela,r.status_valor,n(r.linhas)]));
     $('checks').innerHTML=D.qualidade.verificacoes.map(v=>`<li>${esc(v)}</li>`).join('');
     table('sources-table',['Conjunto','Família','Arquivo local','Linhas','SHA-256 (início)'],D.fontes.map(r=>[r.source_key,r.family,r.source_path.split('/').at(-1),n(r.rows_loaded),r.sha256.slice(0,16)]));

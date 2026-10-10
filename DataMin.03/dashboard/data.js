@@ -1,11 +1,11 @@
 window.DATAMIND = {
   "meta": {
-    "gerado_em": "2026-10-10T19:14:24.756236+00:00",
+    "gerado_em": "2026-10-10T20:37:05.664226+00:00",
     "versao": 1,
     "fontes": 31,
     "linhas": 1720436,
-    "lote": "manual__2026-10-10T17:53:16.331962+00:00",
-    "assinatura": "49eef6bd5ac577b71c67e0c6507f80437e29bce3f20170a765dc83f671741234",
+    "lote": "manual__2026-10-10T20:36:00.064953+00:00",
+    "assinatura": "993d24c3850fd7703f89a542a88cd0095a160138d2c61df9d3051fa6a5ab6a9d",
     "minimo_grupo": 10,
     "categorias_censo_excluidas": [
       "7"
@@ -19,7 +19,7 @@ window.DATAMIND = {
       "rows_loaded": 12278,
       "sha256": "75e9c5dfd9ab205cd59f113098e5e225dabd915819afa509be7cc20b763ce06c",
       "version": "8fc9a4c54656d44a126bab27ab1a0cfbf147f2424a560da49061175d0cd2291a",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "censo_2022",
@@ -28,7 +28,7 @@ window.DATAMIND = {
       "rows_loaded": 15059,
       "sha256": "f30830c26956a3575c3786634e51c9a643faa3907f5f895c8c326386ff1df6e8",
       "version": "b5c4207ae733d1f7f23d169ce85c295aa9edee692c3182a7b3bb2a0816cb4130",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "censo_2023",
@@ -37,7 +37,7 @@ window.DATAMIND = {
       "rows_loaded": 17022,
       "sha256": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5",
       "version": "ad2b9b3d8d3eaab3fd3e4ce9aefa5549a4ba968cc5768cfeff042b9b2a9817b9",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "censo_2024",
@@ -46,7 +46,7 @@ window.DATAMIND = {
       "rows_loaded": 18315,
       "sha256": "e8e11899efe2b348a7e80e3a3c610c3bdd1ced3362ccdf2c9f9abe9bf8988386",
       "version": "d867e4904b9e1b690f9c4fc944a0efe12b58b1d4e11e8d69e880bd239d402f13",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "cpc_2021",
@@ -55,7 +55,7 @@ window.DATAMIND = {
       "rows_loaded": 155,
       "sha256": "430a174e959968a8716c1af8076936b8088821e22cc9880fd9b532b2a90654b2",
       "version": "ed799dca3cd37927e20c7240794874dcc1b6505b4bfb3dce6600e317117c2684",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "cpc_2022",
@@ -64,7 +64,7 @@ window.DATAMIND = {
       "rows_loaded": 165,
       "sha256": "1243a2b8d132165a0fdd758d5d02e84815251dc667ccbcf796bb3c4d6657d8eb",
       "version": "0f1a72c7e985b17cfce667dc61192a34f18e1ce1596689677a803fde41df337c",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "cpc_2023",
@@ -73,7 +73,7 @@ window.DATAMIND = {
       "rows_loaded": 238,
       "sha256": "5bf616a7dd56445796f606c080c0462488418274db2828604b8bc39eedd71c3f",
       "version": "e54a8e4d9157a5819f7cf4a06d7924c4c28731a294fdbcd0455165e464766690",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "enade_2021",
@@ -82,7 +82,7 @@ window.DATAMIND = {
       "rows_loaded": 155,
       "sha256": "582b31861bdeee590c5ca73671d76700fdfc837320286c540f7502604a075540",
       "version": "978c2ea73a54a78df2b6876d1161130508311a6d035061ef1c33be272aad42c9",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "enade_2022",
@@ -91,7 +91,7 @@ window.DATAMIND = {
       "rows_loaded": 165,
       "sha256": "2e764fd410232fb95ac0e56860a1383f3b29f864a1f829fdd077c110d6e840e3",
       "version": "9d0d626cb1e8816b5e20a3a3f0ad0fe3dde7ad4361981657fa703bc0d59edb2d",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "enade_2023",
@@ -100,7 +100,7 @@ window.DATAMIND = {
       "rows_loaded": 238,
       "sha256": "cdb138c0154350da883f0e4535d5b2b999b14d87d16c12406e9814cec0915033",
       "version": "b5776b1a24b3ea33b2afa08be17afccac51ad13f29af402fd872311b1ff7ee8e",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "enade_licenciaturas_2025",
@@ -109,7 +109,7 @@ window.DATAMIND = {
       "rows_loaded": 97,
       "sha256": "12e73c0603d388711f914dae9d8e3ea15b46aa56fde2a11b4634baa9e8417911",
       "version": "96d22013360051d64a91e5447bcbc441f2737831a831854831d2ddf520e80f3a",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "enade_medicina_2025",
@@ -118,7 +118,7 @@ window.DATAMIND = {
       "rows_loaded": 7,
       "sha256": "ef2843f31bc14f40cc8f1800fb51a9c0b8ce04f61286a6e91ce3b6dc4473b185",
       "version": "85ef175dec466ecaf2379ca30885a45ad8d1bcf025702671663a5c36888f43dc",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "ibge_10056",
@@ -127,7 +127,7 @@ window.DATAMIND = {
       "rows_loaded": 81792,
       "sha256": "2ad242ee0b622c029843e483c7767410e92a826472388b425b9cdfdef59ef2b6",
       "version": "74a4af7d7ec5289ea9dba208e92630dc30dc1ac83bb38601bf22237f6d7c8f19",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "ibge_10059",
@@ -136,7 +136,7 @@ window.DATAMIND = {
       "rows_loaded": 511200,
       "sha256": "002269d4d6c02a781a73d01220b90a79e39028d6a0c63eecaa9021eea0f8400b",
       "version": "e304a2465f835c97ecbd7da4b62a64d749d7597b5c3020aed73aa27bcbfe07ab",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "ibge_10061",
@@ -145,7 +145,7 @@ window.DATAMIND = {
       "rows_loaded": 485640,
       "sha256": "bfb2b1c79e1f51ec7c52becacb007af08bab6a841836773e22d35672bcf9fded",
       "version": "90946a475549652649a812798e5f58e8d87dd96d26c07acefc3bb895ae954a60",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "ibge_10296",
@@ -154,7 +154,7 @@ window.DATAMIND = {
       "rows_loaded": 61344,
       "sha256": "98704c1b9aded96c6657a5b41eda4520515a4bac591377b465bc60c589f00ec5",
       "version": "0f1e9ced667e9a3f9cbc0a7c02971c46b03e51fd11c38a7a7c6b6e1cba674b20",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "ibge_5938",
@@ -163,7 +163,7 @@ window.DATAMIND = {
       "rows_loaded": 143704,
       "sha256": "0d1ffa2a90ce96ce3353bab903e707c980fb5bd44c5d9f8593351e965432c92a",
       "version": "c2c7a078f98d9a57d4d8d23e2a6a5fa0e69938e53c2b02630ff65b239ffb125c",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "ibge_6579",
@@ -172,7 +172,7 @@ window.DATAMIND = {
       "rows_loaded": 3146,
       "sha256": "56b6a769606dfd03e4da2a22deab26c138d8057e0de5160596a9536a1743a00d",
       "version": "c0a09c5f0698f527be7fca774fc3fba4e134436cf3879287890cf4a138970a8a",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "ibge_9514",
@@ -181,7 +181,7 @@ window.DATAMIND = {
       "rows_loaded": 342504,
       "sha256": "3a836cf0b30660e4919dfb815f5780e9904c366a5630f0e1afac5a0f3acfa5e2",
       "version": "5e8b665df85c3160cd6f68f3c79142c3eaba4029a7a7b5f2fe9a447c6e8318e9",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "idd_2021",
@@ -190,7 +190,7 @@ window.DATAMIND = {
       "rows_loaded": 155,
       "sha256": "72113a2972247df37f9f15bc210b45bb882cad5ace99670f53507fe1398a2339",
       "version": "de1382d7af666dc55c87cd4a8b2703ea1b2ce20589981c697efb79ae2493c12a",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "idd_2022",
@@ -199,7 +199,7 @@ window.DATAMIND = {
       "rows_loaded": 165,
       "sha256": "a0fe496c79c6a57d955882b810e1c1103bf4272c80dd0e1537a78f0e94bf431f",
       "version": "abf87a8a4204706ccd514b1dfcb4e9f8763415f9d9aade061020237d038a737d",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "idd_2023",
@@ -208,7 +208,7 @@ window.DATAMIND = {
       "rows_loaded": 238,
       "sha256": "1253c8c9cdf84476783d366b48373a29d457a566167a481d14a05ddf643156fe",
       "version": "45fb40509ec02811e58cbe15e77f596bdf54dda764ec04b023a9450afb2df915",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "igc_2021",
@@ -217,7 +217,7 @@ window.DATAMIND = {
       "rows_loaded": 45,
       "sha256": "651e0a0d0ed2b387118249ecc78454932c618d9ec2381c39ed5e04cdaa14040e",
       "version": "8e79ed76fcc890da6cd5935c8bca99b893d1e9afe1ddf293368aaa53bc358372",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "igc_2022",
@@ -226,7 +226,7 @@ window.DATAMIND = {
       "rows_loaded": 45,
       "sha256": "6273731e9991bc71f048fa4557594ea7894a0820efdfa700f306f28d25befdda",
       "version": "9b86162f557e9d5945faae9eac347e66672c076a1b90f4f840b73750346b21d5",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "igc_2023",
@@ -235,7 +235,7 @@ window.DATAMIND = {
       "rows_loaded": 51,
       "sha256": "92cd8f702e0e92f6d616e7b4bbf879e1c24b749392b05bc7ad149e00d80b4003",
       "version": "c7652044ff42cddb4b77646ea04b73b436b1c2dea0acf5a3c355e71a420d8b22",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "trajetoria_2015",
@@ -244,7 +244,7 @@ window.DATAMIND = {
       "rows_loaded": 5150,
       "sha256": "14e6ff92cc9e904c89499b457bc243ee86675638bcbbe57e9f6f7a220ce2f798",
       "version": "d4fba1bbe3ccc79325d8fd4157912683f6e129d69b857c02614c3408e8c46edf",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "trajetoria_2016",
@@ -253,7 +253,7 @@ window.DATAMIND = {
       "rows_loaded": 5157,
       "sha256": "fcc9f785b1ebecd17f2a75af57e0ef5c45863915ebc4e8796ac89ac3f214397f",
       "version": "b456cd39c3343700c4ea14194bb3682aeb34f99738906c7e8d2197c964fe5603",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "trajetoria_2017",
@@ -262,7 +262,7 @@ window.DATAMIND = {
       "rows_loaded": 4864,
       "sha256": "90130f61e9ffb7903456c841d5daf69aec5f7a854726cd26e42022647f9b0540",
       "version": "a3b9b6a44d5542bfff9a332b6f29c1e569a6ba0519df9ce3a03ecb6bc0059b28",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "trajetoria_2018",
@@ -271,7 +271,7 @@ window.DATAMIND = {
       "rows_loaded": 4361,
       "sha256": "44075a164340fda53fb080f9f00eeba8f5bd9bcb8397c0fe4ac801df72758f0b",
       "version": "40d8c1b9ae30ab88065a7a639b17818d506add8cd434bf35e06b4bcfb59fe98a",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "trajetoria_2019",
@@ -280,7 +280,7 @@ window.DATAMIND = {
       "rows_loaded": 3876,
       "sha256": "a443cd5c28e38f317130c41381d8c82fad0c33912e292f1900e39bc9abce9eb0",
       "version": "480ab1cf2c1c5a17ba73fc5f94a0a9821ce3d76d3d2c74eb203a25a322e267d8",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     },
     {
       "source_key": "trajetoria_2020",
@@ -289,7 +289,7 @@ window.DATAMIND = {
       "rows_loaded": 3105,
       "sha256": "dbdc6793f74f8623ac7d5e1e3202d58e3b63e11d040b84f6be533c0bf97c1d04",
       "version": "1620fc3a892d65ea243a08beddbfd2ec6c100114418c4ddecede694c412e29df",
-      "run_id": "manual__2026-10-10T17:53:16.331962+00:00"
+      "run_id": "manual__2026-10-10T20:36:00.064953+00:00"
     }
   ],
   "p1": [
@@ -793,7 +793,7 @@ window.DATAMIND = {
     "rotulo": [
       {
         "coorte": 2015,
-        "rotulo": "Administração",
+        "rotulo": "AdministraÃ§Ã£o",
         "cursos": 37,
         "n": 2799,
         "denominador": 2797,
@@ -804,7 +804,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Agroindústria",
+        "rotulo": "AgroindÃºstria",
         "cursos": 1,
         "n": 18,
         "denominador": 18,
@@ -815,7 +815,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Agronegócio",
+        "rotulo": "AgronegÃ³cio",
         "cursos": 3,
         "n": 164,
         "denominador": 164,
@@ -859,7 +859,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Automação industrial",
+        "rotulo": "AutomaÃ§Ã£o industrial",
         "cursos": 1,
         "n": 58,
         "denominador": 58,
@@ -881,7 +881,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Biocombustíveis",
+        "rotulo": "BiocombustÃ­veis",
         "cursos": 1,
         "n": 41,
         "denominador": 41,
@@ -903,7 +903,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Biologia formação de professor",
+        "rotulo": "Biologia formaÃ§Ã£o de professor",
         "cursos": 10,
         "n": 441,
         "denominador": 441,
@@ -925,7 +925,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Ciência da computação",
+        "rotulo": "CiÃªncia da computaÃ§Ã£o",
         "cursos": 9,
         "n": 437,
         "denominador": 437,
@@ -936,7 +936,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Ciências aeronáuticas",
+        "rotulo": "CiÃªncias aeronÃ¡uticas",
         "cursos": 1,
         "n": 65,
         "denominador": 65,
@@ -947,7 +947,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Ciências naturais formação de professor",
+        "rotulo": "CiÃªncias naturais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 85,
         "denominador": 85,
@@ -958,7 +958,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Ciências sociais",
+        "rotulo": "CiÃªncias sociais",
         "cursos": 1,
         "n": 40,
         "denominador": 40,
@@ -969,7 +969,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Ciências sociais formação de professor",
+        "rotulo": "CiÃªncias sociais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 40,
         "denominador": 40,
@@ -980,7 +980,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Comércio exterior",
+        "rotulo": "ComÃ©rcio exterior",
         "cursos": 1,
         "n": 36,
         "denominador": 36,
@@ -991,7 +991,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Construção de edifícios",
+        "rotulo": "ConstruÃ§Ã£o de edifÃ­cios",
         "cursos": 1,
         "n": 43,
         "denominador": 43,
@@ -1057,7 +1057,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Educação física",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica",
         "cursos": 7,
         "n": 605,
         "denominador": 604,
@@ -1068,7 +1068,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Educação física formação de professor",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica formaÃ§Ã£o de professor",
         "cursos": 15,
         "n": 862,
         "denominador": 862,
@@ -1090,7 +1090,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia agrícola",
+        "rotulo": "Engenharia agrÃ­cola",
         "cursos": 2,
         "n": 164,
         "denominador": 164,
@@ -1112,7 +1112,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia ambiental e sanitária",
+        "rotulo": "Engenharia ambiental e sanitÃ¡ria",
         "cursos": 1,
         "n": 67,
         "denominador": 67,
@@ -1145,7 +1145,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia de computação",
+        "rotulo": "Engenharia de computaÃ§Ã£o",
         "cursos": 3,
         "n": 153,
         "denominador": 153,
@@ -1156,7 +1156,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia de controle e automação",
+        "rotulo": "Engenharia de controle e automaÃ§Ã£o",
         "cursos": 5,
         "n": 290,
         "denominador": 289,
@@ -1178,7 +1178,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia de produção",
+        "rotulo": "Engenharia de produÃ§Ã£o",
         "cursos": 10,
         "n": 708,
         "denominador": 708,
@@ -1200,7 +1200,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia elétrica",
+        "rotulo": "Engenharia elÃ©trica",
         "cursos": 6,
         "n": 515,
         "denominador": 515,
@@ -1222,7 +1222,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia mecânica",
+        "rotulo": "Engenharia mecÃ¢nica",
         "cursos": 4,
         "n": 373,
         "denominador": 373,
@@ -1233,7 +1233,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Engenharia química",
+        "rotulo": "Engenharia quÃ­mica",
         "cursos": 1,
         "n": 57,
         "denominador": 57,
@@ -1244,7 +1244,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Estatística",
+        "rotulo": "EstatÃ­stica",
         "cursos": 1,
         "n": 78,
         "denominador": 78,
@@ -1255,7 +1255,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Estética e cosmética",
+        "rotulo": "EstÃ©tica e cosmÃ©tica",
         "cursos": 6,
         "n": 466,
         "denominador": 465,
@@ -1266,7 +1266,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Farmácia",
+        "rotulo": "FarmÃ¡cia",
         "cursos": 13,
         "n": 703,
         "denominador": 703,
@@ -1288,7 +1288,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Filosofia formação de professor",
+        "rotulo": "Filosofia formaÃ§Ã£o de professor",
         "cursos": 2,
         "n": 94,
         "denominador": 94,
@@ -1321,7 +1321,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Física",
+        "rotulo": "FÃ­sica",
         "cursos": 1,
         "n": 55,
         "denominador": 55,
@@ -1332,7 +1332,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Física formação de professor",
+        "rotulo": "FÃ­sica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 198,
         "denominador": 198,
@@ -1365,7 +1365,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Geografia formação de professor",
+        "rotulo": "Geografia formaÃ§Ã£o de professor",
         "cursos": 7,
         "n": 332,
         "denominador": 332,
@@ -1398,7 +1398,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Gestão ambiental",
+        "rotulo": "GestÃ£o ambiental",
         "cursos": 2,
         "n": 100,
         "denominador": 100,
@@ -1409,7 +1409,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Gestão comercial",
+        "rotulo": "GestÃ£o comercial",
         "cursos": 3,
         "n": 160,
         "denominador": 160,
@@ -1420,7 +1420,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Gestão da tecnologia da informação",
+        "rotulo": "GestÃ£o da tecnologia da informaÃ§Ã£o",
         "cursos": 2,
         "n": 60,
         "denominador": 60,
@@ -1431,7 +1431,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Gestão de negócios",
+        "rotulo": "GestÃ£o de negÃ³cios",
         "cursos": 1,
         "n": 21,
         "denominador": 21,
@@ -1442,7 +1442,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Gestão de pessoas",
+        "rotulo": "GestÃ£o de pessoas",
         "cursos": 8,
         "n": 480,
         "denominador": 480,
@@ -1453,7 +1453,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Gestão do agronegócio",
+        "rotulo": "GestÃ£o do agronegÃ³cio",
         "cursos": 4,
         "n": 274,
         "denominador": 274,
@@ -1464,7 +1464,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Gestão financeira",
+        "rotulo": "GestÃ£o financeira",
         "cursos": 2,
         "n": 84,
         "denominador": 84,
@@ -1475,7 +1475,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "História formação de professor",
+        "rotulo": "HistÃ³ria formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 210,
         "denominador": 210,
@@ -1497,7 +1497,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Letras inglês formação de professor",
+        "rotulo": "Letras inglÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 18,
         "denominador": 18,
@@ -1508,7 +1508,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Letras língua brasileira de sinais formação de professor",
+        "rotulo": "Letras lÃ­ngua brasileira de sinais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 15,
         "denominador": 15,
@@ -1519,7 +1519,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Letras português espanhol formação de professor",
+        "rotulo": "Letras portuguÃªs espanhol formaÃ§Ã£o de professor",
         "cursos": 4,
         "n": 87,
         "denominador": 86,
@@ -1530,7 +1530,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Letras português formação de professor",
+        "rotulo": "Letras portuguÃªs formaÃ§Ã£o de professor",
         "cursos": 7,
         "n": 339,
         "denominador": 339,
@@ -1541,7 +1541,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Letras português francês formação de professor",
+        "rotulo": "Letras portuguÃªs francÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 28,
         "denominador": 28,
@@ -1552,7 +1552,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Letras português inglês formação de professor",
+        "rotulo": "Letras portuguÃªs inglÃªs formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 200,
         "denominador": 200,
@@ -1563,7 +1563,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Logística",
+        "rotulo": "LogÃ­stica",
         "cursos": 2,
         "n": 88,
         "denominador": 87,
@@ -1574,7 +1574,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Manejo da produção agrícola",
+        "rotulo": "Manejo da produÃ§Ã£o agrÃ­cola",
         "cursos": 1,
         "n": 16,
         "denominador": 16,
@@ -1596,7 +1596,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Matemática formação de professor",
+        "rotulo": "MatemÃ¡tica formaÃ§Ã£o de professor",
         "cursos": 9,
         "n": 426,
         "denominador": 426,
@@ -1618,7 +1618,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Medicina veterinária",
+        "rotulo": "Medicina veterinÃ¡ria",
         "cursos": 4,
         "n": 407,
         "denominador": 407,
@@ -1640,7 +1640,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Música formação de professor",
+        "rotulo": "MÃºsica formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 16,
         "denominador": 16,
@@ -1651,7 +1651,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Nutrição",
+        "rotulo": "NutriÃ§Ã£o",
         "cursos": 5,
         "n": 561,
         "denominador": 561,
@@ -1706,7 +1706,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Química",
+        "rotulo": "QuÃ­mica",
         "cursos": 1,
         "n": 52,
         "denominador": 52,
@@ -1717,7 +1717,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Química formação de professor",
+        "rotulo": "QuÃ­mica formaÃ§Ã£o de professor",
         "cursos": 4,
         "n": 126,
         "denominador": 126,
@@ -1750,7 +1750,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Rádio, TV e internet",
+        "rotulo": "RÃ¡dio, TV e internet",
         "cursos": 1,
         "n": 26,
         "denominador": 26,
@@ -1761,7 +1761,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Saúde coletiva",
+        "rotulo": "SaÃºde coletiva",
         "cursos": 1,
         "n": 89,
         "denominador": 89,
@@ -1783,7 +1783,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Segurança no trabalho",
+        "rotulo": "SeguranÃ§a no trabalho",
         "cursos": 1,
         "n": 29,
         "denominador": 29,
@@ -1794,7 +1794,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Serviço social",
+        "rotulo": "ServiÃ§o social",
         "cursos": 4,
         "n": 305,
         "denominador": 305,
@@ -1805,7 +1805,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "rotulo": "Sistemas de informação",
+        "rotulo": "Sistemas de informaÃ§Ã£o",
         "cursos": 20,
         "n": 810,
         "denominador": 810,
@@ -1860,7 +1860,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Administração",
+        "rotulo": "AdministraÃ§Ã£o",
         "cursos": 38,
         "n": 2974,
         "denominador": 2971,
@@ -1871,7 +1871,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Agroindústria",
+        "rotulo": "AgroindÃºstria",
         "cursos": 1,
         "n": 31,
         "denominador": 31,
@@ -1882,7 +1882,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Agronegócio",
+        "rotulo": "AgronegÃ³cio",
         "cursos": 3,
         "n": 163,
         "denominador": 163,
@@ -1926,7 +1926,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Automação industrial",
+        "rotulo": "AutomaÃ§Ã£o industrial",
         "cursos": 1,
         "n": 65,
         "denominador": 65,
@@ -1948,7 +1948,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Biocombustíveis",
+        "rotulo": "BiocombustÃ­veis",
         "cursos": 1,
         "n": 36,
         "denominador": 36,
@@ -1970,7 +1970,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Biologia formação de professor",
+        "rotulo": "Biologia formaÃ§Ã£o de professor",
         "cursos": 9,
         "n": 489,
         "denominador": 488,
@@ -1992,7 +1992,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Ciência da computação",
+        "rotulo": "CiÃªncia da computaÃ§Ã£o",
         "cursos": 8,
         "n": 385,
         "denominador": 385,
@@ -2003,7 +2003,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Ciências aeronáuticas",
+        "rotulo": "CiÃªncias aeronÃ¡uticas",
         "cursos": 1,
         "n": 75,
         "denominador": 75,
@@ -2014,7 +2014,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Ciências naturais formação de professor",
+        "rotulo": "CiÃªncias naturais formaÃ§Ã£o de professor",
         "cursos": 2,
         "n": 77,
         "denominador": 77,
@@ -2025,7 +2025,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Ciências sociais",
+        "rotulo": "CiÃªncias sociais",
         "cursos": 1,
         "n": 30,
         "denominador": 30,
@@ -2036,7 +2036,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Ciências sociais formação de professor",
+        "rotulo": "CiÃªncias sociais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 28,
         "denominador": 28,
@@ -2047,7 +2047,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Comércio exterior",
+        "rotulo": "ComÃ©rcio exterior",
         "cursos": 1,
         "n": 34,
         "denominador": 34,
@@ -2058,7 +2058,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Construção de edifícios",
+        "rotulo": "ConstruÃ§Ã£o de edifÃ­cios",
         "cursos": 1,
         "n": 52,
         "denominador": 52,
@@ -2124,7 +2124,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Educação física",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica",
         "cursos": 10,
         "n": 751,
         "denominador": 751,
@@ -2135,7 +2135,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Educação física formação de professor",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica formaÃ§Ã£o de professor",
         "cursos": 16,
         "n": 889,
         "denominador": 889,
@@ -2146,7 +2146,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Educação indígena formação de professor",
+        "rotulo": "EducaÃ§Ã£o indÃ­gena formaÃ§Ã£o de professor",
         "cursos": 2,
         "n": 115,
         "denominador": 115,
@@ -2168,7 +2168,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia agrícola",
+        "rotulo": "Engenharia agrÃ­cola",
         "cursos": 2,
         "n": 179,
         "denominador": 179,
@@ -2190,7 +2190,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia ambiental e sanitária",
+        "rotulo": "Engenharia ambiental e sanitÃ¡ria",
         "cursos": 1,
         "n": 64,
         "denominador": 64,
@@ -2223,7 +2223,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia de computação",
+        "rotulo": "Engenharia de computaÃ§Ã£o",
         "cursos": 4,
         "n": 211,
         "denominador": 211,
@@ -2234,7 +2234,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia de controle e automação",
+        "rotulo": "Engenharia de controle e automaÃ§Ã£o",
         "cursos": 5,
         "n": 249,
         "denominador": 249,
@@ -2256,7 +2256,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia de produção",
+        "rotulo": "Engenharia de produÃ§Ã£o",
         "cursos": 10,
         "n": 532,
         "denominador": 532,
@@ -2278,7 +2278,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia elétrica",
+        "rotulo": "Engenharia elÃ©trica",
         "cursos": 7,
         "n": 546,
         "denominador": 546,
@@ -2300,7 +2300,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia mecânica",
+        "rotulo": "Engenharia mecÃ¢nica",
         "cursos": 4,
         "n": 357,
         "denominador": 357,
@@ -2311,7 +2311,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Engenharia química",
+        "rotulo": "Engenharia quÃ­mica",
         "cursos": 1,
         "n": 56,
         "denominador": 56,
@@ -2322,7 +2322,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Estatística",
+        "rotulo": "EstatÃ­stica",
         "cursos": 1,
         "n": 56,
         "denominador": 56,
@@ -2333,7 +2333,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Estética e cosmética",
+        "rotulo": "EstÃ©tica e cosmÃ©tica",
         "cursos": 7,
         "n": 558,
         "denominador": 558,
@@ -2344,7 +2344,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Farmácia",
+        "rotulo": "FarmÃ¡cia",
         "cursos": 16,
         "n": 889,
         "denominador": 889,
@@ -2366,7 +2366,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Filosofia formação de professor",
+        "rotulo": "Filosofia formaÃ§Ã£o de professor",
         "cursos": 2,
         "n": 103,
         "denominador": 103,
@@ -2410,7 +2410,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Física",
+        "rotulo": "FÃ­sica",
         "cursos": 1,
         "n": 58,
         "denominador": 58,
@@ -2421,7 +2421,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Física formação de professor",
+        "rotulo": "FÃ­sica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 175,
         "denominador": 175,
@@ -2454,7 +2454,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Geografia formação de professor",
+        "rotulo": "Geografia formaÃ§Ã£o de professor",
         "cursos": 4,
         "n": 222,
         "denominador": 222,
@@ -2487,7 +2487,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão ambiental",
+        "rotulo": "GestÃ£o ambiental",
         "cursos": 2,
         "n": 70,
         "denominador": 70,
@@ -2498,7 +2498,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão comercial",
+        "rotulo": "GestÃ£o comercial",
         "cursos": 3,
         "n": 157,
         "denominador": 157,
@@ -2509,7 +2509,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão da produção",
+        "rotulo": "GestÃ£o da produÃ§Ã£o",
         "cursos": 1,
         "n": 45,
         "denominador": 45,
@@ -2520,7 +2520,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão da qualidade",
+        "rotulo": "GestÃ£o da qualidade",
         "cursos": 1,
         "n": 40,
         "denominador": 40,
@@ -2531,7 +2531,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão da tecnologia da informação",
+        "rotulo": "GestÃ£o da tecnologia da informaÃ§Ã£o",
         "cursos": 2,
         "n": 53,
         "denominador": 53,
@@ -2542,7 +2542,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão de pessoas",
+        "rotulo": "GestÃ£o de pessoas",
         "cursos": 12,
         "n": 680,
         "denominador": 680,
@@ -2553,7 +2553,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão do agronegócio",
+        "rotulo": "GestÃ£o do agronegÃ³cio",
         "cursos": 5,
         "n": 310,
         "denominador": 310,
@@ -2564,7 +2564,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão financeira",
+        "rotulo": "GestÃ£o financeira",
         "cursos": 2,
         "n": 59,
         "denominador": 59,
@@ -2575,7 +2575,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Gestão pública",
+        "rotulo": "GestÃ£o pÃºblica",
         "cursos": 2,
         "n": 93,
         "denominador": 93,
@@ -2586,7 +2586,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "História formação de professor",
+        "rotulo": "HistÃ³ria formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 271,
         "denominador": 271,
@@ -2608,7 +2608,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Letras inglês formação de professor",
+        "rotulo": "Letras inglÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 31,
         "denominador": 31,
@@ -2619,7 +2619,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Letras língua brasileira de sinais formação de professor",
+        "rotulo": "Letras lÃ­ngua brasileira de sinais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 29,
         "denominador": 29,
@@ -2630,7 +2630,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Letras português espanhol formação de professor",
+        "rotulo": "Letras portuguÃªs espanhol formaÃ§Ã£o de professor",
         "cursos": 4,
         "n": 70,
         "denominador": 70,
@@ -2641,7 +2641,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Letras português formação de professor",
+        "rotulo": "Letras portuguÃªs formaÃ§Ã£o de professor",
         "cursos": 6,
         "n": 343,
         "denominador": 341,
@@ -2652,7 +2652,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Letras português francês formação de professor",
+        "rotulo": "Letras portuguÃªs francÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 16,
         "denominador": 16,
@@ -2663,7 +2663,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Letras português inglês formação de professor",
+        "rotulo": "Letras portuguÃªs inglÃªs formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 212,
         "denominador": 212,
@@ -2674,7 +2674,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Logística",
+        "rotulo": "LogÃ­stica",
         "cursos": 3,
         "n": 95,
         "denominador": 95,
@@ -2685,7 +2685,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Manejo da produção agrícola",
+        "rotulo": "Manejo da produÃ§Ã£o agrÃ­cola",
         "cursos": 1,
         "n": 22,
         "denominador": 21,
@@ -2707,7 +2707,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Matemática formação de professor",
+        "rotulo": "MatemÃ¡tica formaÃ§Ã£o de professor",
         "cursos": 9,
         "n": 477,
         "denominador": 477,
@@ -2729,7 +2729,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Medicina veterinária",
+        "rotulo": "Medicina veterinÃ¡ria",
         "cursos": 4,
         "n": 377,
         "denominador": 377,
@@ -2751,7 +2751,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Música formação de professor",
+        "rotulo": "MÃºsica formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 21,
         "denominador": 21,
@@ -2762,7 +2762,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Nutrição",
+        "rotulo": "NutriÃ§Ã£o",
         "cursos": 6,
         "n": 553,
         "denominador": 553,
@@ -2817,7 +2817,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Química",
+        "rotulo": "QuÃ­mica",
         "cursos": 1,
         "n": 63,
         "denominador": 63,
@@ -2828,7 +2828,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Química formação de professor",
+        "rotulo": "QuÃ­mica formaÃ§Ã£o de professor",
         "cursos": 4,
         "n": 189,
         "denominador": 189,
@@ -2861,7 +2861,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Rádio, TV e internet",
+        "rotulo": "RÃ¡dio, TV e internet",
         "cursos": 1,
         "n": 30,
         "denominador": 30,
@@ -2872,7 +2872,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Saúde coletiva",
+        "rotulo": "SaÃºde coletiva",
         "cursos": 1,
         "n": 85,
         "denominador": 85,
@@ -2894,7 +2894,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Serviço social",
+        "rotulo": "ServiÃ§o social",
         "cursos": 4,
         "n": 251,
         "denominador": 251,
@@ -2905,7 +2905,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "rotulo": "Sistemas de informação",
+        "rotulo": "Sistemas de informaÃ§Ã£o",
         "cursos": 22,
         "n": 782,
         "denominador": 782,
@@ -2960,7 +2960,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Administração",
+        "rotulo": "AdministraÃ§Ã£o",
         "cursos": 40,
         "n": 2411,
         "denominador": 2410,
@@ -2971,7 +2971,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Agroindústria",
+        "rotulo": "AgroindÃºstria",
         "cursos": 2,
         "n": 48,
         "denominador": 48,
@@ -2982,7 +2982,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Agronegócio",
+        "rotulo": "AgronegÃ³cio",
         "cursos": 3,
         "n": 217,
         "denominador": 217,
@@ -3026,7 +3026,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Automação industrial",
+        "rotulo": "AutomaÃ§Ã£o industrial",
         "cursos": 1,
         "n": 62,
         "denominador": 62,
@@ -3048,7 +3048,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Biocombustíveis",
+        "rotulo": "BiocombustÃ­veis",
         "cursos": 1,
         "n": 13,
         "denominador": 13,
@@ -3070,7 +3070,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Biologia formação de professor",
+        "rotulo": "Biologia formaÃ§Ã£o de professor",
         "cursos": 13,
         "n": 609,
         "denominador": 609,
@@ -3103,7 +3103,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Ciência da computação",
+        "rotulo": "CiÃªncia da computaÃ§Ã£o",
         "cursos": 9,
         "n": 417,
         "denominador": 417,
@@ -3114,7 +3114,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Ciências aeronáuticas",
+        "rotulo": "CiÃªncias aeronÃ¡uticas",
         "cursos": 2,
         "n": 73,
         "denominador": 73,
@@ -3125,7 +3125,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Ciências naturais formação de professor",
+        "rotulo": "CiÃªncias naturais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 33,
         "denominador": 33,
@@ -3136,7 +3136,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Ciências sociais",
+        "rotulo": "CiÃªncias sociais",
         "cursos": 1,
         "n": 32,
         "denominador": 32,
@@ -3147,7 +3147,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Ciências sociais formação de professor",
+        "rotulo": "CiÃªncias sociais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 30,
         "denominador": 30,
@@ -3158,7 +3158,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Comunicação social",
+        "rotulo": "ComunicaÃ§Ã£o social",
         "cursos": 1,
         "n": 11,
         "denominador": 11,
@@ -3169,7 +3169,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Comércio exterior",
+        "rotulo": "ComÃ©rcio exterior",
         "cursos": 1,
         "n": 30,
         "denominador": 30,
@@ -3180,7 +3180,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Construção de edifícios",
+        "rotulo": "ConstruÃ§Ã£o de edifÃ­cios",
         "cursos": 1,
         "n": 51,
         "denominador": 51,
@@ -3246,7 +3246,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Educação física",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica",
         "cursos": 11,
         "n": 886,
         "denominador": 886,
@@ -3257,7 +3257,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Educação física formação de professor",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica formaÃ§Ã£o de professor",
         "cursos": 15,
         "n": 673,
         "denominador": 673,
@@ -3268,7 +3268,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Eletrotécnica industrial",
+        "rotulo": "EletrotÃ©cnica industrial",
         "cursos": 1,
         "n": 37,
         "denominador": 37,
@@ -3290,7 +3290,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia agrícola",
+        "rotulo": "Engenharia agrÃ­cola",
         "cursos": 2,
         "n": 164,
         "denominador": 164,
@@ -3312,7 +3312,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia ambiental e sanitária",
+        "rotulo": "Engenharia ambiental e sanitÃ¡ria",
         "cursos": 1,
         "n": 63,
         "denominador": 63,
@@ -3345,7 +3345,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia de computação",
+        "rotulo": "Engenharia de computaÃ§Ã£o",
         "cursos": 4,
         "n": 191,
         "denominador": 191,
@@ -3356,7 +3356,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia de controle e automação",
+        "rotulo": "Engenharia de controle e automaÃ§Ã£o",
         "cursos": 5,
         "n": 212,
         "denominador": 212,
@@ -3378,7 +3378,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia de produção",
+        "rotulo": "Engenharia de produÃ§Ã£o",
         "cursos": 9,
         "n": 366,
         "denominador": 366,
@@ -3400,7 +3400,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia elétrica",
+        "rotulo": "Engenharia elÃ©trica",
         "cursos": 8,
         "n": 593,
         "denominador": 593,
@@ -3422,7 +3422,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia mecânica",
+        "rotulo": "Engenharia mecÃ¢nica",
         "cursos": 5,
         "n": 381,
         "denominador": 380,
@@ -3433,7 +3433,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Engenharia química",
+        "rotulo": "Engenharia quÃ­mica",
         "cursos": 1,
         "n": 51,
         "denominador": 51,
@@ -3444,7 +3444,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Estatística",
+        "rotulo": "EstatÃ­stica",
         "cursos": 1,
         "n": 64,
         "denominador": 64,
@@ -3455,7 +3455,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Estética e cosmética",
+        "rotulo": "EstÃ©tica e cosmÃ©tica",
         "cursos": 7,
         "n": 560,
         "denominador": 560,
@@ -3466,7 +3466,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Farmácia",
+        "rotulo": "FarmÃ¡cia",
         "cursos": 16,
         "n": 949,
         "denominador": 948,
@@ -3488,7 +3488,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Filosofia formação de professor",
+        "rotulo": "Filosofia formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 83,
         "denominador": 83,
@@ -3532,7 +3532,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Física",
+        "rotulo": "FÃ­sica",
         "cursos": 1,
         "n": 77,
         "denominador": 77,
@@ -3543,7 +3543,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Física formação de professor",
+        "rotulo": "FÃ­sica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 215,
         "denominador": 215,
@@ -3576,7 +3576,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Geografia formação de professor",
+        "rotulo": "Geografia formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 280,
         "denominador": 280,
@@ -3609,7 +3609,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão ambiental",
+        "rotulo": "GestÃ£o ambiental",
         "cursos": 2,
         "n": 73,
         "denominador": 73,
@@ -3620,7 +3620,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão comercial",
+        "rotulo": "GestÃ£o comercial",
         "cursos": 2,
         "n": 140,
         "denominador": 140,
@@ -3631,7 +3631,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão da produção",
+        "rotulo": "GestÃ£o da produÃ§Ã£o",
         "cursos": 2,
         "n": 53,
         "denominador": 53,
@@ -3642,7 +3642,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão da tecnologia da informação",
+        "rotulo": "GestÃ£o da tecnologia da informaÃ§Ã£o",
         "cursos": 1,
         "n": 23,
         "denominador": 23,
@@ -3653,7 +3653,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão de negócios",
+        "rotulo": "GestÃ£o de negÃ³cios",
         "cursos": 2,
         "n": 38,
         "denominador": 38,
@@ -3664,7 +3664,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão de pessoas",
+        "rotulo": "GestÃ£o de pessoas",
         "cursos": 15,
         "n": 707,
         "denominador": 706,
@@ -3675,7 +3675,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão do agronegócio",
+        "rotulo": "GestÃ£o do agronegÃ³cio",
         "cursos": 5,
         "n": 248,
         "denominador": 247,
@@ -3686,7 +3686,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão financeira",
+        "rotulo": "GestÃ£o financeira",
         "cursos": 2,
         "n": 49,
         "denominador": 49,
@@ -3697,7 +3697,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Gestão pública",
+        "rotulo": "GestÃ£o pÃºblica",
         "cursos": 3,
         "n": 174,
         "denominador": 174,
@@ -3708,7 +3708,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "História formação de professor",
+        "rotulo": "HistÃ³ria formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 217,
         "denominador": 217,
@@ -3730,7 +3730,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Letras inglês formação de professor",
+        "rotulo": "Letras inglÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 33,
         "denominador": 33,
@@ -3741,7 +3741,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Letras língua brasileira de sinais formação de professor",
+        "rotulo": "Letras lÃ­ngua brasileira de sinais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 41,
         "denominador": 41,
@@ -3752,7 +3752,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Letras português espanhol formação de professor",
+        "rotulo": "Letras portuguÃªs espanhol formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 37,
         "denominador": 37,
@@ -3763,7 +3763,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Letras português formação de professor",
+        "rotulo": "Letras portuguÃªs formaÃ§Ã£o de professor",
         "cursos": 7,
         "n": 352,
         "denominador": 352,
@@ -3774,7 +3774,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Letras português francês formação de professor",
+        "rotulo": "Letras portuguÃªs francÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 19,
         "denominador": 19,
@@ -3785,7 +3785,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Letras português inglês formação de professor",
+        "rotulo": "Letras portuguÃªs inglÃªs formaÃ§Ã£o de professor",
         "cursos": 4,
         "n": 189,
         "denominador": 189,
@@ -3796,7 +3796,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Logística",
+        "rotulo": "LogÃ­stica",
         "cursos": 5,
         "n": 126,
         "denominador": 126,
@@ -3807,7 +3807,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Manejo da produção agrícola",
+        "rotulo": "Manejo da produÃ§Ã£o agrÃ­cola",
         "cursos": 1,
         "n": 16,
         "denominador": 16,
@@ -3829,7 +3829,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Matemática formação de professor",
+        "rotulo": "MatemÃ¡tica formaÃ§Ã£o de professor",
         "cursos": 10,
         "n": 501,
         "denominador": 501,
@@ -3851,7 +3851,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Medicina veterinária",
+        "rotulo": "Medicina veterinÃ¡ria",
         "cursos": 4,
         "n": 348,
         "denominador": 348,
@@ -3873,7 +3873,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Música formação de professor",
+        "rotulo": "MÃºsica formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 22,
         "denominador": 22,
@@ -3884,7 +3884,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Nutrição",
+        "rotulo": "NutriÃ§Ã£o",
         "cursos": 8,
         "n": 700,
         "denominador": 700,
@@ -3939,7 +3939,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Química",
+        "rotulo": "QuÃ­mica",
         "cursos": 1,
         "n": 74,
         "denominador": 74,
@@ -3950,7 +3950,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Química formação de professor",
+        "rotulo": "QuÃ­mica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 201,
         "denominador": 200,
@@ -3983,7 +3983,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Rádio, TV e internet",
+        "rotulo": "RÃ¡dio, TV e internet",
         "cursos": 1,
         "n": 31,
         "denominador": 31,
@@ -3994,7 +3994,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Saúde coletiva",
+        "rotulo": "SaÃºde coletiva",
         "cursos": 1,
         "n": 76,
         "denominador": 76,
@@ -4016,7 +4016,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Serviço social",
+        "rotulo": "ServiÃ§o social",
         "cursos": 4,
         "n": 206,
         "denominador": 206,
@@ -4027,7 +4027,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "rotulo": "Sistemas de informação",
+        "rotulo": "Sistemas de informaÃ§Ã£o",
         "cursos": 21,
         "n": 867,
         "denominador": 866,
@@ -4082,7 +4082,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Administração",
+        "rotulo": "AdministraÃ§Ã£o",
         "cursos": 41,
         "n": 2274,
         "denominador": 2273,
@@ -4093,7 +4093,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Agroindústria",
+        "rotulo": "AgroindÃºstria",
         "cursos": 2,
         "n": 43,
         "denominador": 43,
@@ -4104,7 +4104,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Agronegócio",
+        "rotulo": "AgronegÃ³cio",
         "cursos": 3,
         "n": 158,
         "denominador": 158,
@@ -4148,7 +4148,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Automação industrial",
+        "rotulo": "AutomaÃ§Ã£o industrial",
         "cursos": 3,
         "n": 83,
         "denominador": 83,
@@ -4181,7 +4181,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Biologia formação de professor",
+        "rotulo": "Biologia formaÃ§Ã£o de professor",
         "cursos": 12,
         "n": 547,
         "denominador": 547,
@@ -4225,7 +4225,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Ciência da computação",
+        "rotulo": "CiÃªncia da computaÃ§Ã£o",
         "cursos": 9,
         "n": 394,
         "denominador": 394,
@@ -4236,7 +4236,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Ciências aeronáuticas",
+        "rotulo": "CiÃªncias aeronÃ¡uticas",
         "cursos": 1,
         "n": 112,
         "denominador": 112,
@@ -4247,7 +4247,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Ciências naturais formação de professor",
+        "rotulo": "CiÃªncias naturais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 27,
         "denominador": 27,
@@ -4258,7 +4258,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Ciências sociais",
+        "rotulo": "CiÃªncias sociais",
         "cursos": 1,
         "n": 33,
         "denominador": 33,
@@ -4269,7 +4269,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Ciências sociais formação de professor",
+        "rotulo": "CiÃªncias sociais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 32,
         "denominador": 32,
@@ -4280,7 +4280,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Comércio exterior",
+        "rotulo": "ComÃ©rcio exterior",
         "cursos": 1,
         "n": 34,
         "denominador": 34,
@@ -4291,7 +4291,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Construção de edifícios",
+        "rotulo": "ConstruÃ§Ã£o de edifÃ­cios",
         "cursos": 1,
         "n": 46,
         "denominador": 46,
@@ -4357,7 +4357,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Educação física",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica",
         "cursos": 13,
         "n": 900,
         "denominador": 900,
@@ -4368,7 +4368,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Educação física formação de professor",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica formaÃ§Ã£o de professor",
         "cursos": 13,
         "n": 550,
         "denominador": 549,
@@ -4379,7 +4379,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Eletrotécnica industrial",
+        "rotulo": "EletrotÃ©cnica industrial",
         "cursos": 2,
         "n": 42,
         "denominador": 42,
@@ -4401,7 +4401,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia agrícola",
+        "rotulo": "Engenharia agrÃ­cola",
         "cursos": 2,
         "n": 138,
         "denominador": 138,
@@ -4423,7 +4423,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia ambiental e sanitária",
+        "rotulo": "Engenharia ambiental e sanitÃ¡ria",
         "cursos": 1,
         "n": 66,
         "denominador": 66,
@@ -4456,7 +4456,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia de computação",
+        "rotulo": "Engenharia de computaÃ§Ã£o",
         "cursos": 4,
         "n": 238,
         "denominador": 238,
@@ -4467,7 +4467,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia de controle e automação",
+        "rotulo": "Engenharia de controle e automaÃ§Ã£o",
         "cursos": 5,
         "n": 184,
         "denominador": 184,
@@ -4489,7 +4489,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia de produção",
+        "rotulo": "Engenharia de produÃ§Ã£o",
         "cursos": 9,
         "n": 277,
         "denominador": 277,
@@ -4511,7 +4511,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia elétrica",
+        "rotulo": "Engenharia elÃ©trica",
         "cursos": 9,
         "n": 473,
         "denominador": 473,
@@ -4533,7 +4533,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia mecânica",
+        "rotulo": "Engenharia mecÃ¢nica",
         "cursos": 8,
         "n": 512,
         "denominador": 512,
@@ -4544,7 +4544,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Engenharia química",
+        "rotulo": "Engenharia quÃ­mica",
         "cursos": 1,
         "n": 58,
         "denominador": 58,
@@ -4555,7 +4555,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Estatística",
+        "rotulo": "EstatÃ­stica",
         "cursos": 1,
         "n": 57,
         "denominador": 57,
@@ -4566,7 +4566,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Estética e cosmética",
+        "rotulo": "EstÃ©tica e cosmÃ©tica",
         "cursos": 7,
         "n": 617,
         "denominador": 617,
@@ -4577,7 +4577,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Farmácia",
+        "rotulo": "FarmÃ¡cia",
         "cursos": 16,
         "n": 935,
         "denominador": 935,
@@ -4599,7 +4599,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Filosofia formação de professor",
+        "rotulo": "Filosofia formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 87,
         "denominador": 87,
@@ -4643,7 +4643,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Física",
+        "rotulo": "FÃ­sica",
         "cursos": 1,
         "n": 59,
         "denominador": 59,
@@ -4654,7 +4654,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Física formação de professor",
+        "rotulo": "FÃ­sica formaÃ§Ã£o de professor",
         "cursos": 6,
         "n": 193,
         "denominador": 191,
@@ -4687,7 +4687,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Geografia formação de professor",
+        "rotulo": "Geografia formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 311,
         "denominador": 311,
@@ -4720,7 +4720,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão ambiental",
+        "rotulo": "GestÃ£o ambiental",
         "cursos": 2,
         "n": 55,
         "denominador": 55,
@@ -4731,7 +4731,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão comercial",
+        "rotulo": "GestÃ£o comercial",
         "cursos": 2,
         "n": 117,
         "denominador": 117,
@@ -4742,7 +4742,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão da produção",
+        "rotulo": "GestÃ£o da produÃ§Ã£o",
         "cursos": 1,
         "n": 31,
         "denominador": 31,
@@ -4753,7 +4753,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão da tecnologia da informação",
+        "rotulo": "GestÃ£o da tecnologia da informaÃ§Ã£o",
         "cursos": 2,
         "n": 41,
         "denominador": 41,
@@ -4764,7 +4764,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão de negócios",
+        "rotulo": "GestÃ£o de negÃ³cios",
         "cursos": 4,
         "n": 104,
         "denominador": 104,
@@ -4775,7 +4775,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão de pessoas",
+        "rotulo": "GestÃ£o de pessoas",
         "cursos": 13,
         "n": 643,
         "denominador": 642,
@@ -4786,7 +4786,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão do agronegócio",
+        "rotulo": "GestÃ£o do agronegÃ³cio",
         "cursos": 5,
         "n": 269,
         "denominador": 269,
@@ -4797,7 +4797,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão financeira",
+        "rotulo": "GestÃ£o financeira",
         "cursos": 3,
         "n": 61,
         "denominador": 61,
@@ -4808,7 +4808,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Gestão pública",
+        "rotulo": "GestÃ£o pÃºblica",
         "cursos": 4,
         "n": 166,
         "denominador": 166,
@@ -4819,7 +4819,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "História formação de professor",
+        "rotulo": "HistÃ³ria formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 211,
         "denominador": 211,
@@ -4841,7 +4841,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Letras inglês formação de professor",
+        "rotulo": "Letras inglÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 20,
         "denominador": 20,
@@ -4852,7 +4852,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Letras língua brasileira de sinais formação de professor",
+        "rotulo": "Letras lÃ­ngua brasileira de sinais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 40,
         "denominador": 40,
@@ -4863,7 +4863,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Letras português espanhol formação de professor",
+        "rotulo": "Letras portuguÃªs espanhol formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 58,
         "denominador": 58,
@@ -4874,7 +4874,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Letras português formação de professor",
+        "rotulo": "Letras portuguÃªs formaÃ§Ã£o de professor",
         "cursos": 7,
         "n": 358,
         "denominador": 358,
@@ -4885,7 +4885,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Letras português francês formação de professor",
+        "rotulo": "Letras portuguÃªs francÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 19,
         "denominador": 19,
@@ -4896,7 +4896,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Letras português inglês formação de professor",
+        "rotulo": "Letras portuguÃªs inglÃªs formaÃ§Ã£o de professor",
         "cursos": 4,
         "n": 229,
         "denominador": 229,
@@ -4907,7 +4907,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Logística",
+        "rotulo": "LogÃ­stica",
         "cursos": 4,
         "n": 87,
         "denominador": 87,
@@ -4918,7 +4918,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Manejo da produção agrícola",
+        "rotulo": "Manejo da produÃ§Ã£o agrÃ­cola",
         "cursos": 1,
         "n": 19,
         "denominador": 19,
@@ -4940,7 +4940,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Matemática formação de professor",
+        "rotulo": "MatemÃ¡tica formaÃ§Ã£o de professor",
         "cursos": 9,
         "n": 444,
         "denominador": 444,
@@ -4962,7 +4962,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Medicina veterinária",
+        "rotulo": "Medicina veterinÃ¡ria",
         "cursos": 4,
         "n": 367,
         "denominador": 367,
@@ -4984,7 +4984,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Música formação de professor",
+        "rotulo": "MÃºsica formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 15,
         "denominador": 15,
@@ -4995,7 +4995,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Nutrição",
+        "rotulo": "NutriÃ§Ã£o",
         "cursos": 13,
         "n": 1038,
         "denominador": 1038,
@@ -5028,7 +5028,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Programas interdisciplinares abrangendo educação",
+        "rotulo": "Programas interdisciplinares abrangendo educaÃ§Ã£o",
         "cursos": 1,
         "n": 18,
         "denominador": 18,
@@ -5061,7 +5061,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Química",
+        "rotulo": "QuÃ­mica",
         "cursos": 1,
         "n": 48,
         "denominador": 48,
@@ -5072,7 +5072,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Química formação de professor",
+        "rotulo": "QuÃ­mica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 183,
         "denominador": 183,
@@ -5105,7 +5105,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Saúde coletiva",
+        "rotulo": "SaÃºde coletiva",
         "cursos": 1,
         "n": 76,
         "denominador": 76,
@@ -5127,7 +5127,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Serviço social",
+        "rotulo": "ServiÃ§o social",
         "cursos": 5,
         "n": 207,
         "denominador": 207,
@@ -5138,7 +5138,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "rotulo": "Sistemas de informação",
+        "rotulo": "Sistemas de informaÃ§Ã£o",
         "cursos": 21,
         "n": 720,
         "denominador": 720,
@@ -5193,7 +5193,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Administração",
+        "rotulo": "AdministraÃ§Ã£o",
         "cursos": 38,
         "n": 2450,
         "denominador": 2450,
@@ -5204,7 +5204,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Agrocomputação",
+        "rotulo": "AgrocomputaÃ§Ã£o",
         "cursos": 1,
         "n": 63,
         "denominador": 63,
@@ -5215,7 +5215,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Agroindústria",
+        "rotulo": "AgroindÃºstria",
         "cursos": 3,
         "n": 53,
         "denominador": 53,
@@ -5226,7 +5226,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Agronegócio",
+        "rotulo": "AgronegÃ³cio",
         "cursos": 3,
         "n": 89,
         "denominador": 89,
@@ -5270,7 +5270,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Automação industrial",
+        "rotulo": "AutomaÃ§Ã£o industrial",
         "cursos": 3,
         "n": 100,
         "denominador": 100,
@@ -5292,7 +5292,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Biocombustíveis",
+        "rotulo": "BiocombustÃ­veis",
         "cursos": 1,
         "n": 17,
         "denominador": 17,
@@ -5314,7 +5314,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Biologia formação de professor",
+        "rotulo": "Biologia formaÃ§Ã£o de professor",
         "cursos": 12,
         "n": 560,
         "denominador": 560,
@@ -5358,7 +5358,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Ciência da computação",
+        "rotulo": "CiÃªncia da computaÃ§Ã£o",
         "cursos": 9,
         "n": 359,
         "denominador": 359,
@@ -5369,7 +5369,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Ciências aeronáuticas",
+        "rotulo": "CiÃªncias aeronÃ¡uticas",
         "cursos": 1,
         "n": 140,
         "denominador": 140,
@@ -5380,7 +5380,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Ciências naturais formação de professor",
+        "rotulo": "CiÃªncias naturais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 39,
         "denominador": 39,
@@ -5391,7 +5391,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Ciências sociais",
+        "rotulo": "CiÃªncias sociais",
         "cursos": 1,
         "n": 32,
         "denominador": 32,
@@ -5402,7 +5402,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Ciências sociais formação de professor",
+        "rotulo": "CiÃªncias sociais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 26,
         "denominador": 26,
@@ -5413,7 +5413,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Comércio exterior",
+        "rotulo": "ComÃ©rcio exterior",
         "cursos": 1,
         "n": 34,
         "denominador": 34,
@@ -5424,7 +5424,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Construção de edifícios",
+        "rotulo": "ConstruÃ§Ã£o de edifÃ­cios",
         "cursos": 1,
         "n": 49,
         "denominador": 49,
@@ -5490,7 +5490,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Educação física",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica",
         "cursos": 10,
         "n": 778,
         "denominador": 778,
@@ -5501,7 +5501,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Educação física formação de professor",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica formaÃ§Ã£o de professor",
         "cursos": 13,
         "n": 518,
         "denominador": 518,
@@ -5512,7 +5512,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Eletrotécnica industrial",
+        "rotulo": "EletrotÃ©cnica industrial",
         "cursos": 2,
         "n": 68,
         "denominador": 68,
@@ -5534,7 +5534,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia agrícola",
+        "rotulo": "Engenharia agrÃ­cola",
         "cursos": 2,
         "n": 114,
         "denominador": 114,
@@ -5556,7 +5556,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia ambiental e sanitária",
+        "rotulo": "Engenharia ambiental e sanitÃ¡ria",
         "cursos": 1,
         "n": 64,
         "denominador": 64,
@@ -5589,7 +5589,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia de computação",
+        "rotulo": "Engenharia de computaÃ§Ã£o",
         "cursos": 4,
         "n": 202,
         "denominador": 202,
@@ -5600,7 +5600,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia de controle e automação",
+        "rotulo": "Engenharia de controle e automaÃ§Ã£o",
         "cursos": 4,
         "n": 139,
         "denominador": 139,
@@ -5622,7 +5622,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia de produção",
+        "rotulo": "Engenharia de produÃ§Ã£o",
         "cursos": 10,
         "n": 218,
         "denominador": 218,
@@ -5644,7 +5644,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia elétrica",
+        "rotulo": "Engenharia elÃ©trica",
         "cursos": 9,
         "n": 406,
         "denominador": 406,
@@ -5666,7 +5666,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia mecânica",
+        "rotulo": "Engenharia mecÃ¢nica",
         "cursos": 8,
         "n": 415,
         "denominador": 415,
@@ -5677,7 +5677,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Engenharia química",
+        "rotulo": "Engenharia quÃ­mica",
         "cursos": 1,
         "n": 69,
         "denominador": 69,
@@ -5688,7 +5688,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Estatística",
+        "rotulo": "EstatÃ­stica",
         "cursos": 1,
         "n": 67,
         "denominador": 67,
@@ -5699,7 +5699,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Estética e cosmética",
+        "rotulo": "EstÃ©tica e cosmÃ©tica",
         "cursos": 8,
         "n": 537,
         "denominador": 537,
@@ -5710,7 +5710,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Farmácia",
+        "rotulo": "FarmÃ¡cia",
         "cursos": 16,
         "n": 671,
         "denominador": 671,
@@ -5732,7 +5732,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Filosofia formação de professor",
+        "rotulo": "Filosofia formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 64,
         "denominador": 64,
@@ -5776,7 +5776,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Física",
+        "rotulo": "FÃ­sica",
         "cursos": 1,
         "n": 74,
         "denominador": 74,
@@ -5787,7 +5787,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Física formação de professor",
+        "rotulo": "FÃ­sica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 193,
         "denominador": 193,
@@ -5820,7 +5820,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Geografia formação de professor",
+        "rotulo": "Geografia formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 309,
         "denominador": 309,
@@ -5853,7 +5853,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão ambiental",
+        "rotulo": "GestÃ£o ambiental",
         "cursos": 2,
         "n": 46,
         "denominador": 46,
@@ -5864,7 +5864,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão comercial",
+        "rotulo": "GestÃ£o comercial",
         "cursos": 3,
         "n": 163,
         "denominador": 163,
@@ -5875,7 +5875,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão da produção",
+        "rotulo": "GestÃ£o da produÃ§Ã£o",
         "cursos": 1,
         "n": 19,
         "denominador": 19,
@@ -5886,7 +5886,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão da qualidade",
+        "rotulo": "GestÃ£o da qualidade",
         "cursos": 1,
         "n": 34,
         "denominador": 34,
@@ -5897,7 +5897,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão da tecnologia da informação",
+        "rotulo": "GestÃ£o da tecnologia da informaÃ§Ã£o",
         "cursos": 2,
         "n": 32,
         "denominador": 32,
@@ -5908,7 +5908,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão de cooperativas",
+        "rotulo": "GestÃ£o de cooperativas",
         "cursos": 1,
         "n": 33,
         "denominador": 33,
@@ -5919,7 +5919,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão de negócios",
+        "rotulo": "GestÃ£o de negÃ³cios",
         "cursos": 4,
         "n": 89,
         "denominador": 89,
@@ -5930,7 +5930,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão de pessoas",
+        "rotulo": "GestÃ£o de pessoas",
         "cursos": 13,
         "n": 693,
         "denominador": 692,
@@ -5941,7 +5941,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão do agronegócio",
+        "rotulo": "GestÃ£o do agronegÃ³cio",
         "cursos": 5,
         "n": 140,
         "denominador": 140,
@@ -5952,7 +5952,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão financeira",
+        "rotulo": "GestÃ£o financeira",
         "cursos": 3,
         "n": 15,
         "denominador": 15,
@@ -5963,7 +5963,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão hospitalar",
+        "rotulo": "GestÃ£o hospitalar",
         "cursos": 1,
         "n": 19,
         "denominador": 19,
@@ -5974,7 +5974,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Gestão pública",
+        "rotulo": "GestÃ£o pÃºblica",
         "cursos": 6,
         "n": 325,
         "denominador": 325,
@@ -5985,7 +5985,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "História formação de professor",
+        "rotulo": "HistÃ³ria formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 224,
         "denominador": 224,
@@ -6007,7 +6007,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Letras inglês formação de professor",
+        "rotulo": "Letras inglÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 27,
         "denominador": 27,
@@ -6018,7 +6018,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Letras língua brasileira de sinais formação de professor",
+        "rotulo": "Letras lÃ­ngua brasileira de sinais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 38,
         "denominador": 38,
@@ -6029,7 +6029,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Letras português espanhol formação de professor",
+        "rotulo": "Letras portuguÃªs espanhol formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 25,
         "denominador": 25,
@@ -6040,7 +6040,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Letras português formação de professor",
+        "rotulo": "Letras portuguÃªs formaÃ§Ã£o de professor",
         "cursos": 7,
         "n": 353,
         "denominador": 353,
@@ -6051,7 +6051,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Letras português francês formação de professor",
+        "rotulo": "Letras portuguÃªs francÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 21,
         "denominador": 21,
@@ -6062,7 +6062,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Letras português inglês formação de professor",
+        "rotulo": "Letras portuguÃªs inglÃªs formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 216,
         "denominador": 216,
@@ -6073,7 +6073,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Logística",
+        "rotulo": "LogÃ­stica",
         "cursos": 3,
         "n": 101,
         "denominador": 101,
@@ -6084,7 +6084,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Manejo da produção agrícola",
+        "rotulo": "Manejo da produÃ§Ã£o agrÃ­cola",
         "cursos": 1,
         "n": 14,
         "denominador": 14,
@@ -6106,7 +6106,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Matemática formação de professor",
+        "rotulo": "MatemÃ¡tica formaÃ§Ã£o de professor",
         "cursos": 9,
         "n": 464,
         "denominador": 464,
@@ -6128,7 +6128,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Medicina veterinária",
+        "rotulo": "Medicina veterinÃ¡ria",
         "cursos": 5,
         "n": 419,
         "denominador": 418,
@@ -6150,7 +6150,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Música formação de professor",
+        "rotulo": "MÃºsica formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 23,
         "denominador": 23,
@@ -6161,7 +6161,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Nutrição",
+        "rotulo": "NutriÃ§Ã£o",
         "cursos": 13,
         "n": 833,
         "denominador": 832,
@@ -6216,7 +6216,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Química",
+        "rotulo": "QuÃ­mica",
         "cursos": 1,
         "n": 66,
         "denominador": 66,
@@ -6227,7 +6227,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Química formação de professor",
+        "rotulo": "QuÃ­mica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 180,
         "denominador": 180,
@@ -6260,7 +6260,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Saúde coletiva",
+        "rotulo": "SaÃºde coletiva",
         "cursos": 1,
         "n": 94,
         "denominador": 94,
@@ -6282,7 +6282,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Segurança pública",
+        "rotulo": "SeguranÃ§a pÃºblica",
         "cursos": 1,
         "n": 33,
         "denominador": 33,
@@ -6293,7 +6293,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Serviço social",
+        "rotulo": "ServiÃ§o social",
         "cursos": 5,
         "n": 259,
         "denominador": 259,
@@ -6304,7 +6304,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "rotulo": "Sistemas de informação",
+        "rotulo": "Sistemas de informaÃ§Ã£o",
         "cursos": 20,
         "n": 766,
         "denominador": 766,
@@ -6348,7 +6348,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Administração",
+        "rotulo": "AdministraÃ§Ã£o",
         "cursos": 33,
         "n": 1294,
         "denominador": 1294,
@@ -6359,7 +6359,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Agrocomputação",
+        "rotulo": "AgrocomputaÃ§Ã£o",
         "cursos": 2,
         "n": 85,
         "denominador": 85,
@@ -6370,7 +6370,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Agroindústria",
+        "rotulo": "AgroindÃºstria",
         "cursos": 2,
         "n": 46,
         "denominador": 46,
@@ -6381,7 +6381,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Agronegócio",
+        "rotulo": "AgronegÃ³cio",
         "cursos": 3,
         "n": 31,
         "denominador": 31,
@@ -6425,7 +6425,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Automação industrial",
+        "rotulo": "AutomaÃ§Ã£o industrial",
         "cursos": 1,
         "n": 48,
         "denominador": 48,
@@ -6458,7 +6458,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Biologia formação de professor",
+        "rotulo": "Biologia formaÃ§Ã£o de professor",
         "cursos": 12,
         "n": 391,
         "denominador": 390,
@@ -6502,7 +6502,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Ciência da computação",
+        "rotulo": "CiÃªncia da computaÃ§Ã£o",
         "cursos": 7,
         "n": 256,
         "denominador": 256,
@@ -6513,7 +6513,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Ciências aeronáuticas",
+        "rotulo": "CiÃªncias aeronÃ¡uticas",
         "cursos": 1,
         "n": 88,
         "denominador": 88,
@@ -6524,7 +6524,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Ciências naturais formação de professor",
+        "rotulo": "CiÃªncias naturais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 25,
         "denominador": 25,
@@ -6535,7 +6535,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Ciências sociais",
+        "rotulo": "CiÃªncias sociais",
         "cursos": 1,
         "n": 22,
         "denominador": 22,
@@ -6546,7 +6546,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Ciências sociais formação de professor",
+        "rotulo": "CiÃªncias sociais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 25,
         "denominador": 25,
@@ -6557,7 +6557,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Construção de edifícios",
+        "rotulo": "ConstruÃ§Ã£o de edifÃ­cios",
         "cursos": 1,
         "n": 29,
         "denominador": 29,
@@ -6623,7 +6623,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Educação física",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica",
         "cursos": 11,
         "n": 522,
         "denominador": 522,
@@ -6634,7 +6634,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Educação física formação de professor",
+        "rotulo": "EducaÃ§Ã£o fÃ­sica formaÃ§Ã£o de professor",
         "cursos": 14,
         "n": 374,
         "denominador": 374,
@@ -6645,7 +6645,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Eletrotécnica industrial",
+        "rotulo": "EletrotÃ©cnica industrial",
         "cursos": 1,
         "n": 34,
         "denominador": 34,
@@ -6667,7 +6667,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia agrícola",
+        "rotulo": "Engenharia agrÃ­cola",
         "cursos": 2,
         "n": 113,
         "denominador": 113,
@@ -6689,7 +6689,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia ambiental e sanitária",
+        "rotulo": "Engenharia ambiental e sanitÃ¡ria",
         "cursos": 1,
         "n": 57,
         "denominador": 57,
@@ -6722,7 +6722,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia de computação",
+        "rotulo": "Engenharia de computaÃ§Ã£o",
         "cursos": 4,
         "n": 169,
         "denominador": 169,
@@ -6733,7 +6733,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia de controle e automação",
+        "rotulo": "Engenharia de controle e automaÃ§Ã£o",
         "cursos": 5,
         "n": 140,
         "denominador": 140,
@@ -6755,7 +6755,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia de produção",
+        "rotulo": "Engenharia de produÃ§Ã£o",
         "cursos": 10,
         "n": 123,
         "denominador": 123,
@@ -6777,7 +6777,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia elétrica",
+        "rotulo": "Engenharia elÃ©trica",
         "cursos": 9,
         "n": 326,
         "denominador": 326,
@@ -6799,7 +6799,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia mecânica",
+        "rotulo": "Engenharia mecÃ¢nica",
         "cursos": 8,
         "n": 290,
         "denominador": 290,
@@ -6810,7 +6810,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Engenharia química",
+        "rotulo": "Engenharia quÃ­mica",
         "cursos": 1,
         "n": 39,
         "denominador": 39,
@@ -6821,7 +6821,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Estatística",
+        "rotulo": "EstatÃ­stica",
         "cursos": 1,
         "n": 54,
         "denominador": 54,
@@ -6832,7 +6832,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Estética e cosmética",
+        "rotulo": "EstÃ©tica e cosmÃ©tica",
         "cursos": 11,
         "n": 389,
         "denominador": 389,
@@ -6843,7 +6843,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Farmácia",
+        "rotulo": "FarmÃ¡cia",
         "cursos": 16,
         "n": 510,
         "denominador": 510,
@@ -6865,7 +6865,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Filosofia formação de professor",
+        "rotulo": "Filosofia formaÃ§Ã£o de professor",
         "cursos": 2,
         "n": 38,
         "denominador": 38,
@@ -6909,7 +6909,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Física",
+        "rotulo": "FÃ­sica",
         "cursos": 1,
         "n": 57,
         "denominador": 57,
@@ -6920,7 +6920,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Física formação de professor",
+        "rotulo": "FÃ­sica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 149,
         "denominador": 149,
@@ -6953,7 +6953,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Geografia formação de professor",
+        "rotulo": "Geografia formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 189,
         "denominador": 189,
@@ -6986,7 +6986,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão ambiental",
+        "rotulo": "GestÃ£o ambiental",
         "cursos": 2,
         "n": 66,
         "denominador": 66,
@@ -6997,7 +6997,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão comercial",
+        "rotulo": "GestÃ£o comercial",
         "cursos": 3,
         "n": 92,
         "denominador": 92,
@@ -7008,7 +7008,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão da produção",
+        "rotulo": "GestÃ£o da produÃ§Ã£o",
         "cursos": 1,
         "n": 14,
         "denominador": 14,
@@ -7019,7 +7019,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão da tecnologia da informação",
+        "rotulo": "GestÃ£o da tecnologia da informaÃ§Ã£o",
         "cursos": 2,
         "n": 23,
         "denominador": 23,
@@ -7030,7 +7030,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão de cooperativas",
+        "rotulo": "GestÃ£o de cooperativas",
         "cursos": 1,
         "n": 30,
         "denominador": 29,
@@ -7041,7 +7041,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão de negócios",
+        "rotulo": "GestÃ£o de negÃ³cios",
         "cursos": 3,
         "n": 46,
         "denominador": 46,
@@ -7052,7 +7052,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão de pessoas",
+        "rotulo": "GestÃ£o de pessoas",
         "cursos": 12,
         "n": 410,
         "denominador": 410,
@@ -7063,7 +7063,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão do agronegócio",
+        "rotulo": "GestÃ£o do agronegÃ³cio",
         "cursos": 7,
         "n": 179,
         "denominador": 179,
@@ -7074,7 +7074,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Gestão pública",
+        "rotulo": "GestÃ£o pÃºblica",
         "cursos": 4,
         "n": 188,
         "denominador": 188,
@@ -7085,7 +7085,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "História formação de professor",
+        "rotulo": "HistÃ³ria formaÃ§Ã£o de professor",
         "cursos": 3,
         "n": 142,
         "denominador": 142,
@@ -7107,7 +7107,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Letras inglês formação de professor",
+        "rotulo": "Letras inglÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 20,
         "denominador": 20,
@@ -7118,7 +7118,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Letras língua brasileira de sinais formação de professor",
+        "rotulo": "Letras lÃ­ngua brasileira de sinais formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 21,
         "denominador": 21,
@@ -7129,7 +7129,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Letras português espanhol formação de professor",
+        "rotulo": "Letras portuguÃªs espanhol formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 21,
         "denominador": 21,
@@ -7140,7 +7140,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Letras português formação de professor",
+        "rotulo": "Letras portuguÃªs formaÃ§Ã£o de professor",
         "cursos": 6,
         "n": 196,
         "denominador": 196,
@@ -7151,7 +7151,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Letras português francês formação de professor",
+        "rotulo": "Letras portuguÃªs francÃªs formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 16,
         "denominador": 16,
@@ -7162,7 +7162,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Letras português inglês formação de professor",
+        "rotulo": "Letras portuguÃªs inglÃªs formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 120,
         "denominador": 120,
@@ -7173,7 +7173,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Logística",
+        "rotulo": "LogÃ­stica",
         "cursos": 3,
         "n": 79,
         "denominador": 78,
@@ -7184,7 +7184,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Manejo da produção agrícola",
+        "rotulo": "Manejo da produÃ§Ã£o agrÃ­cola",
         "cursos": 1,
         "n": 36,
         "denominador": 36,
@@ -7206,7 +7206,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Matemática formação de professor",
+        "rotulo": "MatemÃ¡tica formaÃ§Ã£o de professor",
         "cursos": 9,
         "n": 305,
         "denominador": 305,
@@ -7228,7 +7228,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Medicina veterinária",
+        "rotulo": "Medicina veterinÃ¡ria",
         "cursos": 5,
         "n": 408,
         "denominador": 407,
@@ -7239,7 +7239,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Música formação de professor",
+        "rotulo": "MÃºsica formaÃ§Ã£o de professor",
         "cursos": 1,
         "n": 11,
         "denominador": 11,
@@ -7250,7 +7250,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Nutrição",
+        "rotulo": "NutriÃ§Ã£o",
         "cursos": 12,
         "n": 532,
         "denominador": 532,
@@ -7305,7 +7305,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Química",
+        "rotulo": "QuÃ­mica",
         "cursos": 1,
         "n": 47,
         "denominador": 47,
@@ -7316,7 +7316,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Química formação de professor",
+        "rotulo": "QuÃ­mica formaÃ§Ã£o de professor",
         "cursos": 5,
         "n": 154,
         "denominador": 154,
@@ -7349,7 +7349,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Saúde coletiva",
+        "rotulo": "SaÃºde coletiva",
         "cursos": 1,
         "n": 77,
         "denominador": 77,
@@ -7371,7 +7371,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Serviço social",
+        "rotulo": "ServiÃ§o social",
         "cursos": 4,
         "n": 102,
         "denominador": 102,
@@ -7382,7 +7382,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "rotulo": "Sistemas de informação",
+        "rotulo": "Sistemas de informaÃ§Ã£o",
         "cursos": 18,
         "n": 556,
         "denominador": 556,
@@ -7439,7 +7439,7 @@ window.DATAMIND = {
     "area": [
       {
         "coorte": 2015,
-        "area": "Agricultura, silvicultura, pesca e veterinária",
+        "area": "Agricultura, silvicultura, pesca e veterinÃ¡ria",
         "cursos": 42,
         "n": 3381,
         "denominador": 3379,
@@ -7461,7 +7461,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Ciências naturais, matemática e estatística",
+        "area": "CiÃªncias naturais, matemÃ¡tica e estatÃ­stica",
         "cursos": 10,
         "n": 387,
         "denominador": 387,
@@ -7472,7 +7472,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Ciências sociais, comunicação e informação",
+        "area": "CiÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o",
         "cursos": 24,
         "n": 1987,
         "denominador": 1987,
@@ -7483,7 +7483,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+        "area": "ComputaÃ§Ã£o e Tecnologias da InformaÃ§Ã£o e ComunicaÃ§Ã£o (TIC)",
         "cursos": 38,
         "n": 1525,
         "denominador": 1525,
@@ -7494,7 +7494,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Educação",
+        "area": "EducaÃ§Ã£o",
         "cursos": 99,
         "n": 5041,
         "denominador": 5040,
@@ -7505,7 +7505,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Engenharia, produção e construção",
+        "area": "Engenharia, produÃ§Ã£o e construÃ§Ã£o",
         "cursos": 67,
         "n": 6710,
         "denominador": 6705,
@@ -7516,7 +7516,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Negócios, administração e direito",
+        "area": "NegÃ³cios, administraÃ§Ã£o e direito",
         "cursos": 130,
         "n": 14607,
         "denominador": 14599,
@@ -7527,7 +7527,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Saúde e bem-estar",
+        "area": "SaÃºde e bem-estar",
         "cursos": 86,
         "n": 7022,
         "denominador": 7017,
@@ -7538,7 +7538,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2015,
-        "area": "Serviços",
+        "area": "ServiÃ§os",
         "cursos": 13,
         "n": 990,
         "denominador": 988,
@@ -7549,7 +7549,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Agricultura, silvicultura, pesca e veterinária",
+        "area": "Agricultura, silvicultura, pesca e veterinÃ¡ria",
         "cursos": 45,
         "n": 3751,
         "denominador": 3746,
@@ -7571,7 +7571,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Ciências naturais, matemática e estatística",
+        "area": "CiÃªncias naturais, matemÃ¡tica e estatÃ­stica",
         "cursos": 10,
         "n": 377,
         "denominador": 377,
@@ -7582,7 +7582,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Ciências sociais, comunicação e informação",
+        "area": "CiÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o",
         "cursos": 29,
         "n": 2477,
         "denominador": 2476,
@@ -7593,7 +7593,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+        "area": "ComputaÃ§Ã£o e Tecnologias da InformaÃ§Ã£o e ComunicaÃ§Ã£o (TIC)",
         "cursos": 39,
         "n": 1405,
         "denominador": 1404,
@@ -7604,7 +7604,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Educação",
+        "area": "EducaÃ§Ã£o",
         "cursos": 102,
         "n": 5413,
         "denominador": 5410,
@@ -7615,7 +7615,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Engenharia, produção e construção",
+        "area": "Engenharia, produÃ§Ã£o e construÃ§Ã£o",
         "cursos": 77,
         "n": 6371,
         "denominador": 6370,
@@ -7626,7 +7626,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Negócios, administração e direito",
+        "area": "NegÃ³cios, administraÃ§Ã£o e direito",
         "cursos": 143,
         "n": 15997,
         "denominador": 15990,
@@ -7637,7 +7637,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Saúde e bem-estar",
+        "area": "SaÃºde e bem-estar",
         "cursos": 105,
         "n": 8233,
         "denominador": 8232,
@@ -7648,7 +7648,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2016,
-        "area": "Serviços",
+        "area": "ServiÃ§os",
         "cursos": 15,
         "n": 1172,
         "denominador": 1172,
@@ -7659,7 +7659,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Agricultura, silvicultura, pesca e veterinária",
+        "area": "Agricultura, silvicultura, pesca e veterinÃ¡ria",
         "cursos": 50,
         "n": 4084,
         "denominador": 4084,
@@ -7681,7 +7681,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Ciências naturais, matemática e estatística",
+        "area": "CiÃªncias naturais, matemÃ¡tica e estatÃ­stica",
         "cursos": 11,
         "n": 442,
         "denominador": 442,
@@ -7692,7 +7692,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Ciências sociais, comunicação e informação",
+        "area": "CiÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o",
         "cursos": 33,
         "n": 2672,
         "denominador": 2671,
@@ -7703,7 +7703,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+        "area": "ComputaÃ§Ã£o e Tecnologias da InformaÃ§Ã£o e ComunicaÃ§Ã£o (TIC)",
         "cursos": 37,
         "n": 1456,
         "denominador": 1455,
@@ -7714,7 +7714,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Educação",
+        "area": "EducaÃ§Ã£o",
         "cursos": 102,
         "n": 5067,
         "denominador": 5066,
@@ -7725,7 +7725,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Engenharia, produção e construção",
+        "area": "Engenharia, produÃ§Ã£o e construÃ§Ã£o",
         "cursos": 85,
         "n": 6047,
         "denominador": 6045,
@@ -7736,7 +7736,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Negócios, administração e direito",
+        "area": "NegÃ³cios, administraÃ§Ã£o e direito",
         "cursos": 158,
         "n": 15059,
         "denominador": 15053,
@@ -7747,7 +7747,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Saúde e bem-estar",
+        "area": "SaÃºde e bem-estar",
         "cursos": 109,
         "n": 8791,
         "denominador": 8787,
@@ -7758,7 +7758,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2017,
-        "area": "Serviços",
+        "area": "ServiÃ§os",
         "cursos": 16,
         "n": 1074,
         "denominador": 1074,
@@ -7769,7 +7769,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Agricultura, silvicultura, pesca e veterinária",
+        "area": "Agricultura, silvicultura, pesca e veterinÃ¡ria",
         "cursos": 51,
         "n": 3959,
         "denominador": 3958,
@@ -7791,7 +7791,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Ciências naturais, matemática e estatística",
+        "area": "CiÃªncias naturais, matemÃ¡tica e estatÃ­stica",
         "cursos": 10,
         "n": 425,
         "denominador": 425,
@@ -7802,7 +7802,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Ciências sociais, comunicação e informação",
+        "area": "CiÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o",
         "cursos": 33,
         "n": 2330,
         "denominador": 2325,
@@ -7813,7 +7813,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+        "area": "ComputaÃ§Ã£o e Tecnologias da InformaÃ§Ã£o e ComunicaÃ§Ã£o (TIC)",
         "cursos": 38,
         "n": 1324,
         "denominador": 1324,
@@ -7824,7 +7824,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Educação",
+        "area": "EducaÃ§Ã£o",
         "cursos": 98,
         "n": 4733,
         "denominador": 4730,
@@ -7835,7 +7835,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Engenharia, produção e construção",
+        "area": "Engenharia, produÃ§Ã£o e construÃ§Ã£o",
         "cursos": 91,
         "n": 5447,
         "denominador": 5446,
@@ -7846,7 +7846,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Negócios, administração e direito",
+        "area": "NegÃ³cios, administraÃ§Ã£o e direito",
         "cursos": 158,
         "n": 14435,
         "denominador": 14427,
@@ -7857,7 +7857,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Saúde e bem-estar",
+        "area": "SaÃºde e bem-estar",
         "cursos": 123,
         "n": 9189,
         "denominador": 9189,
@@ -7868,7 +7868,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2018,
-        "area": "Serviços",
+        "area": "ServiÃ§os",
         "cursos": 14,
         "n": 1133,
         "denominador": 1133,
@@ -7879,7 +7879,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Agricultura, silvicultura, pesca e veterinária",
+        "area": "Agricultura, silvicultura, pesca e veterinÃ¡ria",
         "cursos": 53,
         "n": 3551,
         "denominador": 3549,
@@ -7901,7 +7901,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Ciências naturais, matemática e estatística",
+        "area": "CiÃªncias naturais, matemÃ¡tica e estatÃ­stica",
         "cursos": 10,
         "n": 458,
         "denominador": 458,
@@ -7912,7 +7912,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Ciências sociais, comunicação e informação",
+        "area": "CiÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o",
         "cursos": 37,
         "n": 2537,
         "denominador": 2535,
@@ -7923,7 +7923,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+        "area": "ComputaÃ§Ã£o e Tecnologias da InformaÃ§Ã£o e ComunicaÃ§Ã£o (TIC)",
         "cursos": 37,
         "n": 1388,
         "denominador": 1388,
@@ -7934,7 +7934,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Educação",
+        "area": "EducaÃ§Ã£o",
         "cursos": 97,
         "n": 4758,
         "denominador": 4758,
@@ -7945,7 +7945,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Engenharia, produção e construção",
+        "area": "Engenharia, produÃ§Ã£o e construÃ§Ã£o",
         "cursos": 96,
         "n": 4731,
         "denominador": 4730,
@@ -7956,7 +7956,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Negócios, administração e direito",
+        "area": "NegÃ³cios, administraÃ§Ã£o e direito",
         "cursos": 170,
         "n": 14481,
         "denominador": 14476,
@@ -7967,7 +7967,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Saúde e bem-estar",
+        "area": "SaÃºde e bem-estar",
         "cursos": 124,
         "n": 8511,
         "denominador": 8507,
@@ -7978,7 +7978,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2019,
-        "area": "Serviços",
+        "area": "ServiÃ§os",
         "cursos": 15,
         "n": 1114,
         "denominador": 1114,
@@ -7989,7 +7989,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Agricultura, silvicultura, pesca e veterinária",
+        "area": "Agricultura, silvicultura, pesca e veterinÃ¡ria",
         "cursos": 51,
         "n": 2809,
         "denominador": 2806,
@@ -8011,7 +8011,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Ciências naturais, matemática e estatística",
+        "area": "CiÃªncias naturais, matemÃ¡tica e estatÃ­stica",
         "cursos": 8,
         "n": 323,
         "denominador": 323,
@@ -8022,7 +8022,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Ciências sociais, comunicação e informação",
+        "area": "CiÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o",
         "cursos": 38,
         "n": 2102,
         "denominador": 2101,
@@ -8033,7 +8033,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+        "area": "ComputaÃ§Ã£o e Tecnologias da InformaÃ§Ã£o e ComunicaÃ§Ã£o (TIC)",
         "cursos": 34,
         "n": 1048,
         "denominador": 1048,
@@ -8044,7 +8044,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Educação",
+        "area": "EducaÃ§Ã£o",
         "cursos": 92,
         "n": 2887,
         "denominador": 2886,
@@ -8055,7 +8055,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Engenharia, produção e construção",
+        "area": "Engenharia, produÃ§Ã£o e construÃ§Ã£o",
         "cursos": 91,
         "n": 3290,
         "denominador": 3289,
@@ -8066,7 +8066,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Negócios, administração e direito",
+        "area": "NegÃ³cios, administraÃ§Ã£o e direito",
         "cursos": 156,
         "n": 9223,
         "denominador": 9219,
@@ -8077,7 +8077,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Saúde e bem-estar",
+        "area": "SaÃºde e bem-estar",
         "cursos": 128,
         "n": 6454,
         "denominador": 6453,
@@ -8088,7 +8088,7 @@ window.DATAMIND = {
       },
       {
         "coorte": 2020,
-        "area": "Serviços",
+        "area": "ServiÃ§os",
         "cursos": 17,
         "n": 713,
         "denominador": 713,
@@ -8121,7 +8121,7 @@ window.DATAMIND = {
     {
       "ano": 2021,
       "modalidade": "1",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 263,
       "n": 47647,
       "matriculas": 45450,
@@ -8148,7 +8148,7 @@ window.DATAMIND = {
     {
       "ano": 2021,
       "modalidade": "2",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 27,
       "n": 5396,
       "matriculas": 4884,
@@ -8175,7 +8175,7 @@ window.DATAMIND = {
     {
       "ano": 2022,
       "modalidade": "1",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 267,
       "n": 48264,
       "matriculas": 45706,
@@ -8202,7 +8202,7 @@ window.DATAMIND = {
     {
       "ano": 2022,
       "modalidade": "2",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 26,
       "n": 4478,
       "matriculas": 4125,
@@ -8229,7 +8229,7 @@ window.DATAMIND = {
     {
       "ano": 2023,
       "modalidade": "1",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 295,
       "n": 54101,
       "matriculas": 43725,
@@ -8256,7 +8256,7 @@ window.DATAMIND = {
     {
       "ano": 2023,
       "modalidade": "2",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 24,
       "n": 5267,
       "matriculas": 4221,
@@ -8283,7 +8283,7 @@ window.DATAMIND = {
     {
       "ano": 2024,
       "modalidade": "1",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 314,
       "n": 44978,
       "matriculas": 41947,
@@ -8310,7 +8310,7 @@ window.DATAMIND = {
     {
       "ano": 2024,
       "modalidade": "2",
-      "rede": "Pública",
+      "rede": "PÃºblica",
       "cursos": 25,
       "n": 5201,
       "matriculas": 4873,
@@ -8371,7 +8371,7 @@ window.DATAMIND = {
   ],
   "p5": [
     {
-      "area_enade": "CIÊNCIAS BIOLÓGICAS",
+      "area_enade": "CIÃŠNCIAS BIOLÃ“GICAS",
       "cursos": 6,
       "n": 348,
       "denominador": 348,
@@ -8383,7 +8383,7 @@ window.DATAMIND = {
       "proficiencia": 72.3214
     },
     {
-      "area_enade": "CIÊNCIAS SOCIAIS",
+      "area_enade": "CIÃŠNCIAS SOCIAIS",
       "cursos": 1,
       "n": 40,
       "denominador": 40,
@@ -8395,7 +8395,7 @@ window.DATAMIND = {
       "proficiencia": 100.0
     },
     {
-      "area_enade": "EDUCAÇÃO FÍSICA",
+      "area_enade": "EDUCAÃ‡ÃƒO FÃSICA",
       "cursos": 3,
       "n": 206,
       "denominador": 206,
@@ -8419,7 +8419,7 @@ window.DATAMIND = {
       "proficiencia": 53.3333
     },
     {
-      "area_enade": "FÍSICA",
+      "area_enade": "FÃSICA",
       "cursos": 1,
       "n": 98,
       "denominador": 98,
@@ -8443,7 +8443,7 @@ window.DATAMIND = {
       "proficiencia": 65.2632
     },
     {
-      "area_enade": "HISTÓRIA",
+      "area_enade": "HISTÃ“RIA",
       "cursos": 3,
       "n": 210,
       "denominador": 210,
@@ -8455,7 +8455,7 @@ window.DATAMIND = {
       "proficiencia": 63.7255
     },
     {
-      "area_enade": "LETRAS-PORTUGUÊS",
+      "area_enade": "LETRAS-PORTUGUÃŠS",
       "cursos": 5,
       "n": 308,
       "denominador": 308,
@@ -8467,7 +8467,7 @@ window.DATAMIND = {
       "proficiencia": 49.5652
     },
     {
-      "area_enade": "LETRAS-PORTUGUÊS E ESPANHOL",
+      "area_enade": "LETRAS-PORTUGUÃŠS E ESPANHOL",
       "cursos": 1,
       "n": 26,
       "denominador": 25,
@@ -8479,7 +8479,7 @@ window.DATAMIND = {
       "proficiencia": 92.8571
     },
     {
-      "area_enade": "LETRAS-PORTUGUÊS E INGLÊS",
+      "area_enade": "LETRAS-PORTUGUÃŠS E INGLÃŠS",
       "cursos": 2,
       "n": 123,
       "denominador": 123,
@@ -8491,7 +8491,7 @@ window.DATAMIND = {
       "proficiencia": 50.0
     },
     {
-      "area_enade": "Letras - Inglês",
+      "area_enade": "Letras - InglÃªs",
       "cursos": 1,
       "n": 18,
       "denominador": 18,
@@ -8503,7 +8503,7 @@ window.DATAMIND = {
       "proficiencia": 50.0
     },
     {
-      "area_enade": "MATEMÁTICA",
+      "area_enade": "MATEMÃTICA",
       "cursos": 3,
       "n": 186,
       "denominador": 185,
@@ -8568,7 +8568,7 @@ window.DATAMIND = {
         "excluidos_sequenciais": 3
       },
       {
-        "fonte": "Trajetória",
+        "fonte": "TrajetÃ³ria",
         "periodo": "2015",
         "linhas": 5150,
         "cursos": 515,
@@ -8576,7 +8576,7 @@ window.DATAMIND = {
         "excluidos_sequenciais": 0
       },
       {
-        "fonte": "Trajetória",
+        "fonte": "TrajetÃ³ria",
         "periodo": "2016",
         "linhas": 5157,
         "cursos": 573,
@@ -8584,7 +8584,7 @@ window.DATAMIND = {
         "excluidos_sequenciais": 0
       },
       {
-        "fonte": "Trajetória",
+        "fonte": "TrajetÃ³ria",
         "periodo": "2017",
         "linhas": 4864,
         "cursos": 608,
@@ -8592,7 +8592,7 @@ window.DATAMIND = {
         "excluidos_sequenciais": 0
       },
       {
-        "fonte": "Trajetória",
+        "fonte": "TrajetÃ³ria",
         "periodo": "2018",
         "linhas": 4361,
         "cursos": 623,
@@ -8600,7 +8600,7 @@ window.DATAMIND = {
         "excluidos_sequenciais": 0
       },
       {
-        "fonte": "Trajetória",
+        "fonte": "TrajetÃ³ria",
         "periodo": "2019",
         "linhas": 3876,
         "cursos": 646,
@@ -8608,7 +8608,7 @@ window.DATAMIND = {
         "excluidos_sequenciais": 0
       },
       {
-        "fonte": "Trajetória",
+        "fonte": "TrajetÃ³ria",
         "periodo": "2020",
         "linhas": 3105,
         "cursos": 621,
@@ -8800,7 +8800,7 @@ window.DATAMIND = {
         "correspondentes": 398,
         "elegiveis": 371,
         "taxa_match": 71.3262,
-        "chave": "Código do curso; coorte 2015, referência 2024"
+        "chave": "CÃ³digo do curso; coorte 2015, referÃªncia 2024"
       },
       {
         "pergunta": "P5",
@@ -8808,15 +8808,15 @@ window.DATAMIND = {
         "correspondentes": 68,
         "elegiveis": 38,
         "taxa_match": 70.1031,
-        "chave": "Código do curso e grau licenciatura; coorte 2015, referência 2024"
+        "chave": "CÃ³digo do curso e grau licenciatura; coorte 2015, referÃªncia 2024"
       }
     ],
     "verificacoes": [
       "31 fontes ativas",
-      "Chaves de trajetória únicas",
-      "Contagens da trajetória reconciliadas",
-      "CPC único por curso no ciclo",
-      "Dimensões consistentes entre polos",
+      "Chaves de trajetÃ³ria Ãºnicas",
+      "Contagens da trajetÃ³ria reconciliadas",
+      "CPC Ãºnico por curso no ciclo",
+      "DimensÃµes consistentes entre polos",
       "Grupos publicados com base >= 10"
     ]
   }

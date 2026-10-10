@@ -29,13 +29,14 @@ O painel também pode ser aberto sem rede pelo `index.html` se os arquivos estiv
 
 ## Perguntas e cautelas
 
-- P1: resultado da coorte presencial escolhida até 2024 e perfil anual da perda.
-- P2: ranking no quinto ano, com horizonte igual entre coortes.
-- P3: proxy anual do Censo, separada da desistência de uma coorte; modalidade e rede pública ou privada (com ou sem fins lucrativos).
+- P1: resultado da coorte presencial escolhida até 2024, destaque das desistências anuais nos dois primeiros anos e série acumulada. Contagens são agregadas por curso, não pessoas únicas.
+- P2: ranking e dispersão de diplomação versus desistência no quinto ano, com horizonte igual entre coortes; o tamanho das bolhas representa a base efetiva.
+- P3: indicador anual do Censo, separado da desistência acumulada de uma coorte; composição de matrículas em barra 100% empilhada, por modalidade e rede pública ou privada (com ou sem fins lucrativos).
 - P4: CPC versus desistência acumulada entre cursos que casaram pelo código do curso.
 - P5: trajetória presencial da coorte 2015 junto ao indicador do Enade Licenciaturas 2025, com denominadores separados.
 - Grupos com base efetiva menor que 10 são omitidos; ausências e SC não viram zero.
 - O dado municipal de polo EAD não localiza o aluno. Descrições não identificam causalidade.
+- Acesso a metodologia e limites está disponível no topo do painel e na aba **Evidências e método**.
 
 O relatório da EDA, cobertura de junções, data da extração, manifesto e limitações aparecem na aba **Evidências e método**.
 

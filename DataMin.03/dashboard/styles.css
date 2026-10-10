@@ -208,6 +208,16 @@ main {
     margin: 0 13px
 }
 
+.top-actions {
+    display: flex;
+    align-items: center;
+    gap: 9px
+}
+
+.top-actions .button {
+    text-decoration: none
+}
+
 .button {
     background: transparent;
     border: 1px solid #b6c3b3;
@@ -524,6 +534,72 @@ h2 {
 .chart .point {
     stroke: white;
     stroke-width: 2
+}
+
+.chart .axis-title {
+    fill: var(--ink);
+    font-size: 12px;
+    font-weight: 600
+}
+
+.scatter-point {
+    transition: fill-opacity .15s ease
+}
+
+.scatter-point:hover {
+    fill-opacity: 1
+}
+
+.early-kpis {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin: 18px 0 4px
+}
+
+.early-kpi {
+    padding: 15px 17px;
+    border-left: 3px solid var(--coral);
+    background: #f2ead9
+}
+
+.early-kpi span,
+.early-kpi small {
+    display: block;
+    color: var(--muted);
+    font-size: 11px
+}
+
+.early-kpi strong {
+    display: block;
+    margin: 4px 0;
+    color: var(--coral);
+    font-size: 28px;
+    font-weight: 600
+}
+
+.stacked-track {
+    display: flex;
+    width: 100%;
+    height: 42px;
+    overflow: hidden;
+    margin: 20px 0;
+    border-radius: 7px;
+    background: #f0f3eb
+}
+
+.stacked-track span {
+    min-width: 0;
+    height: 100%;
+    border-right: 2px solid white
+}
+
+.stacked-track span:last-child {
+    border-right: 0
+}
+
+#enrollment-legend {
+    gap: 10px 16px
 }
 
 .source {
@@ -844,6 +920,15 @@ footer a {
         font-size: 8px
     }
 
+    .top-actions {
+        gap: 6px
+    }
+
+    .top-actions .button {
+        padding: 9px 8px;
+        font-size: 11px
+    }
+
     .page {
         padding-top: 28px
     }
@@ -918,9 +1003,30 @@ footer a {
     .outcome-stats strong {
         font-size: 42px
     }
+
+    .early-kpis {
+        gap: 8px
+    }
+
+    .early-kpi {
+        padding: 12px
+    }
 }
 
 @media(max-width:440px) {
+    .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px 0
+    }
+
+    .top-actions {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+
     main {
         padding: 0 14px
     }
