@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-10-10T17:12:48.998671+00:00",
+  "repository": "C:\\Users\\THAIII\\Documents\\GitHub\\DataMind_Equipe03",
+  "services": [
+    "airflow-api running healthy",
+    "airflow-dag-processor running healthy",
+    "airflow-scheduler running healthy",
+    "postgres-data running healthy",
+    "postgres-meta running healthy"
+  ],
+  "mounts": [
+    {
+      "source": "/run/desktop/mnt/host/c/Users/THAIII/Documents/GitHub/DataMind_Equipe03/dags",
+      "target": "/opt/airflow/dags"
+    },
+    {
+      "source": "/var/lib/docker/volumes/datamind03_airflow-logs/_data",
+      "target": "/opt/airflow/logs"
+    },
+    {
+      "source": "C:\\Users\\THAIII\\Documents\\GitHub\\DataMind_Equipe03\\runtime\\private",
+      "target": "/opt/airflow/private"
+    },
+    {
+      "source": "C:\\Users\\THAIII\\Documents\\GitHub\\DataMind_Equipe03\\outputs\\fase1",
+      "target": "/opt/airflow/project/evidence"
+    },
+    {
+      "source": "C:\\Users\\THAIII\\Documents\\GitHub\\DataMind_Equipe03\\outputs\\analytics",
+      "target": "/opt/airflow/project/published"
+    },
+    {
+      "source": "/run/desktop/mnt/host/c/Users/THAIII/Documents/GitHub/DataMind_Equipe03/src",
+      "target": "/opt/airflow/project/src"
+    },
+    {
+      "source": "C:\\Users\\THAIII\\Documents\\GitHub\\DataMind_Equipe03\\runtime\\etl",
+      "target": "/opt/airflow/project/work"
+    },
+    {
+      "source": "/run/desktop/mnt/host/c/Users/THAIII/Documents/GitHub/DataMind_Equipe03/data/raw",
+      "target": "/opt/airflow/project/data/raw"
+    }
+  ],
+  "manifest_run": {
+    "id": "repositorio_manifesto_01",
+    "state": "success"
+  },
+  "preserved_volumes": true,
+  "git_push_performed": false
+}

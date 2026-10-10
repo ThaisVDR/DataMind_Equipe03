@@ -1,0 +1,356 @@
+{
+  "name": "trajetoria2015",
+  "scope": "Todas as linhas MT elegiveis da aba selecionada; apenas esta edicao",
+  "rows": 5150,
+  "column_count": 31,
+  "columns": [
+    {
+      "name": "CO_IES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "NO_IES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 5150
+      }
+    },
+    {
+      "name": "TP_CATEGORIA_ADMINISTRATIVA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "TP_ORGANIZACAO_ACADEMICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "CO_CURSO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "NO_CURSO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 5150
+      }
+    },
+    {
+      "name": "CO_REGIAO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "CO_UF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "CO_MUNICIPIO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "TP_GRAU_ACADEMICO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "TP_MODALIDADE_ENSINO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "CO_CINE_ROTULO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 5150
+      }
+    },
+    {
+      "name": "NO_CINE_ROTULO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 5150
+      }
+    },
+    {
+      "name": "CO_CINE_AREA_GERAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 5150
+      }
+    },
+    {
+      "name": "NO_CINE_AREA_GERAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 5150
+      }
+    },
+    {
+      "name": "NU_ANO_INGRESSO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "NU_ANO_REFERENCIA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "NU_PRAZO_INTEGRALIZACAO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "NU_ANO_INTEGRALIZACAO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "NU_PRAZO_ACOMPANHAMENTO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "NU_ANO_MAXIMO_ACOMPANHAMENTO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "QT_INGRESSANTE",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "QT_PERMANENCIA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "QT_CONCLUINTE",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "QT_DESISTENCIA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "QT_FALECIDO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 5150
+      }
+    },
+    {
+      "name": "TAP",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "float": 3428,
+        "int": 1722
+      }
+    },
+    {
+      "name": "TCA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "float": 3563,
+        "int": 1587
+      }
+    },
+    {
+      "name": "TDA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 698,
+        "float": 4452
+      }
+    },
+    {
+      "name": "TCAN",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "float": 2067,
+        "int": 3083
+      }
+    },
+    {
+      "name": "TADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 2224,
+        "float": 2926
+      }
+    }
+  ],
+  "candidate_key": [
+    "CO_CURSO",
+    "NU_ANO_INGRESSO",
+    "NU_ANO_REFERENCIA"
+  ],
+  "duplicate_excess": 0,
+  "missing_key_rows": 0,
+  "scanned_nonempty_rows": 281431,
+  "sheet": "INDICADORES_TRAJETORIA",
+  "header_row": 9,
+  "sheets": [
+    "INDICADORES_TRAJETORIA"
+  ],
+  "original_headers": [
+    "CO_IES",
+    "NO_IES",
+    "TP_CATEGORIA_ADMINISTRATIVA",
+    "TP_ORGANIZACAO_ACADEMICA",
+    "CO_CURSO",
+    "NO_CURSO",
+    "CO_REGIAO",
+    "CO_UF",
+    "CO_MUNICIPIO",
+    "TP_GRAU_ACADEMICO",
+    "TP_MODALIDADE_ENSINO",
+    "CO_CINE_ROTULO",
+    "NO_CINE_ROTULO",
+    "CO_CINE_AREA_GERAL",
+    "NO_CINE_AREA_GERAL",
+    "NU_ANO_INGRESSO",
+    "NU_ANO_REFERENCIA",
+    "NU_PRAZO_INTEGRALIZACAO",
+    "NU_ANO_INTEGRALIZACAO",
+    "NU_PRAZO_ACOMPANHAMENTO",
+    "NU_ANO_MAXIMO_ACOMPANHAMENTO",
+    "QT_INGRESSANTE",
+    "QT_PERMANENCIA",
+    "QT_CONCLUINTE",
+    "QT_DESISTENCIA",
+    "QT_FALECIDO",
+    "TAP",
+    "TCA",
+    "TDA",
+    "TCAN",
+    "TADA"
+  ],
+  "member": "indicadores_trajetoria_educacao_superior_2015_2024.xlsx",
+  "categories": {
+    "TP_MODALIDADE_ENSINO": {
+      "1": 5150
+    },
+    "NU_ANO_REFERENCIA": {
+      "2015": 515,
+      "2016": 515,
+      "2017": 515,
+      "2018": 515,
+      "2019": 515,
+      "2020": 515,
+      "2021": 515,
+      "2022": 515,
+      "2023": 515,
+      "2024": 515
+    }
+  }
+}

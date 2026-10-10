@@ -1,0 +1,11 @@
+# Dados e credenciais locais
+/Fonte de Dados/
+/sistema/data/
+/sistema/runtime/
+.env
+.env.*
+!.env.example
+ACESSO_LOCAL.txt
+passwords.json
+__pycache__/
+*.pyc

@@ -1,0 +1,121 @@
+{
+  "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+  "coorte": 2015,
+  "uf": "MT",
+  "modalidade": "Presencial",
+  "source": "https://drive.google.com/file/d/1zhwIuX_hnXaD6SW6vufNPWUlVTE8AnXd/view",
+  "method": "Taxas pelas contagens; denominador ingressantes menos falecidos acumulados; percentuais 0-100.",
+  "suppression": "Medidas de referencias com contagens positivas inferiores a 10 sao omitidas.",
+  "rows": [
+    {
+      "ano_referencia": 2015,
+      "ano_curso": 1,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": true,
+      "tap": null,
+      "tca": null,
+      "tda": null,
+      "tada": null
+    },
+    {
+      "ano_referencia": 2016,
+      "ano_curso": 2,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": true,
+      "tap": null,
+      "tca": null,
+      "tda": null,
+      "tada": null
+    },
+    {
+      "ano_referencia": 2017,
+      "ano_curso": 3,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 61.6547,
+      "tca": 5.4837,
+      "tda": 32.8616,
+      "tada": 9.3423
+    },
+    {
+      "ano_referencia": 2018,
+      "ano_curso": 4,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 46.6683,
+      "tca": 12.8449,
+      "tda": 40.4869,
+      "tada": 7.6205
+    },
+    {
+      "ano_referencia": 2019,
+      "ano_curso": 5,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 24.7977,
+      "tca": 23.7427,
+      "tda": 51.4596,
+      "tada": 10.9679
+    },
+    {
+      "ano_referencia": 2020,
+      "ano_curso": 6,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 11.3252,
+      "tca": 33.9063,
+      "tda": 54.7686,
+      "tada": 3.3016
+    },
+    {
+      "ano_referencia": 2021,
+      "ano_curso": 7,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 6.8156,
+      "tca": 36.6922,
+      "tda": 56.4922,
+      "tada": 1.7236
+    },
+    {
+      "ano_referencia": 2022,
+      "ano_curso": 8,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 4.6384,
+      "tca": 38.0625,
+      "tda": 57.2991,
+      "tada": 0.8069
+    },
+    {
+      "ano_referencia": 2023,
+      "ano_curso": 9,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 1.9361,
+      "tca": 38.4636,
+      "tda": 59.6004,
+      "tada": 2.3013
+    },
+    {
+      "ano_referencia": 2024,
+      "ano_curso": 10,
+      "cursos": 515,
+      "ingressantes": 41918,
+      "suprimido": false,
+      "tap": 1.2987,
+      "tca": 38.8002,
+      "tda": 59.9012,
+      "tada": 0.3008
+    }
+  ]
+}

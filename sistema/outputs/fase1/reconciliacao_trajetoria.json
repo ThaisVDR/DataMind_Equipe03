@@ -1,0 +1,38 @@
+{
+  "scope": "515 cursos MT da coorte 2015; 2015-2024",
+  "candidate_denominator": "QT_INGRESSANTE menos soma acumulada de QT_FALECIDO",
+  "candidate_numerators": "TCA/TDA usam soma acumulada; TAP/TCAN/TADA usam quantidade da referencia",
+  "results": {
+    "saldo": {
+      "tested": 5150,
+      "max_absolute_error": 0,
+      "within_0_01": 5150
+    },
+    "TAP": {
+      "tested": 5150,
+      "max_absolute_error": 4.9771688992450436e-09,
+      "within_0_01": 5150
+    },
+    "TCA": {
+      "tested": 5150,
+      "max_absolute_error": 4.964022082276642e-09,
+      "within_0_01": 5150
+    },
+    "TDA": {
+      "tested": 5150,
+      "max_absolute_error": 4.962405597552788e-09,
+      "within_0_01": 5150
+    },
+    "TCAN": {
+      "tested": 5150,
+      "max_absolute_error": 4.9771688992450436e-09,
+      "within_0_01": 5150
+    },
+    "TADA": {
+      "tested": 5150,
+      "max_absolute_error": 4.9732626905552024e-09,
+      "within_0_01": 5150
+    }
+  },
+  "limitation": "Reconcilia este arquivo; nao substitui nota metodologica nem valida outras coortes."
+}

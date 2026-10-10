@@ -1,0 +1,87 @@
+{
+  "name": "ibge9514",
+  "scope": "Arquivo completo mt_uf.json: UF MT, nao municipios",
+  "rows": 2412,
+  "column_count": 7,
+  "columns": [
+    {
+      "name": "variavel",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 2412
+      }
+    },
+    {
+      "name": "unidade",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 2412
+      }
+    },
+    {
+      "name": "nivel",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 2412
+      }
+    },
+    {
+      "name": "localidade",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 2412
+      }
+    },
+    {
+      "name": "periodo",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 2412
+      }
+    },
+    {
+      "name": "categorias",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 2412
+      }
+    },
+    {
+      "name": "valor",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 2412
+      }
+    }
+  ],
+  "candidate_key": [
+    "variavel",
+    "nivel",
+    "localidade",
+    "periodo",
+    "categorias"
+  ],
+  "duplicate_excess": 0,
+  "missing_key_rows": 0,
+  "units": [
+    "Percentual",
+    "Pessoas"
+  ],
+  "levels": [
+    "N3"
+  ]
+}

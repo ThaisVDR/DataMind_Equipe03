@@ -1,0 +1,2 @@
+# Preservar documentos PDF byte a byte e evitar diffs de texto.
+*.pdf binary

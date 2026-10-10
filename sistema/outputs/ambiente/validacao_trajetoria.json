@@ -1,0 +1,383 @@
+{
+  "checked_at_utc": "2026-10-10T17:12:40.407939+00:00",
+  "runs": [
+    {
+      "run_id": "repositorio_migracao_01",
+      "state": "success",
+      "end": "2026-10-10T17:11:11.646660Z"
+    },
+    {
+      "run_id": "trajetoria_repeticao_1791652272088115300",
+      "state": "success",
+      "end": "2026-10-10T17:11:51.795042Z"
+    },
+    {
+      "run_id": "trajetoria_quarentena_1791652272088115300",
+      "state": "success",
+      "end": "2026-10-10T17:12:34.041802Z"
+    }
+  ],
+  "first": {
+    "core_rows": 5150,
+    "core_versions": 1,
+    "mart_rows": 10,
+    "publication": {
+      "product": "p1_trajetoria_2015",
+      "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+      "run_key": "1b74e49f7d99db2e7aee2954",
+      "published_at": "2026-10-10T17:11:10.862729+00:00"
+    },
+    "runs": [
+      {
+        "run_key": "1b74e49f7d99db2e7aee2954",
+        "airflow_run_id": "repositorio_migracao_01",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:11:10.862729+00:00"
+      },
+      {
+        "run_key": "7a1c651c773c99b11e38b312",
+        "airflow_run_id": "trajetoria_quarentena_1791651819041778900",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "quarantined",
+        "details": {
+          "rows": 5150,
+          "valid": false,
+          "courses": 515,
+          "invalid_scope": 0,
+          "rate_failures": 0,
+          "invalid_counts": 0,
+          "balance_failures": 0,
+          "incomplete_series": 0,
+          "forced_failure_test": true
+        },
+        "updated_at": "2026-10-10T17:05:05.539123+00:00"
+      },
+      {
+        "run_key": "80cdc5567a81860fc13f6043",
+        "airflow_run_id": "trajetoria_repeticao_1791651819041778900",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:04:19.605306+00:00"
+      },
+      {
+        "run_key": "796dae6b488da0bb9b8a675b",
+        "airflow_run_id": "trajetoria_validacao_01",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:03:34.230774+00:00"
+      }
+    ],
+    "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441",
+    "pointer_sha256": "8f4aaa89e55605af529db6dd951033d420037a7fe9d82da2c7e0936737588d28"
+  },
+  "repeat": {
+    "core_rows": 5150,
+    "core_versions": 1,
+    "mart_rows": 10,
+    "publication": {
+      "product": "p1_trajetoria_2015",
+      "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+      "run_key": "1631c7568f8f3e288966e4f2",
+      "published_at": "2026-10-10T17:11:51.045729+00:00"
+    },
+    "runs": [
+      {
+        "run_key": "1b74e49f7d99db2e7aee2954",
+        "airflow_run_id": "repositorio_migracao_01",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:11:10.862729+00:00"
+      },
+      {
+        "run_key": "7a1c651c773c99b11e38b312",
+        "airflow_run_id": "trajetoria_quarentena_1791651819041778900",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "quarantined",
+        "details": {
+          "rows": 5150,
+          "valid": false,
+          "courses": 515,
+          "invalid_scope": 0,
+          "rate_failures": 0,
+          "invalid_counts": 0,
+          "balance_failures": 0,
+          "incomplete_series": 0,
+          "forced_failure_test": true
+        },
+        "updated_at": "2026-10-10T17:05:05.539123+00:00"
+      },
+      {
+        "run_key": "80cdc5567a81860fc13f6043",
+        "airflow_run_id": "trajetoria_repeticao_1791651819041778900",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:04:19.605306+00:00"
+      },
+      {
+        "run_key": "1631c7568f8f3e288966e4f2",
+        "airflow_run_id": "trajetoria_repeticao_1791652272088115300",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:11:51.045729+00:00"
+      },
+      {
+        "run_key": "796dae6b488da0bb9b8a675b",
+        "airflow_run_id": "trajetoria_validacao_01",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:03:34.230774+00:00"
+      }
+    ],
+    "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441",
+    "pointer_sha256": "8f4aaa89e55605af529db6dd951033d420037a7fe9d82da2c7e0936737588d28"
+  },
+  "rejected": {
+    "core_rows": 5150,
+    "core_versions": 1,
+    "mart_rows": 10,
+    "publication": {
+      "product": "p1_trajetoria_2015",
+      "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+      "run_key": "1631c7568f8f3e288966e4f2",
+      "published_at": "2026-10-10T17:11:51.045729+00:00"
+    },
+    "runs": [
+      {
+        "run_key": "1b74e49f7d99db2e7aee2954",
+        "airflow_run_id": "repositorio_migracao_01",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:11:10.862729+00:00"
+      },
+      {
+        "run_key": "7a1c651c773c99b11e38b312",
+        "airflow_run_id": "trajetoria_quarentena_1791651819041778900",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "quarantined",
+        "details": {
+          "rows": 5150,
+          "valid": false,
+          "courses": 515,
+          "invalid_scope": 0,
+          "rate_failures": 0,
+          "invalid_counts": 0,
+          "balance_failures": 0,
+          "incomplete_series": 0,
+          "forced_failure_test": true
+        },
+        "updated_at": "2026-10-10T17:05:05.539123+00:00"
+      },
+      {
+        "run_key": "ebdb3bf771c8df890014c3a0",
+        "airflow_run_id": "trajetoria_quarentena_1791652272088115300",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "quarantined",
+        "details": {
+          "rows": 5150,
+          "valid": false,
+          "courses": 515,
+          "invalid_scope": 0,
+          "rate_failures": 0,
+          "invalid_counts": 0,
+          "balance_failures": 0,
+          "incomplete_series": 0,
+          "forced_failure_test": true
+        },
+        "updated_at": "2026-10-10T17:12:33.291057+00:00"
+      },
+      {
+        "run_key": "80cdc5567a81860fc13f6043",
+        "airflow_run_id": "trajetoria_repeticao_1791651819041778900",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:04:19.605306+00:00"
+      },
+      {
+        "run_key": "1631c7568f8f3e288966e4f2",
+        "airflow_run_id": "trajetoria_repeticao_1791652272088115300",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:11:51.045729+00:00"
+      },
+      {
+        "run_key": "796dae6b488da0bb9b8a675b",
+        "airflow_run_id": "trajetoria_validacao_01",
+        "version": "74668eb69fb6aab311ec0f0835e15f91ac5de21fa37cdd5bf701599eab981183",
+        "state": "published",
+        "details": {
+          "checks": {
+            "rows": 5150,
+            "valid": true,
+            "courses": 515,
+            "invalid_scope": 0,
+            "rate_failures": 0,
+            "invalid_counts": 0,
+            "balance_failures": 0,
+            "incomplete_series": 0,
+            "forced_failure_test": false
+          },
+          "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441"
+        },
+        "updated_at": "2026-10-10T17:03:34.230774+00:00"
+      }
+    ],
+    "export_sha256": "4b6dca4bfa8a865614954e6c821366a15d068f6dbc1971dfcc5f7d68042b5441",
+    "pointer_sha256": "8f4aaa89e55605af529db6dd951033d420037a7fe9d82da2c7e0936737588d28"
+  },
+  "rejection_task_states": {
+    "extrair": "success",
+    "carregar": "success",
+    "transformar": "success",
+    "conferir": "success",
+    "decidir": "success",
+    "publicar": "skipped",
+    "quarentena": "success"
+  },
+  "checks": {
+    "repeat_without_duplicates": true,
+    "export_reproducible": true,
+    "rejected_publication_preserves_previous": true
+  },
+  "scope": "MT presencial, coorte 2015, referencias 2015-2024. Falha de qualidade simulada; nao testa falha de disco ou rede."
+}

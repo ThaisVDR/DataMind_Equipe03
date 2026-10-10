@@ -1,0 +1,231 @@
+{
+  "name": "enade2025",
+  "scope": "Todas as linhas MT elegiveis da aba selecionada; apenas esta edicao",
+  "rows": 97,
+  "column_count": 20,
+  "columns": [
+    {
+      "name": "Ano",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 97
+      }
+    },
+    {
+      "name": "Código da Área",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 97
+      }
+    },
+    {
+      "name": "Área de Avaliação",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Grau Acadêmico",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Código da IES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 97
+      }
+    },
+    {
+      "name": "Nome da IES¹",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Sigla da IES ¹",
+      "blank": 1,
+      "blank_pct": 1.031,
+      "markers": {},
+      "storage_types": {
+        "str": 96
+      }
+    },
+    {
+      "name": "Organização Acadêmica ¹",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Categoria Administrativa ²",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Código do Curso",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 97
+      }
+    },
+    {
+      "name": "Modalidade de Ensino",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Código do Município",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 97
+      }
+    },
+    {
+      "name": "Município do Curso",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Sigla da UF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    },
+    {
+      "name": "Nº de Concluintes Inscritos",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 97
+      }
+    },
+    {
+      "name": "Nº de Concluintes Participantes",
+      "blank": 4,
+      "blank_pct": 4.124,
+      "markers": {},
+      "storage_types": {
+        "int": 93
+      }
+    },
+    {
+      "name": "Total de Concluinte Igual ou Acima do Padrão 1 de Proficiência",
+      "blank": 6,
+      "blank_pct": 6.186,
+      "markers": {},
+      "storage_types": {
+        "int": 91
+      }
+    },
+    {
+      "name": "Percentual de Concluintes Igual ou Acima do Padrão 1 de Proficiência",
+      "blank": 6,
+      "blank_pct": 6.186,
+      "markers": {},
+      "storage_types": {
+        "float": 79,
+        "int": 12
+      }
+    },
+    {
+      "name": "Conceito Enade (Faixa)",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {
+        "SC": 6
+      },
+      "storage_types": {
+        "int": 91,
+        "str": 6
+      }
+    },
+    {
+      "name": "CEBAS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 97
+      }
+    }
+  ],
+  "candidate_key": [
+    "Código do Curso",
+    "Ano"
+  ],
+  "duplicate_excess": 0,
+  "missing_key_rows": 0,
+  "scanned_nonempty_rows": 4950,
+  "sheet": "Conceito Enade Licenciaturas",
+  "header_row": 1,
+  "sheets": [
+    "Conceito Enade Licenciaturas",
+    "Atualizações"
+  ],
+  "original_headers": [
+    "Ano",
+    "Código da Área",
+    "Área de Avaliação",
+    "Grau Acadêmico",
+    "Código da IES",
+    "Nome da IES¹",
+    "Sigla da IES ¹",
+    "Organização Acadêmica ¹",
+    "Categoria Administrativa ²",
+    "Código do Curso",
+    "Modalidade de Ensino",
+    "Código do Município",
+    "Município do Curso",
+    "Sigla da UF",
+    "Nº de Concluintes Inscritos",
+    "Nº  de Concluintes Participantes",
+    "Total de Concluinte  Igual ou Acima do Padrão 1 de Proficiência",
+    "Percentual de Concluintes Igual ou Acima do Padrão 1 de Proficiência",
+    "Conceito Enade (Faixa)",
+    "CEBAS"
+  ],
+  "proficiency_numeric_range": [
+    0,
+    1
+  ]
+}

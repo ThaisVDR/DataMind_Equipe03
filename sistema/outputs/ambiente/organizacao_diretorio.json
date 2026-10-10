@@ -1,0 +1,817 @@
+{
+  "prepared_at_utc": "2026-10-10T17:57:53.916834+00:00",
+  "system_path": "C:\\Users\\THAIII\\DATAHCK_2026\\DataMind\\sistema",
+  "sources_path": "C:\\Users\\THAIII\\DATAHCK_2026\\DataMind\\Fonte de Dados",
+  "source_files_copied": 159,
+  "source_bytes": 2116188493,
+  "source_hashes_verified": true,
+  "runtime_intermediates_copied": false,
+  "services_started": false,
+  "files": [
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001/DataHack_01_Trajetorias_2015_2020 (2)/DataHack_Rota_do_Diploma_Dados/INEP/01_trajetoria/indicadores_trajetoria_es_2015_2024.zip",
+      "bytes": 78467594,
+      "sha256": "14e6ff92cc9e904c89499b457bc243ee86675638bcbbe57e9f6f7a220ce2f798"
+    },
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001/DataHack_01_Trajetorias_2015_2020 (2)/DataHack_Rota_do_Diploma_Dados/INEP/01_trajetoria/indicadores_trajetoria_es_2016_2024.zip",
+      "bytes": 75203314,
+      "sha256": "fcc9f785b1ebecd17f2a75af57e0ef5c45863915ebc4e8796ac89ac3f214397f"
+    },
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001/DataHack_01_Trajetorias_2015_2020 (2)/DataHack_Rota_do_Diploma_Dados/INEP/01_trajetoria/indicadores_trajetoria_es_2017_2024.zip",
+      "bytes": 71826778,
+      "sha256": "90130f61e9ffb7903456c841d5daf69aec5f7a854726cd26e42022647f9b0540"
+    },
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001/DataHack_01_Trajetorias_2015_2020 (2)/DataHack_Rota_do_Diploma_Dados/INEP/01_trajetoria/indicadores_trajetoria_es_2018_2024.zip",
+      "bytes": 67809928,
+      "sha256": "44075a164340fda53fb080f9f00eeba8f5bd9bcb8397c0fe4ac801df72758f0b"
+    },
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001/DataHack_01_Trajetorias_2015_2020 (2)/DataHack_Rota_do_Diploma_Dados/INEP/01_trajetoria/indicadores_trajetoria_es_2019_2024.zip",
+      "bytes": 61982303,
+      "sha256": "a443cd5c28e38f317130c41381d8c82fad0c33912e292f1900e39bc9abce9eb0"
+    },
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001/DataHack_01_Trajetorias_2015_2020 (2)/DataHack_Rota_do_Diploma_Dados/INEP/01_trajetoria/indicadores_trajetoria_es_2020_2024.zip",
+      "bytes": 53084022,
+      "sha256": "dbdc6793f74f8623ac7d5e1e3202d58e3b63e11d040b84f6be533c0bf97c1d04"
+    },
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001/DataHack_01_Trajetorias_2015_2020 (2)/DataHack_Rota_do_Diploma_Dados/LEIA_ME_PARTES.txt",
+      "bytes": 1279,
+      "sha256": "3ca2a4ddea151f9fdce61ac2d572deac7c4e7d31344bd6c12b55fae09daf90da"
+    },
+    {
+      "path": "DataHack_01_Trajetorias_2015_2020 (2)-20261010T171830Z-1-001.zip",
+      "bytes": 408451162,
+      "sha256": "7ec0dbe11505a9469c71a422f9ae8b3db62c08ec4bab85c4e72646f93692a388"
+    },
+    {
+      "path": "DataHack_02_Censo_Superior_2024 (1)-20261010T172205Z-1-001/DataHack_02_Censo_Superior_2024 (1)/DataHack_Rota_do_Diploma_Dados/LEIA_ME_PARTES.txt",
+      "bytes": 1279,
+      "sha256": "3ca2a4ddea151f9fdce61ac2d572deac7c4e7d31344bd6c12b55fae09daf90da"
+    },
+    {
+      "path": "DataHack_02_Censo_Superior_2024 (1)-20261010T172205Z-1-001.zip",
+      "bytes": 456879014,
+      "sha256": "b112d37516411b62162688950a4f50c617fea6dbbc2e7030d610aa0ba2db26f2"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/catalogo_conteudo_inep.csv",
+      "bytes": 14102,
+      "sha256": "f54c787be4d2e64ff39f5da0e3239427849de304c2a8e985a7fe2954ee9512e3"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/catalogo_fontes.csv",
+      "bytes": 74823,
+      "sha256": "9466876d1e847475617b9db761ad442434041a392ac65e55484a9974c216b233"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/fontes_solicitadas.txt",
+      "bytes": 4415,
+      "sha256": "e5983acb528ce7223fdedf682db3498cb886875b4157f508e3165c455aeee383"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/municipios_mt_atual.json",
+      "bytes": 64818,
+      "sha256": "6a5506b41f96b2aa1dbab29a85c235d8550dfef95a484d37605db23a9645a9e4"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/localidades_mt.json",
+      "bytes": 17679,
+      "sha256": "aaa9ed5e36a07ef480c6ac4890db999450cd2b06d7b14fcb23c773c8c262d434"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/localidades_n6_original.json",
+      "bytes": 440700,
+      "sha256": "7f24e3ef551a6446bdfcbf976160e81bc34a9d427140b5d894ebe58421615372"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/metadados.json",
+      "bytes": 2969,
+      "sha256": "b56727c36aff91f06a8062a7feec77b22c9cbc2e6604518a91a424493dad7946"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/pagina_sidra.html",
+      "bytes": 91200,
+      "sha256": "749048d683c93a9be708b1fb39e9efdbb5af26d6342bec3e857ccfece23284e3"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/periodos.json",
+      "bytes": 62,
+      "sha256": "8268e55575e171cdeab8108cc1362474b744e1bfdda54987e4d5d92c627f3dd0"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/respostas_api/mt_municipios_lote_001.json",
+      "bytes": 5058812,
+      "sha256": "e77f1a9ab28c5427c4da06d74abe3617208a190fad1f38f2f0adc3f9639b91ee"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/respostas_api/mt_municipios_lote_002.json",
+      "bytes": 5187254,
+      "sha256": "62d253eefddf216e213b906cda56ab1e5ae7b6a3c8bd07235969f454552a2bea"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/respostas_api/mt_municipios_lote_003.json",
+      "bytes": 198077,
+      "sha256": "4c3c441a8ed1aed6874217c08f81043628cc2c39630f7d19ba35ee65b49d4d8a"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/respostas_api/mt_uf.json",
+      "bytes": 197349,
+      "sha256": "37ced11189e1c601bcb10ef7ae76ea2b07c4370845368720e956c79a1f516940"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/resumo_exportacao.json",
+      "bytes": 2839,
+      "sha256": "2314bd3d8b21eab5062a9559c7ac2f6a78b12bd11cccb2b23a86cb5a57b48ba6"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10056/tabela_10056_mt.csv",
+      "bytes": 10175062,
+      "sha256": "2ad242ee0b622c029843e483c7767410e92a826472388b425b9cdfdef59ef2b6"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/localidades_mt.json",
+      "bytes": 17679,
+      "sha256": "aaa9ed5e36a07ef480c6ac4890db999450cd2b06d7b14fcb23c773c8c262d434"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/localidades_n6_original.json",
+      "bytes": 440700,
+      "sha256": "7f24e3ef551a6446bdfcbf976160e81bc34a9d427140b5d894ebe58421615372"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/metadados.json",
+      "bytes": 2879,
+      "sha256": "4fc9365dc9c0535f25fc4a14289495c91c08e5ff9540796950bbc824ae35ad57"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/pagina_sidra.html",
+      "bytes": 91248,
+      "sha256": "f891957db20cdfc9f175c7977ea498a7d01d7022a22d6645f4b72e5bc8f95945"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/periodos.json",
+      "bytes": 62,
+      "sha256": "8268e55575e171cdeab8108cc1362474b744e1bfdda54987e4d5d92c627f3dd0"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_001_a.json",
+      "bytes": 5092360,
+      "sha256": "b6b9c82aba2b6eb761e0f75fba0b752180d5f736046d43e821fe3547673c00dc"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_001_b.json",
+      "bytes": 5580174,
+      "sha256": "51735aa0d225aed510c600c4b07388a7d3a585c776b1ba883fe106bae27b9d2c"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_002_a.json",
+      "bytes": 5138054,
+      "sha256": "b3cbbca1041b2f671df40de783feee3988290e1954ba4075c53bb8057a68c244"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_002_b.json",
+      "bytes": 5496491,
+      "sha256": "984ea5632a7e752c896b09336ada792531b44ac564a2b50ec0ddcc10c681a4b5"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_003_a.json",
+      "bytes": 5146601,
+      "sha256": "28f6414aaf08c6cfe69940ffa61bec3263f5506ab203159e7965ac519a859926"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_003_b.json",
+      "bytes": 5465559,
+      "sha256": "76cbbd6017189b2e1e37860cc04c55c901bd25cbc4b3289d72285287f0165778"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_004_a.json",
+      "bytes": 5134190,
+      "sha256": "bc66bcd24d8f8bd625a32ef91d3f66d270f7e01b74220da4156962dd02a57772"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_004_b.json",
+      "bytes": 5628411,
+      "sha256": "ef9ddae8fcaa7e51c893d840dab59f06e2a6c33a1dec1dcbf8cabdbfd4f0104b"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_005_a.json",
+      "bytes": 5191898,
+      "sha256": "b13b48d0c19e4ea40029318d8210d288490ea1280d7dbf1905e54a2de2ace570"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_005_b.json",
+      "bytes": 5654535,
+      "sha256": "a2bc679ba75484f623932d5b711e2fc1bb1b86142c511b84be3ae49987991ae8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_006_a.json",
+      "bytes": 5272352,
+      "sha256": "eb2548b49401eefe6bfbf9572d50c3083353b768710b2e88b06d537e501475ea"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_006_b.json",
+      "bytes": 5657809,
+      "sha256": "8e9482bf8032df23c5e3dad7619922257b5534003fdfe8b7a7fca5bfa8ecccd9"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_007_a.json",
+      "bytes": 5311618,
+      "sha256": "143d0a0691e93369f14591509964b4c7e70b25bb933611996264b3f41fc71845"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_007_b.json",
+      "bytes": 5519308,
+      "sha256": "8db60787351e66cb3c86a8f75bf3122dcbd9dd3d50c19c6617a5687e01fcf6d8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_municipios_lote_008.json",
+      "bytes": 4711247,
+      "sha256": "6071b88e75ec8f7781e03c739faa1181261ec93e49203ea895c69c6cdbaeead8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/respostas_api/mt_uf.json",
+      "bytes": 1654913,
+      "sha256": "b1823287bad03a5df0723b845204dcb7d4fdc52387fb070dbd36cccaeb73daf4"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/resumo_exportacao.json",
+      "bytes": 2881,
+      "sha256": "602b768397b7ae79847d764872c1bbfa394b3b7f233671fc6f508ff50d2249bc"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10059/tabela_10059_mt.csv",
+      "bytes": 105242134,
+      "sha256": "002269d4d6c02a781a73d01220b90a79e39028d6a0c63eecaa9021eea0f8400b"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/localidades_mt.json",
+      "bytes": 17679,
+      "sha256": "aaa9ed5e36a07ef480c6ac4890db999450cd2b06d7b14fcb23c773c8c262d434"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/localidades_n6_original.json",
+      "bytes": 440700,
+      "sha256": "7f24e3ef551a6446bdfcbf976160e81bc34a9d427140b5d894ebe58421615372"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/metadados.json",
+      "bytes": 2996,
+      "sha256": "173d5bf4e0b54b9980ce87eccf6eef9c76dd44416e6f1cb0bce981b7a7161927"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/pagina_sidra.html",
+      "bytes": 91237,
+      "sha256": "11f9acff33d52ccff88872c66c5c7a3b13863e449d71f2b706db9e650a92bc1c"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/periodos.json",
+      "bytes": 62,
+      "sha256": "8268e55575e171cdeab8108cc1362474b744e1bfdda54987e4d5d92c627f3dd0"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_001_a.json",
+      "bytes": 5217421,
+      "sha256": "b8c09df9efeb0ef6279ae0bc385bddff4ed8f0956717d09d6764b0756820febf"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_001_b.json",
+      "bytes": 5273127,
+      "sha256": "42ee0e8b4c7d9a4ab278d2e6fbd4d780c3d4cc1d762f106464bd5516ef466a34"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_002_a.json",
+      "bytes": 5301332,
+      "sha256": "2a35b54b7b7aaf7c7bb8e069af9ac6e716d88a18306215ec192760aaf5209ab8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_002_b.json",
+      "bytes": 5155989,
+      "sha256": "5c97303754da05200eb1bf1f09a5a6617617fd183c526082def8cd7e0d37fb88"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_003_a.json",
+      "bytes": 5299770,
+      "sha256": "13e017bd6b5cc7271f17093baf2279c3a8007d3adcb71690a364741d7110bfe8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_003_b.json",
+      "bytes": 5104327,
+      "sha256": "7a00d13f0c15c2a338538cc9c90a71def4b128590a1ed7a65d2897ee4741bf4d"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_004_a.json",
+      "bytes": 5301395,
+      "sha256": "246314c38f4e768c1b8555b33dedd28299089b5d3a37022961f1065aa9a89b60"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_004_b.json",
+      "bytes": 5372044,
+      "sha256": "b62ccf47140c8f4d69b5af4ab6839bdd24d826adb2d87de103fee6c41f1c5f63"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_005_a.json",
+      "bytes": 5345302,
+      "sha256": "69258b210f32666f1130278fb2bc094d295f90be2cba82df7a8695472962c681"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_005_b.json",
+      "bytes": 5342235,
+      "sha256": "99b0201484b4103417b67c3ae885b3b37b64ead1dc4f1c162814b4c3ea286cb4"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_006_a.json",
+      "bytes": 5400166,
+      "sha256": "2989d4f41031c98efe2c46620ac83d765c644ac32642cb8d7a80ca418ac1aa3b"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_006_b.json",
+      "bytes": 5410449,
+      "sha256": "ace047cc53080b0aaae06e83ca759617090700855c78c4d2199d0a1cff7f39b8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_007_a.json",
+      "bytes": 5312741,
+      "sha256": "befa886a73e0838d0cf792ff35c6a95273916cfbc7b20850a54801c44dc88e55"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_007_b.json",
+      "bytes": 5237038,
+      "sha256": "1c29a0b19a9ba8c6508e74dc7502d9cf06e7c67984072823dfaa8d8b0b81c640"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_municipios_lote_008.json",
+      "bytes": 1521236,
+      "sha256": "b39b5da26ac638d3c2c6e62f07b5f657bbc7eecead5e669e1cef96c8588dcca9"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/respostas_api/mt_uf.json",
+      "bytes": 1517363,
+      "sha256": "82e62d4a362f2bec227191200ef68e60c86ccf974662acf6752f3e083a278d58"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/resumo_exportacao.json",
+      "bytes": 2879,
+      "sha256": "2af6c318dacfd9141a7bd48ef76e569f214f386f2d67638251a33ac08f69569a"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10061/tabela_10061_mt.csv",
+      "bytes": 90925619,
+      "sha256": "bfb2b1c79e1f51ec7c52becacb007af08bab6a841836773e22d35672bcf9fded"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/localidades_mt.json",
+      "bytes": 17679,
+      "sha256": "aaa9ed5e36a07ef480c6ac4890db999450cd2b06d7b14fcb23c773c8c262d434"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/localidades_n6_original.json",
+      "bytes": 440700,
+      "sha256": "7f24e3ef551a6446bdfcbf976160e81bc34a9d427140b5d894ebe58421615372"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/metadados.json",
+      "bytes": 2814,
+      "sha256": "5af107df6ef16414b82854b1039d5d88dc50527ed353102c06f2c32bfdf8ce64"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/pagina_sidra.html",
+      "bytes": 91424,
+      "sha256": "ca19d2dd488da119aed15375fdbe2903fdf40854dc053e07a946e3f1858ea250"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/periodos.json",
+      "bytes": 62,
+      "sha256": "ce00b502c116e0a10b19223c85b1afd2fb95e0f20f7d0e8b009d43f3c57940b9"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/respostas_api/mt_municipios_lote_001.json",
+      "bytes": 3790130,
+      "sha256": "c8d2ae6230281394502a26099830ca50a53c5efeb7519a7c0b3cbe6db2dffea7"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/respostas_api/mt_municipios_lote_002.json",
+      "bytes": 3886437,
+      "sha256": "0f852de486f8599aaa0d5f4e0d1eb33e4484c4e18591e9b344a5973392d315bf"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/respostas_api/mt_municipios_lote_003.json",
+      "bytes": 176914,
+      "sha256": "69781fda1418cec83359cdcc2c2dde28a9d794fb1b893378770b9fd3fe159f45"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/respostas_api/mt_uf.json",
+      "bytes": 176419,
+      "sha256": "8d8aa64fe9fdbe2587aa90d85599e04505be0ad1f80871a1fef5301ee0633b5b"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/resumo_exportacao.json",
+      "bytes": 2878,
+      "sha256": "86671db655ed33814b9eb981531a79c6547fc3711c33bd238eee5de3d6f04110"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_10296/tabela_10296_mt.csv",
+      "bytes": 19889616,
+      "sha256": "98704c1b9aded96c6657a5b41eda4520515a4bac591377b465bc60c589f00ec5"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/localidades_mt.json",
+      "bytes": 17679,
+      "sha256": "aaa9ed5e36a07ef480c6ac4890db999450cd2b06d7b14fcb23c773c8c262d434"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/localidades_n6_original.json",
+      "bytes": 440700,
+      "sha256": "7f24e3ef551a6446bdfcbf976160e81bc34a9d427140b5d894ebe58421615372"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/metadados.json",
+      "bytes": 12058,
+      "sha256": "095d618c940e99bf0bae617cb1e5b081da2394fa1dbd16c00cd44f805cdb35a4"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/pagina_sidra.html",
+      "bytes": 91378,
+      "sha256": "8fdc221ee8b0ef4b22b4a5691bcad3eb841b755c581d4b51d13660e6a6b0c9b8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/periodos.json",
+      "bytes": 1343,
+      "sha256": "bfa2b3bb4410fc81f5d6509401f889572f75d578f3ea16750a20f7c43e060381"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/respostas_api/mt_municipios_lote_001_a.json",
+      "bytes": 673132,
+      "sha256": "dcb03a473c5d450d160289a521b2fce0f72e2617b93feff67bd881abf34dfedf"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/respostas_api/mt_municipios_lote_001_b.json",
+      "bytes": 690581,
+      "sha256": "aff78256308c2c77c7e46a36172ee46556ab16633c43c02ff46721604a99e7c7"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/respostas_api/mt_municipios_lote_002_a.json",
+      "bytes": 676832,
+      "sha256": "5b6c386ed146ea73149fb4dc88f2b580c2824f35d00e30ec5a54cfae2273343f"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/respostas_api/mt_municipios_lote_002_b.json",
+      "bytes": 694904,
+      "sha256": "f7a8d66e260ef4188cba4413d9240e9883e62ee8c998fa9d15b5887ecafe4933"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/respostas_api/mt_municipios_lote_003.json",
+      "bytes": 70895,
+      "sha256": "ae602fa4d469a0bb3781b1795aaeb227322352650ca1369b06d079da26d48aa6"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/respostas_api/mt_uf.json",
+      "bytes": 30898,
+      "sha256": "1357760d16abb76854a414d6b030c56ba31473a34fc0d47e869743dc89cb709f"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/resumo_exportacao.json",
+      "bytes": 4358,
+      "sha256": "83b458c435db2fbb8e4f1c5679793cd3fd2bbd2733eb5b050a7252d7014562b8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_5938/tabela_5938_mt.csv",
+      "bytes": 33213980,
+      "sha256": "0d1ffa2a90ce96ce3353bab903e707c980fb5bd44c5d9f8593351e965432c92a"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/localidades_mt.json",
+      "bytes": 17814,
+      "sha256": "137c26c0210f232a5e0b3cc119796be3681442c9c430536eed30d6083895f610"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/localidades_n6_original.json",
+      "bytes": 440790,
+      "sha256": "8b3ed6feacb46fe2617923ab033d0a2cab8c2bfdcfb4c568a2727e6a2ece32dc"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/metadados.json",
+      "bytes": 444,
+      "sha256": "6172ae800a704ad21cfd4f8ae55c2864ef688d172aa305341e84b3964cf45962"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/pagina_sidra.html",
+      "bytes": 91140,
+      "sha256": "eab85a1c89ce35cd0e3c1585d015d0c33ea0dd2e0b3e7dab487fb8b0aa868524"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/periodos.json",
+      "bytes": 1343,
+      "sha256": "a64fcf07c29f10eb88b3abe3ed4b67addf6900ad0525988b8f8b84fe4664c2e2"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/respostas_api/mt_municipios_lote_001.json",
+      "bytes": 30163,
+      "sha256": "b65a1986a8d14c7812ec49efe99edb8d67ea7e9125657a784a8bf79fa4fb3625"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/respostas_api/mt_municipios_lote_002.json",
+      "bytes": 30277,
+      "sha256": "375120c720238e4a2c2e66853c0e51199e7124ff845b205217a1b7dcdf8a8c6d"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/respostas_api/mt_municipios_lote_003.json",
+      "bytes": 966,
+      "sha256": "64f8041f6ac2bab4cf1fb9c9d5df60b1c346fb4dabea24a6cae716b8cba2766d"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/respostas_api/mt_uf.json",
+      "bytes": 611,
+      "sha256": "d865247646af0d21a2681d37cd1c9c86712e13a2ae86d1b394653856f695f984"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/resumo_exportacao.json",
+      "bytes": 3103,
+      "sha256": "d4f1bd0d4842d50554e1b1b3244b1f65a8630f2281189cff191172c182ddfc4d"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_6579/tabela_6579_mt.csv",
+      "bytes": 286019,
+      "sha256": "56b6a769606dfd03e4da2a22deab26c138d8057e0de5160596a9536a1743a00d"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/localidades_mt.json",
+      "bytes": 17679,
+      "sha256": "aaa9ed5e36a07ef480c6ac4890db999450cd2b06d7b14fcb23c773c8c262d434"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/localidades_n6_original.json",
+      "bytes": 440700,
+      "sha256": "7f24e3ef551a6446bdfcbf976160e81bc34a9d427140b5d894ebe58421615372"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/metadados.json",
+      "bytes": 8542,
+      "sha256": "1d049151ee97b2f42705a7a53cead75fbe2cc6e63f528cafe548655823a6e911"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/pagina_sidra.html",
+      "bytes": 91189,
+      "sha256": "5501a9001c5f190a48b1a45015a3cb32afab680a07098f172e41c9dd734fe5c1"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/periodos.json",
+      "bytes": 62,
+      "sha256": "729eb06d247a62403db60318ecc78d3ac89a073ee3331541683b285868ad7ffb"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_001_a.json",
+      "bytes": 4643521,
+      "sha256": "b685a83ed74349ae9ff49a89a853edb5a46434e3acfd6153b38e3e42ccd1bd74"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_001_b.json",
+      "bytes": 5066024,
+      "sha256": "1e5b595958eb84620f2fa93a01b77d86ed0fba9cfb7daa0f82337726ad2f61d0"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_002_a.json",
+      "bytes": 4599224,
+      "sha256": "a98a20aba34e3ae6a513172597e96acd3fe88c2f33d14481cbdffa79cfa6e0f1"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_002_b.json",
+      "bytes": 4955599,
+      "sha256": "ade91fdec8cbf6aada673676ec51c2741be5a7372181b8a5448acdc298537ce2"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_003_a.json",
+      "bytes": 4746106,
+      "sha256": "6f5d8b953da79bea6792bda39bf593f3e5cd3f165f845eca257fe2d3b7392aa7"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_003_b.json",
+      "bytes": 5066257,
+      "sha256": "6bf5fae96c5222fdb11fc5ba6b2ea8436c1e01f61507dcbdd6dde678b710c93e"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_004_a.json",
+      "bytes": 4772222,
+      "sha256": "be1cc596ee12caecaeaa5a9a2af359e4e2a1c6b32d9b391a31a208da2552c4ba"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_004_b.json",
+      "bytes": 5146266,
+      "sha256": "6f6f2af62534944bb9c1c13732742ff80a64dbac79b5ccb9401307b93a20277d"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_005_a.json",
+      "bytes": 4197995,
+      "sha256": "2768c257bd65f98f685bd42a9f8d9364603d43f75c8d21aa5278932bf40a6e5b"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_municipios_lote_005_b.json",
+      "bytes": 4398861,
+      "sha256": "578e1381b6be90f278dcfac75752cbbe7de6e470ea1848c9b5b7cff462d4731f"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/respostas_api/mt_uf.json",
+      "bytes": 868336,
+      "sha256": "864b4d22f9af025cade19116cbf3bd4f9a26af10dd9b8a9d91be2a1c86ee6392"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/resumo_exportacao.json",
+      "bytes": 2872,
+      "sha256": "86d1eda614f7ab82970ff7cc9e5f1552c275e299cda49da50cd03f20d6e2797c"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/IBGE/tabela_9514/tabela_9514_mt.csv",
+      "bytes": 47906416,
+      "sha256": "3a836cf0b30660e4919dfb815f5780e9904c366a5630f0e1afac5a0f3acfa5e2"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/02_censo_superior/2021/microdados_censo_da_educacao_superior_2021.zip",
+      "bytes": 26554655,
+      "sha256": "75e9c5dfd9ab205cd59f113098e5e225dabd915819afa509be7cc20b763ce06c"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/02_censo_superior/2022/microdados_censo_da_educacao_superior_2022.zip",
+      "bytes": 33161794,
+      "sha256": "f30830c26956a3575c3786634e51c9a643faa3907f5f895c8c326386ff1df6e8"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/02_censo_superior/2023/microdados_censo_da_educacao_superior_2023.zip",
+      "bytes": 38411202,
+      "sha256": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/03_cpc/2021/CPC_2021.ods",
+      "bytes": 2862239,
+      "sha256": "28d5e123d38dd962d3db154ad9ca68d22f41222f5fe330d3e42b52bfb61d47dc"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/03_cpc/2021/CPC_2021.xlsx",
+      "bytes": 2123142,
+      "sha256": "430a174e959968a8716c1af8076936b8088821e22cc9880fd9b532b2a90654b2"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/03_cpc/2022/cpc_2022.ods",
+      "bytes": 3900605,
+      "sha256": "8a1447b3ce927e4f542ffcec9ec1a988903658a6f9c8cb7e9ad4514873781f83"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/03_cpc/2022/cpc_2022.xlsx",
+      "bytes": 3048855,
+      "sha256": "1243a2b8d132165a0fdd758d5d02e84815251dc667ccbcf796bb3c4d6657d8eb"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/03_cpc/2023/CPC_2023.ods",
+      "bytes": 3868454,
+      "sha256": "d43be37578c4383952da4853820e5c1aadf2f6a50aff987ec22e6183fe41ceb6"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/03_cpc/2023/CPC_2023.xlsx",
+      "bytes": 3080363,
+      "sha256": "5bf616a7dd56445796f606c080c0462488418274db2828604b8bc39eedd71c3f"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/04_conceito_enade/2021/conceito_enade_2021.ods",
+      "bytes": 1456326,
+      "sha256": "9472444c3b585eca3f239a7667ab8feb081625a188e9657c247e30e35b2e8e6a"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/04_conceito_enade/2021/conceito_enade_2021.xlsx",
+      "bytes": 1661490,
+      "sha256": "582b31861bdeee590c5ca73671d76700fdfc837320286c540f7502604a075540"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/04_conceito_enade/2022/conceito_enade_2022.ods",
+      "bytes": 1645628,
+      "sha256": "d5369d6fe6fd76c0e97c4b86c236580e723c6cfdee2b367a7d903f65311df8ff"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/04_conceito_enade/2022/conceito_enade_2022.xlsx",
+      "bytes": 1380410,
+      "sha256": "2e764fd410232fb95ac0e56860a1383f3b29f864a1f829fdd077c110d6e840e3"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/04_conceito_enade/2023/conceito_enade_2023.ods",
+      "bytes": 1760746,
+      "sha256": "d5e5b33d0d03dc92c7a968d6f835eaaa270e063919319eabe04de13d06d7943c"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/04_conceito_enade/2023/conceito_enade_2023.xlsx",
+      "bytes": 1501706,
+      "sha256": "cdb138c0154350da883f0e4535d5b2b999b14d87d16c12406e9814cec0915033"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/05_idd/2021/IDD_2021.ods",
+      "bytes": 1289431,
+      "sha256": "ef15a881239d0ed7b71a3f63d44c62ea89f0884e0d46ff651b961ce3a302134b"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/05_idd/2021/IDD_2021.xlsx",
+      "bytes": 1069572,
+      "sha256": "72113a2972247df37f9f15bc210b45bb882cad5ace99670f53507fe1398a2339"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/05_idd/2022/idd_2022.ods",
+      "bytes": 1377982,
+      "sha256": "9acba32f238bc65c92b708c7b707533e9734714963e3154784af7308903840ff"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/05_idd/2022/idd_2022.xlsx",
+      "bytes": 1238141,
+      "sha256": "a0fe496c79c6a57d955882b810e1c1103bf4272c80dd0e1537a78f0e94bf431f"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/05_idd/2023/IDD_2023.ods",
+      "bytes": 1569066,
+      "sha256": "734aa13729119cdfae4429b4750e389f74fb5d71221e801e9881b694b703f788"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/05_idd/2023/IDD_2023.xlsx",
+      "bytes": 1405244,
+      "sha256": "1253c8c9cdf84476783d366b48373a29d457a566167a481d14a05ddf643156fe"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/06_igc/2021/IGC_2021.ods",
+      "bytes": 1182439,
+      "sha256": "b9c6b44995844083db35ef03b5a2bb2751dc52a44bc8f97449875352249d19b2"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/06_igc/2021/IGC_2021.xlsx",
+      "bytes": 1132449,
+      "sha256": "651e0a0d0ed2b387118249ecc78454932c618d9ec2381c39ed5e04cdaa14040e"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/06_igc/2022/igc_2022.ods",
+      "bytes": 1019099,
+      "sha256": "0db3da3f9b8f0b4cf1effbd9e318891e9d5c41e80821ba397f3e0a7f5823da11"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/06_igc/2022/igc_2022.xlsx",
+      "bytes": 1056237,
+      "sha256": "6273731e9991bc71f048fa4557594ea7894a0820efdfa700f306f28d25befdda"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/06_igc/2023/IGC_2023.ods",
+      "bytes": 1810804,
+      "sha256": "d405af65e4c202465f4c70e45b04ffd30b422d05c1d9215f7a5cb0bd762b30c5"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/06_igc/2023/IGC_2023.xlsx",
+      "bytes": 1868751,
+      "sha256": "92cd8f702e0e92f6d616e7b4bbf879e1c24b749392b05bc7ad149e00d80b4003"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/07_enade_2025/conceito_enade_licenciaturas.ods",
+      "bytes": 673461,
+      "sha256": "32cf8fbbd04b73613ab2509f8b24c2e3a456189dec09794ecd836f7b58d8be36"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/07_enade_2025/conceito_enade_licenciaturas.xlsx",
+      "bytes": 546797,
+      "sha256": "12e73c0603d388711f914dae9d8e3ea15b46aa56fde2a11b4634baa9e8417911"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/07_enade_2025/conceito_enade_medicina_2025.ods",
+      "bytes": 58157,
+      "sha256": "b422cf05a7280b9674a7ff4e4fa16136c2ff6b6737d48ae462611306213a96ed"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/INEP/07_enade_2025/conceito_enade_medicina_2025.xlsx",
+      "bytes": 57019,
+      "sha256": "ef2843f31bc14f40cc8f1800fb51a9c0b8ce04f61286a6e91ce3b6dc4473b185"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/LEIA_ME.md",
+      "bytes": 6379,
+      "sha256": "d49813a093f16cf27f4d3e7de0c024b2804aec577c9653f10026e81c5364bcbe"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/LEIA_ME_PARTES.txt",
+      "bytes": 1279,
+      "sha256": "3ca2a4ddea151f9fdce61ac2d572deac7c4e7d31344bd6c12b55fae09daf90da"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001/DataHack_03_Demais_Bases_e_IBGE_MT/DataHack_Rota_do_Diploma_Dados/manifesto_arquivos.json",
+      "bytes": 29002,
+      "sha256": "5237f3fe7b878b397237ad2c8cded0eb787d122f6236c74651268066673f0110"
+    },
+    {
+      "path": "DataHack_03_Demais_Bases_e_IBGE_MT-20261010T172243Z-1-001.zip",
+      "bytes": 158172173,
+      "sha256": "15621f069750ecc13fbd27d743cbf3cb829ba1c8ad951d9c7f961163450319d6"
+    }
+  ],
+  "checks": {
+    "compose_valid": true,
+    "mounts_valid": true,
+    "python_syntax_valid": true,
+    "etl_code_unchanged": true,
+    "credentials_preserved": true,
+    "docker_volumes_present": true,
+    "all_services_stopped": true,
+    "live_execution_in_new_directory": false
+  }
+}

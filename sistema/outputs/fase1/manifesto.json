@@ -1,0 +1,42 @@
+[
+  {
+    "key": "trajetoria2015",
+    "name": "indicadores_trajetoria_es_2015_2024.zip",
+    "path": "data\\raw\\indicadores_trajetoria_es_2015_2024.zip",
+    "source": "https://drive.google.com/file/d/1zhwIuX_hnXaD6SW6vufNPWUlVTE8AnXd/view",
+    "bytes": 78467594,
+    "sha256": "14e6ff92cc9e904c89499b457bc243ee86675638bcbbe57e9f6f7a220ce2f798"
+  },
+  {
+    "key": "censo2021",
+    "name": "microdados_censo_da_educacao_superior_2021.zip",
+    "path": "data\\raw\\microdados_censo_da_educacao_superior_2021.zip",
+    "source": "https://drive.google.com/file/d/1A99xGuA5qb68-krGE5K2HOX7UQLJqeGU/view",
+    "bytes": 26554655,
+    "sha256": "75e9c5dfd9ab205cd59f113098e5e225dabd915819afa509be7cc20b763ce06c"
+  },
+  {
+    "key": "cpc2021",
+    "name": "CPC_2021.xlsx",
+    "path": "data\\raw\\CPC_2021.xlsx",
+    "source": "https://drive.google.com/file/d/1yIKUytM8Fkxkr2QwD0j8tyI0Rpioj97L/view",
+    "bytes": 2123142,
+    "sha256": "430a174e959968a8716c1af8076936b8088821e22cc9880fd9b532b2a90654b2"
+  },
+  {
+    "key": "enade2025",
+    "name": "conceito_enade_licenciaturas.xlsx",
+    "path": "data\\raw\\conceito_enade_licenciaturas.xlsx",
+    "source": "https://drive.google.com/file/d/1jhnpt4_FVC065C1Yba6wxWta67rqnXJt/view",
+    "bytes": 546797,
+    "sha256": "12e73c0603d388711f914dae9d8e3ea15b46aa56fde2a11b4634baa9e8417911"
+  },
+  {
+    "key": "ibge9514",
+    "name": "mt_uf.json",
+    "path": "data\\raw\\mt_uf.json",
+    "source": "https://drive.google.com/file/d/1kw8Dujggewx879phwE6gmi7MzHq37fEF/view",
+    "bytes": 868336,
+    "sha256": "864b4d22f9af025cade19116cbf3bd4f9a26af10dd9b8a9d91be2a1c86ee6392"
+  }
+]

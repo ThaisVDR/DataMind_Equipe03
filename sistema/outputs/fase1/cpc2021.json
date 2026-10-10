@@ -1,0 +1,446 @@
+{
+  "name": "cpc2021",
+  "scope": "Todas as linhas MT elegiveis da aba selecionada; apenas esta edicao",
+  "rows": 155,
+  "column_count": 40,
+  "columns": [
+    {
+      "name": "Ano",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Código da Área",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Área de Avaliação",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Grau acadêmico",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Código da IES*",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Nome da IES*",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Sigla da IES*",
+      "blank": 13,
+      "blank_pct": 8.387,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Organização Acadêmica*",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Categoria Administrativa*",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Código do Curso**",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Modalidade de Ensino***",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Código do Município***",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Município do Curso***",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Sigla da UF**",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Nº de Concluintes Inscritos",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Nº de Concluintes Participantes",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Nota Bruta - FG",
+      "blank": 6,
+      "blank_pct": 3.871,
+      "markers": {},
+      "storage_types": {
+        "float": 148,
+        "int": 1
+      }
+    },
+    {
+      "name": "Nota Padronizada - FG",
+      "blank": 6,
+      "blank_pct": 3.871,
+      "markers": {},
+      "storage_types": {
+        "int": 4,
+        "float": 145
+      }
+    },
+    {
+      "name": "Nota Bruta - CE",
+      "blank": 6,
+      "blank_pct": 3.871,
+      "markers": {},
+      "storage_types": {
+        "float": 147,
+        "int": 2
+      }
+    },
+    {
+      "name": "Nota Padronizada - CE",
+      "blank": 6,
+      "blank_pct": 3.871,
+      "markers": {},
+      "storage_types": {
+        "float": 148,
+        "int": 1
+      }
+    },
+    {
+      "name": "Conceito Enade (Contínuo)",
+      "blank": 6,
+      "blank_pct": 3.871,
+      "markers": {},
+      "storage_types": {
+        "float": 149
+      }
+    },
+    {
+      "name": "Concluintes participantes com nota no Enem",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 155
+      }
+    },
+    {
+      "name": "Proporção de concluintes participantes com nota no Enem",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 42,
+        "float": 113
+      }
+    },
+    {
+      "name": "Nota Bruta - IDD",
+      "blank": 17,
+      "blank_pct": 10.968,
+      "markers": {},
+      "storage_types": {
+        "float": 138
+      }
+    },
+    {
+      "name": "Nota Padronizada - IDD",
+      "blank": 17,
+      "blank_pct": 10.968,
+      "markers": {},
+      "storage_types": {
+        "float": 132,
+        "int": 6
+      }
+    },
+    {
+      "name": "Nota Bruta – Organização Didático-Pedagógica",
+      "blank": 4,
+      "blank_pct": 2.581,
+      "markers": {},
+      "storage_types": {
+        "float": 150,
+        "int": 1
+      }
+    },
+    {
+      "name": "Nota Padronizada - Organização Didático-Pedagógica",
+      "blank": 4,
+      "blank_pct": 2.581,
+      "markers": {},
+      "storage_types": {
+        "float": 147,
+        "int": 4
+      }
+    },
+    {
+      "name": "Nota Bruta – Infraestrutura e Instalações Físicas",
+      "blank": 4,
+      "blank_pct": 2.581,
+      "markers": {},
+      "storage_types": {
+        "float": 146,
+        "int": 5
+      }
+    },
+    {
+      "name": "Nota Padronizada - Infraestrutura e Instalações Físicas",
+      "blank": 4,
+      "blank_pct": 2.581,
+      "markers": {},
+      "storage_types": {
+        "float": 145,
+        "int": 6
+      }
+    },
+    {
+      "name": "Nota Bruta – Oportunidade de Ampliação da Formação",
+      "blank": 4,
+      "blank_pct": 2.581,
+      "markers": {},
+      "storage_types": {
+        "float": 147,
+        "int": 4
+      }
+    },
+    {
+      "name": "Nota Padronizada - Oportunidade de Ampliação da Formação",
+      "blank": 4,
+      "blank_pct": 2.581,
+      "markers": {},
+      "storage_types": {
+        "float": 146,
+        "int": 5
+      }
+    },
+    {
+      "name": "Nota Bruta - Mestres",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "float": 105,
+        "int": 50
+      }
+    },
+    {
+      "name": "Nota Padronizada - Mestres",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "float": 92,
+        "int": 63
+      }
+    },
+    {
+      "name": "Nota Bruta - Doutores",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "float": 126,
+        "int": 29
+      }
+    },
+    {
+      "name": "Nota Padronizada - Doutores",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "float": 121,
+        "int": 34
+      }
+    },
+    {
+      "name": "Nota Bruta – Regime de Trabalho",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 132,
+        "float": 23
+      }
+    },
+    {
+      "name": "Nota Padronizada - Regime de Trabalho",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "int": 134,
+        "float": 21
+      }
+    },
+    {
+      "name": "CPC (Contínuo)",
+      "blank": 6,
+      "blank_pct": 3.871,
+      "markers": {},
+      "storage_types": {
+        "float": 147,
+        "int": 2
+      }
+    },
+    {
+      "name": "CPC (Faixa)",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {
+        "SC": 6
+      },
+      "storage_types": {
+        "str": 155
+      }
+    },
+    {
+      "name": "Entidade Beneficiente de Assistência Social (CEBAS)",
+      "blank": 122,
+      "blank_pct": 78.71,
+      "markers": {
+        "-": 33
+      },
+      "storage_types": {
+        "str": 33
+      }
+    }
+  ],
+  "candidate_key": [
+    "Código do Curso**",
+    "Ano"
+  ],
+  "duplicate_excess": 0,
+  "missing_key_rows": 0,
+  "scanned_nonempty_rows": 8000,
+  "sheet": "CPC2021",
+  "header_row": 1,
+  "sheets": [
+    "CPC2021",
+    "Atualizações"
+  ],
+  "original_headers": [
+    "Ano",
+    "Código da Área",
+    "Área de Avaliação",
+    "Grau acadêmico",
+    "Código da IES*",
+    "Nome da IES*",
+    "Sigla da IES*",
+    "Organização Acadêmica*",
+    "Categoria Administrativa*",
+    "Código do Curso**",
+    "Modalidade de Ensino***",
+    "Código do Município***",
+    "Município do Curso***",
+    "Sigla da UF** ",
+    " Nº de Concluintes Inscritos",
+    " Nº de Concluintes Participantes",
+    " Nota Bruta - FG",
+    " Nota Padronizada - FG",
+    " Nota Bruta - CE",
+    " Nota Padronizada - CE",
+    " Conceito Enade (Contínuo)",
+    " Concluintes participantes com nota no Enem",
+    " Proporção de concluintes participantes com nota no Enem",
+    " Nota Bruta - IDD",
+    " Nota Padronizada - IDD",
+    " Nota Bruta – Organização Didático-Pedagógica",
+    " Nota Padronizada - Organização Didático-Pedagógica",
+    " Nota Bruta – Infraestrutura e Instalações Físicas",
+    " Nota Padronizada - Infraestrutura e Instalações Físicas",
+    " Nota Bruta – Oportunidade de Ampliação da Formação",
+    " Nota Padronizada - Oportunidade de Ampliação da Formação",
+    " Nota Bruta - Mestres",
+    " Nota Padronizada - Mestres",
+    " Nota Bruta - Doutores",
+    " Nota Padronizada - Doutores",
+    " Nota Bruta – Regime de Trabalho",
+    " Nota Padronizada - Regime de Trabalho",
+    " CPC (Contínuo)",
+    " CPC (Faixa)",
+    "Entidade Beneficiente de Assistência Social (CEBAS)"
+  ]
+}

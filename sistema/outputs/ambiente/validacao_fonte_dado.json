@@ -1,0 +1,1334 @@
+{
+  "checked_at_utc": "2026-10-10T17:42:59.960298+00:00",
+  "runs": [
+    {
+      "id": "fonte_dado_carga_01",
+      "state": "success",
+      "end": "2026-10-10T17:39:47.245192Z"
+    },
+    {
+      "id": "fonte_dado_repeticao_1791654012895226000",
+      "state": "success",
+      "end": "2026-10-10T17:41:17.562745Z"
+    },
+    {
+      "id": "fonte_dado_reprovacao_1791654012895226000",
+      "state": "failed",
+      "end": "2026-10-10T17:42:37.800346Z"
+    }
+  ],
+  "before": {
+    "active": [
+      {
+        "source_key": "censo_2021",
+        "version": "8fc9a4c54656d44a126bab27ab1a0cfbf147f2424a560da49061175d0cd2291a",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "censo_2022",
+        "version": "b5c4207ae733d1f7f23d169ce85c295aa9edee692c3182a7b3bb2a0816cb4130",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "censo_2023",
+        "version": "ad2b9b3d8d3eaab3fd3e4ce9aefa5549a4ba968cc5768cfeff042b9b2a9817b9",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "censo_2024",
+        "version": "d867e4904b9e1b690f9c4fc944a0efe12b58b1d4e11e8d69e880bd239d402f13",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "cpc_2021",
+        "version": "ed799dca3cd37927e20c7240794874dcc1b6505b4bfb3dce6600e317117c2684",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "cpc_2022",
+        "version": "0f1a72c7e985b17cfce667dc61192a34f18e1ce1596689677a803fde41df337c",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "cpc_2023",
+        "version": "e54a8e4d9157a5819f7cf4a06d7924c4c28731a294fdbcd0455165e464766690",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "enade_2021",
+        "version": "978c2ea73a54a78df2b6876d1161130508311a6d035061ef1c33be272aad42c9",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "enade_2022",
+        "version": "9d0d626cb1e8816b5e20a3a3f0ad0fe3dde7ad4361981657fa703bc0d59edb2d",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "enade_2023",
+        "version": "b5776b1a24b3ea33b2afa08be17afccac51ad13f29af402fd872311b1ff7ee8e",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "enade_licenciaturas_2025",
+        "version": "96d22013360051d64a91e5447bcbc441f2737831a831854831d2ddf520e80f3a",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "enade_medicina_2025",
+        "version": "85ef175dec466ecaf2379ca30885a45ad8d1bcf025702671663a5c36888f43dc",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "ibge_10056",
+        "version": "74a4af7d7ec5289ea9dba208e92630dc30dc1ac83bb38601bf22237f6d7c8f19",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "ibge_10059",
+        "version": "e304a2465f835c97ecbd7da4b62a64d749d7597b5c3020aed73aa27bcbfe07ab",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "ibge_10061",
+        "version": "90946a475549652649a812798e5f58e8d87dd96d26c07acefc3bb895ae954a60",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "ibge_10296",
+        "version": "0f1e9ced667e9a3f9cbc0a7c02971c46b03e51fd11c38a7a7c6b6e1cba674b20",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "ibge_5938",
+        "version": "c2c7a078f98d9a57d4d8d23e2a6a5fa0e69938e53c2b02630ff65b239ffb125c",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "ibge_6579",
+        "version": "c0a09c5f0698f527be7fca774fc3fba4e134436cf3879287890cf4a138970a8a",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "ibge_9514",
+        "version": "5e8b665df85c3160cd6f68f3c79142c3eaba4029a7a7b5f2fe9a447c6e8318e9",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "idd_2021",
+        "version": "de1382d7af666dc55c87cd4a8b2703ea1b2ce20589981c697efb79ae2493c12a",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "idd_2022",
+        "version": "abf87a8a4204706ccd514b1dfcb4e9f8763415f9d9aade061020237d038a737d",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "idd_2023",
+        "version": "45fb40509ec02811e58cbe15e77f596bdf54dda764ec04b023a9450afb2df915",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "igc_2021",
+        "version": "8e79ed76fcc890da6cd5935c8bca99b893d1e9afe1ddf293368aaa53bc358372",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "igc_2022",
+        "version": "9b86162f557e9d5945faae9eac347e66672c076a1b90f4f840b73750346b21d5",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "igc_2023",
+        "version": "c7652044ff42cddb4b77646ea04b73b436b1c2dea0acf5a3c355e71a420d8b22",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "trajetoria_2015",
+        "version": "d4fba1bbe3ccc79325d8fd4157912683f6e129d69b857c02614c3408e8c46edf",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "trajetoria_2016",
+        "version": "b456cd39c3343700c4ea14194bb3682aeb34f99738906c7e8d2197c964fe5603",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "trajetoria_2017",
+        "version": "a3b9b6a44d5542bfff9a332b6f29c1e569a6ba0519df9ce3a03ecb6bc0059b28",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "trajetoria_2018",
+        "version": "40d8c1b9ae30ab88065a7a639b17818d506add8cd434bf35e06b4bcfb59fe98a",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "trajetoria_2019",
+        "version": "480ab1cf2c1c5a17ba73fc5f94a0a9821ce3d76d3d2c74eb203a25a322e267d8",
+        "run_id": "fonte_dado_carga_01"
+      },
+      {
+        "source_key": "trajetoria_2020",
+        "version": "1620fc3a892d65ea243a08beddbfd2ec6c100114418c4ddecede694c412e29df",
+        "run_id": "fonte_dado_carga_01"
+      }
+    ],
+    "sources": [
+      {
+        "source_key": "censo_2021",
+        "family": "censo",
+        "rows_loaded": 12278,
+        "sha256": "75e9c5dfd9ab205cd59f113098e5e225dabd915819afa509be7cc20b763ce06c",
+        "run_id": "fonte_dado_carga_01",
+        "version": "8fc9a4c54656d44a126bab27ab1a0cfbf147f2424a560da49061175d0cd2291a"
+      },
+      {
+        "source_key": "censo_2022",
+        "family": "censo",
+        "rows_loaded": 15059,
+        "sha256": "f30830c26956a3575c3786634e51c9a643faa3907f5f895c8c326386ff1df6e8",
+        "run_id": "fonte_dado_carga_01",
+        "version": "b5c4207ae733d1f7f23d169ce85c295aa9edee692c3182a7b3bb2a0816cb4130"
+      },
+      {
+        "source_key": "censo_2023",
+        "family": "censo",
+        "rows_loaded": 17022,
+        "sha256": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5",
+        "run_id": "fonte_dado_carga_01",
+        "version": "ad2b9b3d8d3eaab3fd3e4ce9aefa5549a4ba968cc5768cfeff042b9b2a9817b9"
+      },
+      {
+        "source_key": "censo_2024",
+        "family": "censo",
+        "rows_loaded": 18315,
+        "sha256": "e8e11899efe2b348a7e80e3a3c610c3bdd1ced3362ccdf2c9f9abe9bf8988386",
+        "run_id": "fonte_dado_carga_01",
+        "version": "d867e4904b9e1b690f9c4fc944a0efe12b58b1d4e11e8d69e880bd239d402f13"
+      },
+      {
+        "source_key": "cpc_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "430a174e959968a8716c1af8076936b8088821e22cc9880fd9b532b2a90654b2",
+        "run_id": "fonte_dado_carga_01",
+        "version": "ed799dca3cd37927e20c7240794874dcc1b6505b4bfb3dce6600e317117c2684"
+      },
+      {
+        "source_key": "cpc_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "1243a2b8d132165a0fdd758d5d02e84815251dc667ccbcf796bb3c4d6657d8eb",
+        "run_id": "fonte_dado_carga_01",
+        "version": "0f1a72c7e985b17cfce667dc61192a34f18e1ce1596689677a803fde41df337c"
+      },
+      {
+        "source_key": "cpc_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "5bf616a7dd56445796f606c080c0462488418274db2828604b8bc39eedd71c3f",
+        "run_id": "fonte_dado_carga_01",
+        "version": "e54a8e4d9157a5819f7cf4a06d7924c4c28731a294fdbcd0455165e464766690"
+      },
+      {
+        "source_key": "enade_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "582b31861bdeee590c5ca73671d76700fdfc837320286c540f7502604a075540",
+        "run_id": "fonte_dado_carga_01",
+        "version": "978c2ea73a54a78df2b6876d1161130508311a6d035061ef1c33be272aad42c9"
+      },
+      {
+        "source_key": "enade_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "2e764fd410232fb95ac0e56860a1383f3b29f864a1f829fdd077c110d6e840e3",
+        "run_id": "fonte_dado_carga_01",
+        "version": "9d0d626cb1e8816b5e20a3a3f0ad0fe3dde7ad4361981657fa703bc0d59edb2d"
+      },
+      {
+        "source_key": "enade_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "cdb138c0154350da883f0e4535d5b2b999b14d87d16c12406e9814cec0915033",
+        "run_id": "fonte_dado_carga_01",
+        "version": "b5776b1a24b3ea33b2afa08be17afccac51ad13f29af402fd872311b1ff7ee8e"
+      },
+      {
+        "source_key": "enade_licenciaturas_2025",
+        "family": "indicador",
+        "rows_loaded": 97,
+        "sha256": "12e73c0603d388711f914dae9d8e3ea15b46aa56fde2a11b4634baa9e8417911",
+        "run_id": "fonte_dado_carga_01",
+        "version": "96d22013360051d64a91e5447bcbc441f2737831a831854831d2ddf520e80f3a"
+      },
+      {
+        "source_key": "enade_medicina_2025",
+        "family": "indicador",
+        "rows_loaded": 7,
+        "sha256": "ef2843f31bc14f40cc8f1800fb51a9c0b8ce04f61286a6e91ce3b6dc4473b185",
+        "run_id": "fonte_dado_carga_01",
+        "version": "85ef175dec466ecaf2379ca30885a45ad8d1bcf025702671663a5c36888f43dc"
+      },
+      {
+        "source_key": "ibge_10056",
+        "family": "ibge",
+        "rows_loaded": 81792,
+        "sha256": "2ad242ee0b622c029843e483c7767410e92a826472388b425b9cdfdef59ef2b6",
+        "run_id": "fonte_dado_carga_01",
+        "version": "74a4af7d7ec5289ea9dba208e92630dc30dc1ac83bb38601bf22237f6d7c8f19"
+      },
+      {
+        "source_key": "ibge_10059",
+        "family": "ibge",
+        "rows_loaded": 511200,
+        "sha256": "002269d4d6c02a781a73d01220b90a79e39028d6a0c63eecaa9021eea0f8400b",
+        "run_id": "fonte_dado_carga_01",
+        "version": "e304a2465f835c97ecbd7da4b62a64d749d7597b5c3020aed73aa27bcbfe07ab"
+      },
+      {
+        "source_key": "ibge_10061",
+        "family": "ibge",
+        "rows_loaded": 485640,
+        "sha256": "bfb2b1c79e1f51ec7c52becacb007af08bab6a841836773e22d35672bcf9fded",
+        "run_id": "fonte_dado_carga_01",
+        "version": "90946a475549652649a812798e5f58e8d87dd96d26c07acefc3bb895ae954a60"
+      },
+      {
+        "source_key": "ibge_10296",
+        "family": "ibge",
+        "rows_loaded": 61344,
+        "sha256": "98704c1b9aded96c6657a5b41eda4520515a4bac591377b465bc60c589f00ec5",
+        "run_id": "fonte_dado_carga_01",
+        "version": "0f1e9ced667e9a3f9cbc0a7c02971c46b03e51fd11c38a7a7c6b6e1cba674b20"
+      },
+      {
+        "source_key": "ibge_5938",
+        "family": "ibge",
+        "rows_loaded": 143704,
+        "sha256": "0d1ffa2a90ce96ce3353bab903e707c980fb5bd44c5d9f8593351e965432c92a",
+        "run_id": "fonte_dado_carga_01",
+        "version": "c2c7a078f98d9a57d4d8d23e2a6a5fa0e69938e53c2b02630ff65b239ffb125c"
+      },
+      {
+        "source_key": "ibge_6579",
+        "family": "ibge",
+        "rows_loaded": 3146,
+        "sha256": "56b6a769606dfd03e4da2a22deab26c138d8057e0de5160596a9536a1743a00d",
+        "run_id": "fonte_dado_carga_01",
+        "version": "c0a09c5f0698f527be7fca774fc3fba4e134436cf3879287890cf4a138970a8a"
+      },
+      {
+        "source_key": "ibge_9514",
+        "family": "ibge",
+        "rows_loaded": 342504,
+        "sha256": "3a836cf0b30660e4919dfb815f5780e9904c366a5630f0e1afac5a0f3acfa5e2",
+        "run_id": "fonte_dado_carga_01",
+        "version": "5e8b665df85c3160cd6f68f3c79142c3eaba4029a7a7b5f2fe9a447c6e8318e9"
+      },
+      {
+        "source_key": "idd_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "72113a2972247df37f9f15bc210b45bb882cad5ace99670f53507fe1398a2339",
+        "run_id": "fonte_dado_carga_01",
+        "version": "de1382d7af666dc55c87cd4a8b2703ea1b2ce20589981c697efb79ae2493c12a"
+      },
+      {
+        "source_key": "idd_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "a0fe496c79c6a57d955882b810e1c1103bf4272c80dd0e1537a78f0e94bf431f",
+        "run_id": "fonte_dado_carga_01",
+        "version": "abf87a8a4204706ccd514b1dfcb4e9f8763415f9d9aade061020237d038a737d"
+      },
+      {
+        "source_key": "idd_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "1253c8c9cdf84476783d366b48373a29d457a566167a481d14a05ddf643156fe",
+        "run_id": "fonte_dado_carga_01",
+        "version": "45fb40509ec02811e58cbe15e77f596bdf54dda764ec04b023a9450afb2df915"
+      },
+      {
+        "source_key": "igc_2021",
+        "family": "indicador",
+        "rows_loaded": 45,
+        "sha256": "651e0a0d0ed2b387118249ecc78454932c618d9ec2381c39ed5e04cdaa14040e",
+        "run_id": "fonte_dado_carga_01",
+        "version": "8e79ed76fcc890da6cd5935c8bca99b893d1e9afe1ddf293368aaa53bc358372"
+      },
+      {
+        "source_key": "igc_2022",
+        "family": "indicador",
+        "rows_loaded": 45,
+        "sha256": "6273731e9991bc71f048fa4557594ea7894a0820efdfa700f306f28d25befdda",
+        "run_id": "fonte_dado_carga_01",
+        "version": "9b86162f557e9d5945faae9eac347e66672c076a1b90f4f840b73750346b21d5"
+      },
+      {
+        "source_key": "igc_2023",
+        "family": "indicador",
+        "rows_loaded": 51,
+        "sha256": "92cd8f702e0e92f6d616e7b4bbf879e1c24b749392b05bc7ad149e00d80b4003",
+        "run_id": "fonte_dado_carga_01",
+        "version": "c7652044ff42cddb4b77646ea04b73b436b1c2dea0acf5a3c355e71a420d8b22"
+      },
+      {
+        "source_key": "trajetoria_2015",
+        "family": "trajetoria",
+        "rows_loaded": 5150,
+        "sha256": "14e6ff92cc9e904c89499b457bc243ee86675638bcbbe57e9f6f7a220ce2f798",
+        "run_id": "fonte_dado_carga_01",
+        "version": "d4fba1bbe3ccc79325d8fd4157912683f6e129d69b857c02614c3408e8c46edf"
+      },
+      {
+        "source_key": "trajetoria_2016",
+        "family": "trajetoria",
+        "rows_loaded": 5157,
+        "sha256": "fcc9f785b1ebecd17f2a75af57e0ef5c45863915ebc4e8796ac89ac3f214397f",
+        "run_id": "fonte_dado_carga_01",
+        "version": "b456cd39c3343700c4ea14194bb3682aeb34f99738906c7e8d2197c964fe5603"
+      },
+      {
+        "source_key": "trajetoria_2017",
+        "family": "trajetoria",
+        "rows_loaded": 4864,
+        "sha256": "90130f61e9ffb7903456c841d5daf69aec5f7a854726cd26e42022647f9b0540",
+        "run_id": "fonte_dado_carga_01",
+        "version": "a3b9b6a44d5542bfff9a332b6f29c1e569a6ba0519df9ce3a03ecb6bc0059b28"
+      },
+      {
+        "source_key": "trajetoria_2018",
+        "family": "trajetoria",
+        "rows_loaded": 4361,
+        "sha256": "44075a164340fda53fb080f9f00eeba8f5bd9bcb8397c0fe4ac801df72758f0b",
+        "run_id": "fonte_dado_carga_01",
+        "version": "40d8c1b9ae30ab88065a7a639b17818d506add8cd434bf35e06b4bcfb59fe98a"
+      },
+      {
+        "source_key": "trajetoria_2019",
+        "family": "trajetoria",
+        "rows_loaded": 3876,
+        "sha256": "a443cd5c28e38f317130c41381d8c82fad0c33912e292f1900e39bc9abce9eb0",
+        "run_id": "fonte_dado_carga_01",
+        "version": "480ab1cf2c1c5a17ba73fc5f94a0a9821ce3d76d3d2c74eb203a25a322e267d8"
+      },
+      {
+        "source_key": "trajetoria_2020",
+        "family": "trajetoria",
+        "rows_loaded": 3105,
+        "sha256": "dbdc6793f74f8623ac7d5e1e3202d58e3b63e11d040b84f6be533c0bf97c1d04",
+        "run_id": "fonte_dado_carga_01",
+        "version": "1620fc3a892d65ea243a08beddbfd2ec6c100114418c4ddecede694c412e29df"
+      }
+    ],
+    "tables": {
+      "fd_trajetoria": {
+        "rows": 26513,
+        "versions": 6,
+        "fingerprint": "481239367472337003204"
+      },
+      "fd_censo": {
+        "rows": 62674,
+        "versions": 4,
+        "fingerprint": "-858782195212097305732"
+      },
+      "fd_indicador": {
+        "rows": 1919,
+        "versions": 14,
+        "fingerprint": "41298837874808013558"
+      },
+      "fd_ibge": {
+        "rows": 1629330,
+        "versions": 7,
+        "fingerprint": "-1810946310944974613952"
+      }
+    },
+    "ibge_special": {
+      "nao_disponivel": 11662,
+      "numerico": 959019,
+      "zero_absoluto": 658649
+    }
+  },
+  "repeat": {
+    "active": [
+      {
+        "source_key": "censo_2021",
+        "version": "8fc9a4c54656d44a126bab27ab1a0cfbf147f2424a560da49061175d0cd2291a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "censo_2022",
+        "version": "b5c4207ae733d1f7f23d169ce85c295aa9edee692c3182a7b3bb2a0816cb4130",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "censo_2023",
+        "version": "ad2b9b3d8d3eaab3fd3e4ce9aefa5549a4ba968cc5768cfeff042b9b2a9817b9",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "censo_2024",
+        "version": "d867e4904b9e1b690f9c4fc944a0efe12b58b1d4e11e8d69e880bd239d402f13",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "cpc_2021",
+        "version": "ed799dca3cd37927e20c7240794874dcc1b6505b4bfb3dce6600e317117c2684",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "cpc_2022",
+        "version": "0f1a72c7e985b17cfce667dc61192a34f18e1ce1596689677a803fde41df337c",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "cpc_2023",
+        "version": "e54a8e4d9157a5819f7cf4a06d7924c4c28731a294fdbcd0455165e464766690",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_2021",
+        "version": "978c2ea73a54a78df2b6876d1161130508311a6d035061ef1c33be272aad42c9",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_2022",
+        "version": "9d0d626cb1e8816b5e20a3a3f0ad0fe3dde7ad4361981657fa703bc0d59edb2d",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_2023",
+        "version": "b5776b1a24b3ea33b2afa08be17afccac51ad13f29af402fd872311b1ff7ee8e",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_licenciaturas_2025",
+        "version": "96d22013360051d64a91e5447bcbc441f2737831a831854831d2ddf520e80f3a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_medicina_2025",
+        "version": "85ef175dec466ecaf2379ca30885a45ad8d1bcf025702671663a5c36888f43dc",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10056",
+        "version": "74a4af7d7ec5289ea9dba208e92630dc30dc1ac83bb38601bf22237f6d7c8f19",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10059",
+        "version": "e304a2465f835c97ecbd7da4b62a64d749d7597b5c3020aed73aa27bcbfe07ab",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10061",
+        "version": "90946a475549652649a812798e5f58e8d87dd96d26c07acefc3bb895ae954a60",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10296",
+        "version": "0f1e9ced667e9a3f9cbc0a7c02971c46b03e51fd11c38a7a7c6b6e1cba674b20",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_5938",
+        "version": "c2c7a078f98d9a57d4d8d23e2a6a5fa0e69938e53c2b02630ff65b239ffb125c",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_6579",
+        "version": "c0a09c5f0698f527be7fca774fc3fba4e134436cf3879287890cf4a138970a8a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_9514",
+        "version": "5e8b665df85c3160cd6f68f3c79142c3eaba4029a7a7b5f2fe9a447c6e8318e9",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "idd_2021",
+        "version": "de1382d7af666dc55c87cd4a8b2703ea1b2ce20589981c697efb79ae2493c12a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "idd_2022",
+        "version": "abf87a8a4204706ccd514b1dfcb4e9f8763415f9d9aade061020237d038a737d",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "idd_2023",
+        "version": "45fb40509ec02811e58cbe15e77f596bdf54dda764ec04b023a9450afb2df915",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "igc_2021",
+        "version": "8e79ed76fcc890da6cd5935c8bca99b893d1e9afe1ddf293368aaa53bc358372",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "igc_2022",
+        "version": "9b86162f557e9d5945faae9eac347e66672c076a1b90f4f840b73750346b21d5",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "igc_2023",
+        "version": "c7652044ff42cddb4b77646ea04b73b436b1c2dea0acf5a3c355e71a420d8b22",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2015",
+        "version": "d4fba1bbe3ccc79325d8fd4157912683f6e129d69b857c02614c3408e8c46edf",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2016",
+        "version": "b456cd39c3343700c4ea14194bb3682aeb34f99738906c7e8d2197c964fe5603",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2017",
+        "version": "a3b9b6a44d5542bfff9a332b6f29c1e569a6ba0519df9ce3a03ecb6bc0059b28",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2018",
+        "version": "40d8c1b9ae30ab88065a7a639b17818d506add8cd434bf35e06b4bcfb59fe98a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2019",
+        "version": "480ab1cf2c1c5a17ba73fc5f94a0a9821ce3d76d3d2c74eb203a25a322e267d8",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2020",
+        "version": "1620fc3a892d65ea243a08beddbfd2ec6c100114418c4ddecede694c412e29df",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      }
+    ],
+    "sources": [
+      {
+        "source_key": "censo_2021",
+        "family": "censo",
+        "rows_loaded": 12278,
+        "sha256": "75e9c5dfd9ab205cd59f113098e5e225dabd915819afa509be7cc20b763ce06c",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "8fc9a4c54656d44a126bab27ab1a0cfbf147f2424a560da49061175d0cd2291a"
+      },
+      {
+        "source_key": "censo_2022",
+        "family": "censo",
+        "rows_loaded": 15059,
+        "sha256": "f30830c26956a3575c3786634e51c9a643faa3907f5f895c8c326386ff1df6e8",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "b5c4207ae733d1f7f23d169ce85c295aa9edee692c3182a7b3bb2a0816cb4130"
+      },
+      {
+        "source_key": "censo_2023",
+        "family": "censo",
+        "rows_loaded": 17022,
+        "sha256": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "ad2b9b3d8d3eaab3fd3e4ce9aefa5549a4ba968cc5768cfeff042b9b2a9817b9"
+      },
+      {
+        "source_key": "censo_2024",
+        "family": "censo",
+        "rows_loaded": 18315,
+        "sha256": "e8e11899efe2b348a7e80e3a3c610c3bdd1ced3362ccdf2c9f9abe9bf8988386",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "d867e4904b9e1b690f9c4fc944a0efe12b58b1d4e11e8d69e880bd239d402f13"
+      },
+      {
+        "source_key": "cpc_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "430a174e959968a8716c1af8076936b8088821e22cc9880fd9b532b2a90654b2",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "ed799dca3cd37927e20c7240794874dcc1b6505b4bfb3dce6600e317117c2684"
+      },
+      {
+        "source_key": "cpc_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "1243a2b8d132165a0fdd758d5d02e84815251dc667ccbcf796bb3c4d6657d8eb",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "0f1a72c7e985b17cfce667dc61192a34f18e1ce1596689677a803fde41df337c"
+      },
+      {
+        "source_key": "cpc_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "5bf616a7dd56445796f606c080c0462488418274db2828604b8bc39eedd71c3f",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "e54a8e4d9157a5819f7cf4a06d7924c4c28731a294fdbcd0455165e464766690"
+      },
+      {
+        "source_key": "enade_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "582b31861bdeee590c5ca73671d76700fdfc837320286c540f7502604a075540",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "978c2ea73a54a78df2b6876d1161130508311a6d035061ef1c33be272aad42c9"
+      },
+      {
+        "source_key": "enade_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "2e764fd410232fb95ac0e56860a1383f3b29f864a1f829fdd077c110d6e840e3",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "9d0d626cb1e8816b5e20a3a3f0ad0fe3dde7ad4361981657fa703bc0d59edb2d"
+      },
+      {
+        "source_key": "enade_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "cdb138c0154350da883f0e4535d5b2b999b14d87d16c12406e9814cec0915033",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "b5776b1a24b3ea33b2afa08be17afccac51ad13f29af402fd872311b1ff7ee8e"
+      },
+      {
+        "source_key": "enade_licenciaturas_2025",
+        "family": "indicador",
+        "rows_loaded": 97,
+        "sha256": "12e73c0603d388711f914dae9d8e3ea15b46aa56fde2a11b4634baa9e8417911",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "96d22013360051d64a91e5447bcbc441f2737831a831854831d2ddf520e80f3a"
+      },
+      {
+        "source_key": "enade_medicina_2025",
+        "family": "indicador",
+        "rows_loaded": 7,
+        "sha256": "ef2843f31bc14f40cc8f1800fb51a9c0b8ce04f61286a6e91ce3b6dc4473b185",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "85ef175dec466ecaf2379ca30885a45ad8d1bcf025702671663a5c36888f43dc"
+      },
+      {
+        "source_key": "ibge_10056",
+        "family": "ibge",
+        "rows_loaded": 81792,
+        "sha256": "2ad242ee0b622c029843e483c7767410e92a826472388b425b9cdfdef59ef2b6",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "74a4af7d7ec5289ea9dba208e92630dc30dc1ac83bb38601bf22237f6d7c8f19"
+      },
+      {
+        "source_key": "ibge_10059",
+        "family": "ibge",
+        "rows_loaded": 511200,
+        "sha256": "002269d4d6c02a781a73d01220b90a79e39028d6a0c63eecaa9021eea0f8400b",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "e304a2465f835c97ecbd7da4b62a64d749d7597b5c3020aed73aa27bcbfe07ab"
+      },
+      {
+        "source_key": "ibge_10061",
+        "family": "ibge",
+        "rows_loaded": 485640,
+        "sha256": "bfb2b1c79e1f51ec7c52becacb007af08bab6a841836773e22d35672bcf9fded",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "90946a475549652649a812798e5f58e8d87dd96d26c07acefc3bb895ae954a60"
+      },
+      {
+        "source_key": "ibge_10296",
+        "family": "ibge",
+        "rows_loaded": 61344,
+        "sha256": "98704c1b9aded96c6657a5b41eda4520515a4bac591377b465bc60c589f00ec5",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "0f1e9ced667e9a3f9cbc0a7c02971c46b03e51fd11c38a7a7c6b6e1cba674b20"
+      },
+      {
+        "source_key": "ibge_5938",
+        "family": "ibge",
+        "rows_loaded": 143704,
+        "sha256": "0d1ffa2a90ce96ce3353bab903e707c980fb5bd44c5d9f8593351e965432c92a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "c2c7a078f98d9a57d4d8d23e2a6a5fa0e69938e53c2b02630ff65b239ffb125c"
+      },
+      {
+        "source_key": "ibge_6579",
+        "family": "ibge",
+        "rows_loaded": 3146,
+        "sha256": "56b6a769606dfd03e4da2a22deab26c138d8057e0de5160596a9536a1743a00d",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "c0a09c5f0698f527be7fca774fc3fba4e134436cf3879287890cf4a138970a8a"
+      },
+      {
+        "source_key": "ibge_9514",
+        "family": "ibge",
+        "rows_loaded": 342504,
+        "sha256": "3a836cf0b30660e4919dfb815f5780e9904c366a5630f0e1afac5a0f3acfa5e2",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "5e8b665df85c3160cd6f68f3c79142c3eaba4029a7a7b5f2fe9a447c6e8318e9"
+      },
+      {
+        "source_key": "idd_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "72113a2972247df37f9f15bc210b45bb882cad5ace99670f53507fe1398a2339",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "de1382d7af666dc55c87cd4a8b2703ea1b2ce20589981c697efb79ae2493c12a"
+      },
+      {
+        "source_key": "idd_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "a0fe496c79c6a57d955882b810e1c1103bf4272c80dd0e1537a78f0e94bf431f",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "abf87a8a4204706ccd514b1dfcb4e9f8763415f9d9aade061020237d038a737d"
+      },
+      {
+        "source_key": "idd_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "1253c8c9cdf84476783d366b48373a29d457a566167a481d14a05ddf643156fe",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "45fb40509ec02811e58cbe15e77f596bdf54dda764ec04b023a9450afb2df915"
+      },
+      {
+        "source_key": "igc_2021",
+        "family": "indicador",
+        "rows_loaded": 45,
+        "sha256": "651e0a0d0ed2b387118249ecc78454932c618d9ec2381c39ed5e04cdaa14040e",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "8e79ed76fcc890da6cd5935c8bca99b893d1e9afe1ddf293368aaa53bc358372"
+      },
+      {
+        "source_key": "igc_2022",
+        "family": "indicador",
+        "rows_loaded": 45,
+        "sha256": "6273731e9991bc71f048fa4557594ea7894a0820efdfa700f306f28d25befdda",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "9b86162f557e9d5945faae9eac347e66672c076a1b90f4f840b73750346b21d5"
+      },
+      {
+        "source_key": "igc_2023",
+        "family": "indicador",
+        "rows_loaded": 51,
+        "sha256": "92cd8f702e0e92f6d616e7b4bbf879e1c24b749392b05bc7ad149e00d80b4003",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "c7652044ff42cddb4b77646ea04b73b436b1c2dea0acf5a3c355e71a420d8b22"
+      },
+      {
+        "source_key": "trajetoria_2015",
+        "family": "trajetoria",
+        "rows_loaded": 5150,
+        "sha256": "14e6ff92cc9e904c89499b457bc243ee86675638bcbbe57e9f6f7a220ce2f798",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "d4fba1bbe3ccc79325d8fd4157912683f6e129d69b857c02614c3408e8c46edf"
+      },
+      {
+        "source_key": "trajetoria_2016",
+        "family": "trajetoria",
+        "rows_loaded": 5157,
+        "sha256": "fcc9f785b1ebecd17f2a75af57e0ef5c45863915ebc4e8796ac89ac3f214397f",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "b456cd39c3343700c4ea14194bb3682aeb34f99738906c7e8d2197c964fe5603"
+      },
+      {
+        "source_key": "trajetoria_2017",
+        "family": "trajetoria",
+        "rows_loaded": 4864,
+        "sha256": "90130f61e9ffb7903456c841d5daf69aec5f7a854726cd26e42022647f9b0540",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "a3b9b6a44d5542bfff9a332b6f29c1e569a6ba0519df9ce3a03ecb6bc0059b28"
+      },
+      {
+        "source_key": "trajetoria_2018",
+        "family": "trajetoria",
+        "rows_loaded": 4361,
+        "sha256": "44075a164340fda53fb080f9f00eeba8f5bd9bcb8397c0fe4ac801df72758f0b",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "40d8c1b9ae30ab88065a7a639b17818d506add8cd434bf35e06b4bcfb59fe98a"
+      },
+      {
+        "source_key": "trajetoria_2019",
+        "family": "trajetoria",
+        "rows_loaded": 3876,
+        "sha256": "a443cd5c28e38f317130c41381d8c82fad0c33912e292f1900e39bc9abce9eb0",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "480ab1cf2c1c5a17ba73fc5f94a0a9821ce3d76d3d2c74eb203a25a322e267d8"
+      },
+      {
+        "source_key": "trajetoria_2020",
+        "family": "trajetoria",
+        "rows_loaded": 3105,
+        "sha256": "dbdc6793f74f8623ac7d5e1e3202d58e3b63e11d040b84f6be533c0bf97c1d04",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "1620fc3a892d65ea243a08beddbfd2ec6c100114418c4ddecede694c412e29df"
+      }
+    ],
+    "tables": {
+      "fd_trajetoria": {
+        "rows": 26513,
+        "versions": 6,
+        "fingerprint": "481239367472337003204"
+      },
+      "fd_censo": {
+        "rows": 62674,
+        "versions": 4,
+        "fingerprint": "-858782195212097305732"
+      },
+      "fd_indicador": {
+        "rows": 1919,
+        "versions": 14,
+        "fingerprint": "41298837874808013558"
+      },
+      "fd_ibge": {
+        "rows": 1629330,
+        "versions": 7,
+        "fingerprint": "-1810946310944974613952"
+      }
+    },
+    "ibge_special": {
+      "nao_disponivel": 11662,
+      "numerico": 959019,
+      "zero_absoluto": 658649
+    }
+  },
+  "rejected": {
+    "active": [
+      {
+        "source_key": "censo_2021",
+        "version": "8fc9a4c54656d44a126bab27ab1a0cfbf147f2424a560da49061175d0cd2291a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "censo_2022",
+        "version": "b5c4207ae733d1f7f23d169ce85c295aa9edee692c3182a7b3bb2a0816cb4130",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "censo_2023",
+        "version": "ad2b9b3d8d3eaab3fd3e4ce9aefa5549a4ba968cc5768cfeff042b9b2a9817b9",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "censo_2024",
+        "version": "d867e4904b9e1b690f9c4fc944a0efe12b58b1d4e11e8d69e880bd239d402f13",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "cpc_2021",
+        "version": "ed799dca3cd37927e20c7240794874dcc1b6505b4bfb3dce6600e317117c2684",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "cpc_2022",
+        "version": "0f1a72c7e985b17cfce667dc61192a34f18e1ce1596689677a803fde41df337c",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "cpc_2023",
+        "version": "e54a8e4d9157a5819f7cf4a06d7924c4c28731a294fdbcd0455165e464766690",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_2021",
+        "version": "978c2ea73a54a78df2b6876d1161130508311a6d035061ef1c33be272aad42c9",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_2022",
+        "version": "9d0d626cb1e8816b5e20a3a3f0ad0fe3dde7ad4361981657fa703bc0d59edb2d",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_2023",
+        "version": "b5776b1a24b3ea33b2afa08be17afccac51ad13f29af402fd872311b1ff7ee8e",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_licenciaturas_2025",
+        "version": "96d22013360051d64a91e5447bcbc441f2737831a831854831d2ddf520e80f3a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "enade_medicina_2025",
+        "version": "85ef175dec466ecaf2379ca30885a45ad8d1bcf025702671663a5c36888f43dc",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10056",
+        "version": "74a4af7d7ec5289ea9dba208e92630dc30dc1ac83bb38601bf22237f6d7c8f19",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10059",
+        "version": "e304a2465f835c97ecbd7da4b62a64d749d7597b5c3020aed73aa27bcbfe07ab",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10061",
+        "version": "90946a475549652649a812798e5f58e8d87dd96d26c07acefc3bb895ae954a60",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_10296",
+        "version": "0f1e9ced667e9a3f9cbc0a7c02971c46b03e51fd11c38a7a7c6b6e1cba674b20",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_5938",
+        "version": "c2c7a078f98d9a57d4d8d23e2a6a5fa0e69938e53c2b02630ff65b239ffb125c",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_6579",
+        "version": "c0a09c5f0698f527be7fca774fc3fba4e134436cf3879287890cf4a138970a8a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "ibge_9514",
+        "version": "5e8b665df85c3160cd6f68f3c79142c3eaba4029a7a7b5f2fe9a447c6e8318e9",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "idd_2021",
+        "version": "de1382d7af666dc55c87cd4a8b2703ea1b2ce20589981c697efb79ae2493c12a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "idd_2022",
+        "version": "abf87a8a4204706ccd514b1dfcb4e9f8763415f9d9aade061020237d038a737d",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "idd_2023",
+        "version": "45fb40509ec02811e58cbe15e77f596bdf54dda764ec04b023a9450afb2df915",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "igc_2021",
+        "version": "8e79ed76fcc890da6cd5935c8bca99b893d1e9afe1ddf293368aaa53bc358372",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "igc_2022",
+        "version": "9b86162f557e9d5945faae9eac347e66672c076a1b90f4f840b73750346b21d5",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "igc_2023",
+        "version": "c7652044ff42cddb4b77646ea04b73b436b1c2dea0acf5a3c355e71a420d8b22",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2015",
+        "version": "d4fba1bbe3ccc79325d8fd4157912683f6e129d69b857c02614c3408e8c46edf",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2016",
+        "version": "b456cd39c3343700c4ea14194bb3682aeb34f99738906c7e8d2197c964fe5603",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2017",
+        "version": "a3b9b6a44d5542bfff9a332b6f29c1e569a6ba0519df9ce3a03ecb6bc0059b28",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2018",
+        "version": "40d8c1b9ae30ab88065a7a639b17818d506add8cd434bf35e06b4bcfb59fe98a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2019",
+        "version": "480ab1cf2c1c5a17ba73fc5f94a0a9821ce3d76d3d2c74eb203a25a322e267d8",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      },
+      {
+        "source_key": "trajetoria_2020",
+        "version": "1620fc3a892d65ea243a08beddbfd2ec6c100114418c4ddecede694c412e29df",
+        "run_id": "fonte_dado_repeticao_1791654012895226000"
+      }
+    ],
+    "sources": [
+      {
+        "source_key": "censo_2021",
+        "family": "censo",
+        "rows_loaded": 12278,
+        "sha256": "75e9c5dfd9ab205cd59f113098e5e225dabd915819afa509be7cc20b763ce06c",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "8fc9a4c54656d44a126bab27ab1a0cfbf147f2424a560da49061175d0cd2291a"
+      },
+      {
+        "source_key": "censo_2022",
+        "family": "censo",
+        "rows_loaded": 15059,
+        "sha256": "f30830c26956a3575c3786634e51c9a643faa3907f5f895c8c326386ff1df6e8",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "b5c4207ae733d1f7f23d169ce85c295aa9edee692c3182a7b3bb2a0816cb4130"
+      },
+      {
+        "source_key": "censo_2023",
+        "family": "censo",
+        "rows_loaded": 17022,
+        "sha256": "a7a3b905777a7ddbaf287c242bf6ed55c056f17350d042a4199fb1e10cf3b2c5",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "ad2b9b3d8d3eaab3fd3e4ce9aefa5549a4ba968cc5768cfeff042b9b2a9817b9"
+      },
+      {
+        "source_key": "censo_2024",
+        "family": "censo",
+        "rows_loaded": 18315,
+        "sha256": "e8e11899efe2b348a7e80e3a3c610c3bdd1ced3362ccdf2c9f9abe9bf8988386",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "d867e4904b9e1b690f9c4fc944a0efe12b58b1d4e11e8d69e880bd239d402f13"
+      },
+      {
+        "source_key": "cpc_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "430a174e959968a8716c1af8076936b8088821e22cc9880fd9b532b2a90654b2",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "ed799dca3cd37927e20c7240794874dcc1b6505b4bfb3dce6600e317117c2684"
+      },
+      {
+        "source_key": "cpc_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "1243a2b8d132165a0fdd758d5d02e84815251dc667ccbcf796bb3c4d6657d8eb",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "0f1a72c7e985b17cfce667dc61192a34f18e1ce1596689677a803fde41df337c"
+      },
+      {
+        "source_key": "cpc_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "5bf616a7dd56445796f606c080c0462488418274db2828604b8bc39eedd71c3f",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "e54a8e4d9157a5819f7cf4a06d7924c4c28731a294fdbcd0455165e464766690"
+      },
+      {
+        "source_key": "enade_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "582b31861bdeee590c5ca73671d76700fdfc837320286c540f7502604a075540",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "978c2ea73a54a78df2b6876d1161130508311a6d035061ef1c33be272aad42c9"
+      },
+      {
+        "source_key": "enade_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "2e764fd410232fb95ac0e56860a1383f3b29f864a1f829fdd077c110d6e840e3",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "9d0d626cb1e8816b5e20a3a3f0ad0fe3dde7ad4361981657fa703bc0d59edb2d"
+      },
+      {
+        "source_key": "enade_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "cdb138c0154350da883f0e4535d5b2b999b14d87d16c12406e9814cec0915033",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "b5776b1a24b3ea33b2afa08be17afccac51ad13f29af402fd872311b1ff7ee8e"
+      },
+      {
+        "source_key": "enade_licenciaturas_2025",
+        "family": "indicador",
+        "rows_loaded": 97,
+        "sha256": "12e73c0603d388711f914dae9d8e3ea15b46aa56fde2a11b4634baa9e8417911",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "96d22013360051d64a91e5447bcbc441f2737831a831854831d2ddf520e80f3a"
+      },
+      {
+        "source_key": "enade_medicina_2025",
+        "family": "indicador",
+        "rows_loaded": 7,
+        "sha256": "ef2843f31bc14f40cc8f1800fb51a9c0b8ce04f61286a6e91ce3b6dc4473b185",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "85ef175dec466ecaf2379ca30885a45ad8d1bcf025702671663a5c36888f43dc"
+      },
+      {
+        "source_key": "ibge_10056",
+        "family": "ibge",
+        "rows_loaded": 81792,
+        "sha256": "2ad242ee0b622c029843e483c7767410e92a826472388b425b9cdfdef59ef2b6",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "74a4af7d7ec5289ea9dba208e92630dc30dc1ac83bb38601bf22237f6d7c8f19"
+      },
+      {
+        "source_key": "ibge_10059",
+        "family": "ibge",
+        "rows_loaded": 511200,
+        "sha256": "002269d4d6c02a781a73d01220b90a79e39028d6a0c63eecaa9021eea0f8400b",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "e304a2465f835c97ecbd7da4b62a64d749d7597b5c3020aed73aa27bcbfe07ab"
+      },
+      {
+        "source_key": "ibge_10061",
+        "family": "ibge",
+        "rows_loaded": 485640,
+        "sha256": "bfb2b1c79e1f51ec7c52becacb007af08bab6a841836773e22d35672bcf9fded",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "90946a475549652649a812798e5f58e8d87dd96d26c07acefc3bb895ae954a60"
+      },
+      {
+        "source_key": "ibge_10296",
+        "family": "ibge",
+        "rows_loaded": 61344,
+        "sha256": "98704c1b9aded96c6657a5b41eda4520515a4bac591377b465bc60c589f00ec5",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "0f1e9ced667e9a3f9cbc0a7c02971c46b03e51fd11c38a7a7c6b6e1cba674b20"
+      },
+      {
+        "source_key": "ibge_5938",
+        "family": "ibge",
+        "rows_loaded": 143704,
+        "sha256": "0d1ffa2a90ce96ce3353bab903e707c980fb5bd44c5d9f8593351e965432c92a",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "c2c7a078f98d9a57d4d8d23e2a6a5fa0e69938e53c2b02630ff65b239ffb125c"
+      },
+      {
+        "source_key": "ibge_6579",
+        "family": "ibge",
+        "rows_loaded": 3146,
+        "sha256": "56b6a769606dfd03e4da2a22deab26c138d8057e0de5160596a9536a1743a00d",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "c0a09c5f0698f527be7fca774fc3fba4e134436cf3879287890cf4a138970a8a"
+      },
+      {
+        "source_key": "ibge_9514",
+        "family": "ibge",
+        "rows_loaded": 342504,
+        "sha256": "3a836cf0b30660e4919dfb815f5780e9904c366a5630f0e1afac5a0f3acfa5e2",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "5e8b665df85c3160cd6f68f3c79142c3eaba4029a7a7b5f2fe9a447c6e8318e9"
+      },
+      {
+        "source_key": "idd_2021",
+        "family": "indicador",
+        "rows_loaded": 155,
+        "sha256": "72113a2972247df37f9f15bc210b45bb882cad5ace99670f53507fe1398a2339",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "de1382d7af666dc55c87cd4a8b2703ea1b2ce20589981c697efb79ae2493c12a"
+      },
+      {
+        "source_key": "idd_2022",
+        "family": "indicador",
+        "rows_loaded": 165,
+        "sha256": "a0fe496c79c6a57d955882b810e1c1103bf4272c80dd0e1537a78f0e94bf431f",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "abf87a8a4204706ccd514b1dfcb4e9f8763415f9d9aade061020237d038a737d"
+      },
+      {
+        "source_key": "idd_2023",
+        "family": "indicador",
+        "rows_loaded": 238,
+        "sha256": "1253c8c9cdf84476783d366b48373a29d457a566167a481d14a05ddf643156fe",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "45fb40509ec02811e58cbe15e77f596bdf54dda764ec04b023a9450afb2df915"
+      },
+      {
+        "source_key": "igc_2021",
+        "family": "indicador",
+        "rows_loaded": 45,
+        "sha256": "651e0a0d0ed2b387118249ecc78454932c618d9ec2381c39ed5e04cdaa14040e",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "8e79ed76fcc890da6cd5935c8bca99b893d1e9afe1ddf293368aaa53bc358372"
+      },
+      {
+        "source_key": "igc_2022",
+        "family": "indicador",
+        "rows_loaded": 45,
+        "sha256": "6273731e9991bc71f048fa4557594ea7894a0820efdfa700f306f28d25befdda",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "9b86162f557e9d5945faae9eac347e66672c076a1b90f4f840b73750346b21d5"
+      },
+      {
+        "source_key": "igc_2023",
+        "family": "indicador",
+        "rows_loaded": 51,
+        "sha256": "92cd8f702e0e92f6d616e7b4bbf879e1c24b749392b05bc7ad149e00d80b4003",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "c7652044ff42cddb4b77646ea04b73b436b1c2dea0acf5a3c355e71a420d8b22"
+      },
+      {
+        "source_key": "trajetoria_2015",
+        "family": "trajetoria",
+        "rows_loaded": 5150,
+        "sha256": "14e6ff92cc9e904c89499b457bc243ee86675638bcbbe57e9f6f7a220ce2f798",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "d4fba1bbe3ccc79325d8fd4157912683f6e129d69b857c02614c3408e8c46edf"
+      },
+      {
+        "source_key": "trajetoria_2016",
+        "family": "trajetoria",
+        "rows_loaded": 5157,
+        "sha256": "fcc9f785b1ebecd17f2a75af57e0ef5c45863915ebc4e8796ac89ac3f214397f",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "b456cd39c3343700c4ea14194bb3682aeb34f99738906c7e8d2197c964fe5603"
+      },
+      {
+        "source_key": "trajetoria_2017",
+        "family": "trajetoria",
+        "rows_loaded": 4864,
+        "sha256": "90130f61e9ffb7903456c841d5daf69aec5f7a854726cd26e42022647f9b0540",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "a3b9b6a44d5542bfff9a332b6f29c1e569a6ba0519df9ce3a03ecb6bc0059b28"
+      },
+      {
+        "source_key": "trajetoria_2018",
+        "family": "trajetoria",
+        "rows_loaded": 4361,
+        "sha256": "44075a164340fda53fb080f9f00eeba8f5bd9bcb8397c0fe4ac801df72758f0b",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "40d8c1b9ae30ab88065a7a639b17818d506add8cd434bf35e06b4bcfb59fe98a"
+      },
+      {
+        "source_key": "trajetoria_2019",
+        "family": "trajetoria",
+        "rows_loaded": 3876,
+        "sha256": "a443cd5c28e38f317130c41381d8c82fad0c33912e292f1900e39bc9abce9eb0",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "480ab1cf2c1c5a17ba73fc5f94a0a9821ce3d76d3d2c74eb203a25a322e267d8"
+      },
+      {
+        "source_key": "trajetoria_2020",
+        "family": "trajetoria",
+        "rows_loaded": 3105,
+        "sha256": "dbdc6793f74f8623ac7d5e1e3202d58e3b63e11d040b84f6be533c0bf97c1d04",
+        "run_id": "fonte_dado_repeticao_1791654012895226000",
+        "version": "1620fc3a892d65ea243a08beddbfd2ec6c100114418c4ddecede694c412e29df"
+      }
+    ],
+    "tables": {
+      "fd_trajetoria": {
+        "rows": 26513,
+        "versions": 6,
+        "fingerprint": "481239367472337003204"
+      },
+      "fd_censo": {
+        "rows": 62674,
+        "versions": 4,
+        "fingerprint": "-858782195212097305732"
+      },
+      "fd_indicador": {
+        "rows": 1919,
+        "versions": 14,
+        "fingerprint": "41298837874808013558"
+      },
+      "fd_ibge": {
+        "rows": 1629330,
+        "versions": 7,
+        "fingerprint": "-1810946310944974613952"
+      }
+    },
+    "ibge_special": {
+      "nao_disponivel": 11662,
+      "numerico": 959019,
+      "zero_absoluto": 658649
+    }
+  },
+  "checks": {
+    "idempotency": true,
+    "same_content_fingerprints": true,
+    "rejected_batch_preserves_publication": true,
+    "ibge_zero_distinct_from_missing": true
+  }
+}

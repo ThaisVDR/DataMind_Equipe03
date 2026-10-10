@@ -1,0 +1,2026 @@
+{
+  "name": "censo2021",
+  "scope": "Todas as linhas CO_UF=51; nivel academico ainda nao filtrado",
+  "rows": 12278,
+  "column_count": 200,
+  "columns": [
+    {
+      "name": "NU_ANO_CENSO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_REGIAO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_REGIAO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_UF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "SG_UF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_UF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_MUNICIPIO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_MUNICIPIO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "IN_CAPITAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "TP_DIMENSAO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "TP_ORGANIZACAO_ACADEMICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "TP_CATEGORIA_ADMINISTRATIVA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "TP_REDE",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_IES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_CURSO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_CURSO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_CINE_ROTULO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_CINE_ROTULO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_CINE_AREA_GERAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_CINE_AREA_GERAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_CINE_AREA_ESPECIFICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_CINE_AREA_ESPECIFICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "CO_CINE_AREA_DETALHADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "NO_CINE_AREA_DETALHADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "TP_GRAU_ACADEMICO",
+      "blank": 3,
+      "blank_pct": 0.024,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "IN_GRATUITO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "TP_MODALIDADE_ENSINO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "TP_NIVEL_ACADEMICO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CURSO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_TOTAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_TOTAL_DIURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_TOTAL_NOTURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_TOTAL_EAD",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_NOVA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_PROC_SELETIVO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_REMANESC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_VG_PROG_ESPECIAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSCRITO_TOTAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSCRITO_TOTAL_DIURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSCRITO_TOTAL_NOTURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSCRITO_TOTAL_EAD",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSC_VG_NOVA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSC_PROC_SELETIVO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSC_VG_REMANESC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_INSC_VG_PROG_ESPECIAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_FEM",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_MASC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_DIURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_NOTURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_VG_NOVA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_VESTIBULAR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_ENEM",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_AVALIACAO_SERIADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_SELECAO_SIMPLIFICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_EGR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_OUTRO_TIPO_SELECAO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PROC_SELETIVO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_VG_REMANESC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_VG_PROG_ESPECIAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_OUTRA_FORMA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_0_17",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_18_24",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_25_29",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_30_34",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_35_39",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_40_49",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_50_59",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_60_MAIS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_BRANCA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PRETA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PARDA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_AMARELA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_INDIGENA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_CORND",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_FEM",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_MASC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_DIURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_NOTURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_0_17",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_18_24",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_25_29",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_30_34",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_35_39",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_40_49",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_50_59",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_60_MAIS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_BRANCA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PRETA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PARDA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_AMARELA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_INDIGENA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_CORND",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_FEM",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_MASC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_DIURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_NOTURNO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_0_17",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_18_24",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_25_29",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_30_34",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_35_39",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_40_49",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_50_59",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_60_MAIS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_BRANCA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PRETA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PARDA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_AMARELA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_INDIGENA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_CORND",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_NACBRAS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_NACESTRANG",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_NACBRAS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_NACESTRANG",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_NACBRAS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_NACESTRANG",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ALUNO_DEFICIENTE",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_DEFICIENTE",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_DEFICIENTE",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_DEFICIENTE",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_FINANC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_FINANC_REEMB",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_FIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_RPFIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_FINANC_REEMB_OUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_FINANC_NREEMB",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PROUNII",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PROUNIP",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_NRPFIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_FINANC_NREEMB_OUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_FINANC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_FINANC_REEMB",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_FIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_RPFIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_FINANC_REEMB_OUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_FINANC_NREEMB",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PROUNII",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PROUNIP",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_NRPFIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_FINANC_NREEMB_OUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_FINANC",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_FINANC_REEMB",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_FIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_RPFIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_FINANC_REEMB_OUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_FINANC_NREEMB",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PROUNII",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PROUNIP",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_NRPFIES",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_FINANC_NREEMB_OUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_RESERVA_VAGA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_RVREDEPUBLICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_RVETNICO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_RVPDEF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_RVSOCIAL_RF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_RVOUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_RESERVA_VAGA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_RVREDEPUBLICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_RVETNICO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_RVPDEF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_RVSOCIAL_RF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_RVOUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_RESERVA_VAGA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_RVREDEPUBLICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_RVETNICO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_RVPDEF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_RVSOCIAL_RF",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_RVOUTROS",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_SIT_TRANCADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_SIT_DESVINCULADO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_SIT_TRANSFERIDO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_SIT_FALECIDO",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PROCESCPUBLICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PROCESCPRIVADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PROCNAOINFORMADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PROCESCPUBLICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PROCESCPRIVADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PROCNAOINFORMADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PROCESCPUBLICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PROCESCPRIVADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PROCNAOINFORMADA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_PARFOR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_PARFOR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_PARFOR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_PARFOR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_APOIO_SOCIAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_APOIO_SOCIAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_APOIO_SOCIAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_APOIO_SOCIAL",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ATIV_EXTRACURRICULAR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_ATIV_EXTRACURRICULAR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_ATIV_EXTRACURRICULAR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_ATIV_EXTRACURRICULAR",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MOB_ACADEMICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_ING_MOB_ACADEMICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_MAT_MOB_ACADEMICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    },
+    {
+      "name": "QT_CONC_MOB_ACADEMICA",
+      "blank": 0,
+      "blank_pct": 0.0,
+      "markers": {},
+      "storage_types": {
+        "str": 12278
+      }
+    }
+  ],
+  "candidate_key": [
+    "NU_ANO_CENSO",
+    "CO_CURSO",
+    "CO_MUNICIPIO",
+    "TP_MODALIDADE_ENSINO",
+    "TP_NIVEL_ACADEMICO"
+  ],
+  "duplicate_excess": 0,
+  "missing_key_rows": 0,
+  "scanned_rows": 444786,
+  "member": "Microdados do Censo da Educaç╞o Superior 2021/dados/MICRODADOS_CADASTRO_CURSOS_2021.CSV",
+  "encoding": "cp1252",
+  "delimiter": ";",
+  "uncompressed_bytes": 257896224,
+  "course_only_duplicate_excess": 9541,
+  "categories": {
+    "TP_NIVEL_ACADEMICO": {
+      "1": 12275,
+      "2": 3
+    },
+    "TP_MODALIDADE_ENSINO": {
+      "2": 11533,
+      "1": 745
+    },
+    "TP_REDE": {
+      "2": 11850,
+      "1": 428
+    },
+    "TP_CATEGORIA_ADMINISTRATIVA": {
+      "4": 10662,
+      "2": 172,
+      "5": 1188,
+      "1": 252,
+      "3": 4
+    }
+  },
+  "requested_financing_fields_present": {
+    "QT_ING_FIES": true,
+    "QT_ING_PROUNII": true,
+    "QT_ING_PROUNIP": true,
+    "QT_MAT_FIES": true,
+    "QT_MAT_PROUNII": true,
+    "QT_MAT_PROUNIP": true
+  },
+  "quantity_parse_failures": {
+    "QT_CURSO": 0,
+    "QT_VG_TOTAL": 0,
+    "QT_VG_TOTAL_DIURNO": 0,
+    "QT_VG_TOTAL_NOTURNO": 0,
+    "QT_VG_TOTAL_EAD": 0,
+    "QT_VG_NOVA": 0,
+    "QT_VG_PROC_SELETIVO": 0,
+    "QT_VG_REMANESC": 0,
+    "QT_VG_PROG_ESPECIAL": 0,
+    "QT_INSCRITO_TOTAL": 0,
+    "QT_INSCRITO_TOTAL_DIURNO": 0,
+    "QT_INSCRITO_TOTAL_NOTURNO": 0,
+    "QT_INSCRITO_TOTAL_EAD": 0,
+    "QT_INSC_VG_NOVA": 0,
+    "QT_INSC_PROC_SELETIVO": 0,
+    "QT_INSC_VG_REMANESC": 0,
+    "QT_INSC_VG_PROG_ESPECIAL": 0,
+    "QT_ING": 0,
+    "QT_ING_FEM": 0,
+    "QT_ING_MASC": 0,
+    "QT_ING_DIURNO": 0,
+    "QT_ING_NOTURNO": 0,
+    "QT_ING_VG_NOVA": 0,
+    "QT_ING_VESTIBULAR": 0,
+    "QT_ING_ENEM": 0,
+    "QT_ING_AVALIACAO_SERIADA": 0,
+    "QT_ING_SELECAO_SIMPLIFICA": 0,
+    "QT_ING_EGR": 0,
+    "QT_ING_OUTRO_TIPO_SELECAO": 0,
+    "QT_ING_PROC_SELETIVO": 0,
+    "QT_ING_VG_REMANESC": 0,
+    "QT_ING_VG_PROG_ESPECIAL": 0,
+    "QT_ING_OUTRA_FORMA": 0,
+    "QT_ING_0_17": 0,
+    "QT_ING_18_24": 0,
+    "QT_ING_25_29": 0,
+    "QT_ING_30_34": 0,
+    "QT_ING_35_39": 0,
+    "QT_ING_40_49": 0,
+    "QT_ING_50_59": 0,
+    "QT_ING_60_MAIS": 0,
+    "QT_ING_BRANCA": 0,
+    "QT_ING_PRETA": 0,
+    "QT_ING_PARDA": 0,
+    "QT_ING_AMARELA": 0,
+    "QT_ING_INDIGENA": 0,
+    "QT_ING_CORND": 0,
+    "QT_MAT": 0,
+    "QT_MAT_FEM": 0,
+    "QT_MAT_MASC": 0,
+    "QT_MAT_DIURNO": 0,
+    "QT_MAT_NOTURNO": 0,
+    "QT_MAT_0_17": 0,
+    "QT_MAT_18_24": 0,
+    "QT_MAT_25_29": 0,
+    "QT_MAT_30_34": 0,
+    "QT_MAT_35_39": 0,
+    "QT_MAT_40_49": 0,
+    "QT_MAT_50_59": 0,
+    "QT_MAT_60_MAIS": 0,
+    "QT_MAT_BRANCA": 0,
+    "QT_MAT_PRETA": 0,
+    "QT_MAT_PARDA": 0,
+    "QT_MAT_AMARELA": 0,
+    "QT_MAT_INDIGENA": 0,
+    "QT_MAT_CORND": 0,
+    "QT_CONC": 0,
+    "QT_CONC_FEM": 0,
+    "QT_CONC_MASC": 0,
+    "QT_CONC_DIURNO": 0,
+    "QT_CONC_NOTURNO": 0,
+    "QT_CONC_0_17": 0,
+    "QT_CONC_18_24": 0,
+    "QT_CONC_25_29": 0,
+    "QT_CONC_30_34": 0,
+    "QT_CONC_35_39": 0,
+    "QT_CONC_40_49": 0,
+    "QT_CONC_50_59": 0,
+    "QT_CONC_60_MAIS": 0,
+    "QT_CONC_BRANCA": 0,
+    "QT_CONC_PRETA": 0,
+    "QT_CONC_PARDA": 0,
+    "QT_CONC_AMARELA": 0,
+    "QT_CONC_INDIGENA": 0,
+    "QT_CONC_CORND": 0,
+    "QT_ING_NACBRAS": 0,
+    "QT_ING_NACESTRANG": 0,
+    "QT_MAT_NACBRAS": 0,
+    "QT_MAT_NACESTRANG": 0,
+    "QT_CONC_NACBRAS": 0,
+    "QT_CONC_NACESTRANG": 0,
+    "QT_ALUNO_DEFICIENTE": 0,
+    "QT_ING_DEFICIENTE": 0,
+    "QT_MAT_DEFICIENTE": 0,
+    "QT_CONC_DEFICIENTE": 0,
+    "QT_ING_FINANC": 0,
+    "QT_ING_FINANC_REEMB": 0,
+    "QT_ING_FIES": 0,
+    "QT_ING_RPFIES": 0,
+    "QT_ING_FINANC_REEMB_OUTROS": 0,
+    "QT_ING_FINANC_NREEMB": 0,
+    "QT_ING_PROUNII": 0,
+    "QT_ING_PROUNIP": 0,
+    "QT_ING_NRPFIES": 0,
+    "QT_ING_FINANC_NREEMB_OUTROS": 0,
+    "QT_MAT_FINANC": 0,
+    "QT_MAT_FINANC_REEMB": 0,
+    "QT_MAT_FIES": 0,
+    "QT_MAT_RPFIES": 0,
+    "QT_MAT_FINANC_REEMB_OUTROS": 0,
+    "QT_MAT_FINANC_NREEMB": 0,
+    "QT_MAT_PROUNII": 0,
+    "QT_MAT_PROUNIP": 0,
+    "QT_MAT_NRPFIES": 0,
+    "QT_MAT_FINANC_NREEMB_OUTROS": 0,
+    "QT_CONC_FINANC": 0,
+    "QT_CONC_FINANC_REEMB": 0,
+    "QT_CONC_FIES": 0,
+    "QT_CONC_RPFIES": 0,
+    "QT_CONC_FINANC_REEMB_OUTROS": 0,
+    "QT_CONC_FINANC_NREEMB": 0,
+    "QT_CONC_PROUNII": 0,
+    "QT_CONC_PROUNIP": 0,
+    "QT_CONC_NRPFIES": 0,
+    "QT_CONC_FINANC_NREEMB_OUTROS": 0,
+    "QT_ING_RESERVA_VAGA": 0,
+    "QT_ING_RVREDEPUBLICA": 0,
+    "QT_ING_RVETNICO": 0,
+    "QT_ING_RVPDEF": 0,
+    "QT_ING_RVSOCIAL_RF": 0,
+    "QT_ING_RVOUTROS": 0,
+    "QT_MAT_RESERVA_VAGA": 0,
+    "QT_MAT_RVREDEPUBLICA": 0,
+    "QT_MAT_RVETNICO": 0,
+    "QT_MAT_RVPDEF": 0,
+    "QT_MAT_RVSOCIAL_RF": 0,
+    "QT_MAT_RVOUTROS": 0,
+    "QT_CONC_RESERVA_VAGA": 0,
+    "QT_CONC_RVREDEPUBLICA": 0,
+    "QT_CONC_RVETNICO": 0,
+    "QT_CONC_RVPDEF": 0,
+    "QT_CONC_RVSOCIAL_RF": 0,
+    "QT_CONC_RVOUTROS": 0,
+    "QT_SIT_TRANCADA": 0,
+    "QT_SIT_DESVINCULADO": 0,
+    "QT_SIT_TRANSFERIDO": 0,
+    "QT_SIT_FALECIDO": 0,
+    "QT_ING_PROCESCPUBLICA": 0,
+    "QT_ING_PROCESCPRIVADA": 0,
+    "QT_ING_PROCNAOINFORMADA": 0,
+    "QT_MAT_PROCESCPUBLICA": 0,
+    "QT_MAT_PROCESCPRIVADA": 0,
+    "QT_MAT_PROCNAOINFORMADA": 0,
+    "QT_CONC_PROCESCPUBLICA": 0,
+    "QT_CONC_PROCESCPRIVADA": 0,
+    "QT_CONC_PROCNAOINFORMADA": 0,
+    "QT_PARFOR": 0,
+    "QT_ING_PARFOR": 0,
+    "QT_MAT_PARFOR": 0,
+    "QT_CONC_PARFOR": 0,
+    "QT_APOIO_SOCIAL": 0,
+    "QT_ING_APOIO_SOCIAL": 0,
+    "QT_MAT_APOIO_SOCIAL": 0,
+    "QT_CONC_APOIO_SOCIAL": 0,
+    "QT_ATIV_EXTRACURRICULAR": 0,
+    "QT_ING_ATIV_EXTRACURRICULAR": 0,
+    "QT_MAT_ATIV_EXTRACURRICULAR": 0,
+    "QT_CONC_ATIV_EXTRACURRICULAR": 0,
+    "QT_MOB_ACADEMICA": 0,
+    "QT_ING_MOB_ACADEMICA": 0,
+    "QT_MAT_MOB_ACADEMICA": 0,
+    "QT_CONC_MOB_ACADEMICA": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-10T16:21:27.337642+00:00",
+  "login_verified": true,
+  "dag": "datamind_validar_ambiente",
+  "services": [
+    "airflow-api running healthy",
+    "airflow-dag-processor running healthy",
+    "airflow-scheduler running healthy",
+    "postgres-data running healthy",
+    "postgres-meta running healthy"
+  ],
+  "runs": [
+    {
+      "id": "validacao_01",
+      "state": "success",
+      "start": "2026-10-10T16:20:30.426857Z",
+      "end": "2026-10-10T16:20:36.881720Z"
+    },
+    {
+      "id": "validacao_02",
+      "state": "success",
+      "start": "2026-10-10T16:21:12.848119Z",
+      "end": "2026-10-10T16:21:15.940303Z"
+    }
+  ],
+  "registered_sources": 5,
+  "postgres_version": "17.6 (Debian 17.6-2.pgdg13+1)",
+  "scope": "Manifesto e conectividade; nao e validacao de idempotencia do ETL analitico completo."
+}

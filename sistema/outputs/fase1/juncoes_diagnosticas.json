@@ -1,0 +1,20 @@
+[
+  {
+    "source": "cpc2021",
+    "target": "trajetoria2015",
+    "source_unique_courses": 155,
+    "matched_courses": 116,
+    "unmatched_courses": 39,
+    "coverage_pct": 74.84,
+    "limitation": "Cobertura por codigo apenas; nao filtra elegibilidade, SC ou horizonte analitico."
+  },
+  {
+    "source": "enade2025",
+    "target": "trajetoria2015",
+    "source_unique_courses": 97,
+    "matched_courses": 68,
+    "unmatched_courses": 29,
+    "coverage_pct": 70.1,
+    "limitation": "Cobertura por codigo apenas; nao filtra elegibilidade, SC ou horizonte analitico."
+  }
+]
