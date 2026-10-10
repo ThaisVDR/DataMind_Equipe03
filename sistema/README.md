@@ -88,3 +88,7 @@ DAGs, código e SQL são montados desta pasta. Alterações no Python não exige
 O projeto Compose permanece `datamind03`, com os volumes `datamind03_postgres-data`, `datamind03_postgres-meta` e `datamind03_airflow-logs`. Não iniciar as cópias antigas do sistema em paralelo.
 
 [Detalhamento do ETL e PostgreSQL](docs/etl_fonte_dado.md). [Evidência dos testes anteriores](outputs/ambiente/validacao_fonte_dado.json).
+
+## Protótipo da Fase 2
+
+Consulte o [plano e as primeiras respostas](docs/fase2_prototipo.md) e o [painel com instruções](dashboard/README.md). Para atualizar os dados a partir do PostgreSQL carregado, execute `./scripts/atualizar_prototipo.ps1`; para abrir o site localmente, execute `./scripts/iniciar_prototipo.ps1`. A página usa uma extração agregada independente do servidor de banco e pode ser hospedada na Vercel.

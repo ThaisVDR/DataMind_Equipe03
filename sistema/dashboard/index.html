@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Rota do Diploma: análise exploratória da trajetória no ensino superior de Mato Grosso. DataMind, UNIVAG 2026.">
+  <title>Rota do Diploma · DataMind</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231c5549'/%3E%3Cpath d='M16 45V19h14q16 0 16 13T30 45z' fill='none' stroke='%23f8f4e9' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip">Pular para a análise</a>
+<aside class="sidebar">
+  <a class="brand" href="#trajetoria"><span class="mark">D<span>↗</span></span><span>DataMind<small>ROTA DO DIPLOMA</small></span></a>
+  <div class="nav-caption">EXPLORAR OS DADOS</div>
+  <nav aria-label="Perguntas do desafio">
+    <a href="#trajetoria" data-tab="trajetoria"><b>01</b> A rota da turma <span>↗</span></a>
+    <a href="#cursos" data-tab="cursos"><b>02</b> Cursos e áreas <span>↗</span></a>
+    <a href="#redes" data-tab="redes"><b>03</b> Redes e modalidades <span>↗</span></a>
+    <a href="#qualidade" data-tab="qualidade"><b>04</b> Qualidade e retenção <span>↗</span></a>
+    <a href="#licenciaturas" data-tab="licenciaturas"><b>05</b> Licenciaturas <span>↗</span></a>
+    <a href="#evidencias" data-tab="evidencias"><b>◎</b> Evidências e método <span>↗</span></a>
+  </nav>
+  <div class="side-note"><span class="status-dot"></span> PROTÓTIPO · FASE 2<p>Dados públicos.<br>Perguntas que orientam decisões.</p><small>UNIVAG · DataHack 2026<br>Equipe 03 · Mato Grosso</small></div>
+</aside>
+<main id="main">
+  <header class="topbar"><span><span class="status-dot"></span> MATO GROSSO <i>/</i> ENSINO SUPERIOR</span><button id="download" class="button">Baixar dados ↧</button></header>
+  <div id="load-error" role="alert" hidden>Não foi possível carregar a extração. Execute sistema/scripts/atualizar_prototipo.ps1 e mantenha data.js junto de index.html.</div>
+  <section id="trajetoria" class="page" aria-labelledby="title-p1">
+    <div class="eyebrow">P1 · TRAJETÓRIA DE UMA TURMA</div>
+    <h1 id="title-p1">O caminho até<br><em>o diploma.</em></h1>
+    <p class="intro">De cada 100 estudantes que entram numa graduação presencial em Mato Grosso, quantos chegam ao fim?</p>
+    <div class="filterbar"><label>Turma de ingresso<select id="coorte"></select></label><span id="coorte-context" class="muted"></span><span class="pill">Presencial · MT</span></div>
+    <div class="hero-grid">
+      <article class="card outcome"><div class="card-top"><span>DESFECHO ATÉ 2024</span><span class="muted">por 100 estudantes*</span></div><div id="outcome-stats" class="outcome-stats"></div><div id="waffle" class="waffle" aria-hidden="true"></div><div class="legend"><span><i class="green"></i>Concluíram</span><span><i class="coral"></i>Desistiram</span><span><i class="gold"></i>Permanecem</span></div><p class="caption">*Taxas ponderadas pelo denominador efetivo: ingressantes menos falecidos acumulados. Pontos ilustrativos arredondados; valores exatos nos indicadores.</p></article>
+      <article class="insight"><div class="eyebrow">ONDE OLHAR PRIMEIRO</div><h2 id="peak-title"></h2><p id="peak-text"></p><div class="rule"></div><span class="small-label">HIPÓTESE PARA INVESTIGAR</span><p>Acolhimento e apoio à permanência nos primeiros anos merecem atenção. Estes dados não identificam o motivo individual da desistência.</p><span class="insight-footer">UMA PERGUNTA PARA A GESTÃO ↗</span></article>
+    </div>
+    <article class="card"><div class="section-heading"><div><h2>Como a turma muda ao longo do tempo</h2><p>Percentual acumulado · mesmo grupo acompanhado ano a ano</p></div><span class="pill">TCA · TDA · TAP</span></div><div id="trajectory-chart" class="chart"></div><details><summary>Ver tabela e denominadores</summary><div id="trajectory-table" class="table-wrap"></div></details></article>
+    <p class="source">Fonte: INEP · Indicadores de Trajetória 2015–2020, acompanhados até 2024. Desistência do curso não equivale necessariamente à saída de todo o ensino superior.</p>
+  </section>
+  <section id="cursos" class="page" hidden aria-labelledby="title-p2">
+    <div class="eyebrow">P2 · ONDE A ROTA SE PERDE</div><h1 id="title-p2">Cursos diferentes.<br><em>O mesmo horizonte.</em></h1><p class="intro">Compare a desistência acumulada ao final do 5º ano. Assim, as turmas têm o mesmo tempo de acompanhamento.</p>
+    <div class="filterbar"><label>Coorte comparada<select id="compare-coorte"></select></label><label>Agrupamento<select id="level"><option value="area">Área geral CINE</option><option value="rotulo">Rótulo de curso CINE</option></select></label><label>Ordenar por<select id="order"><option value="desc">Maior desistência</option><option value="asc">Menor desistência</option></select></label></div>
+    <article class="card"><div class="section-heading"><div><h2>Desistência acumulada no 5º ano</h2><p>Base de comparação: coorte 2015, observada em 2019</p></div><div class="legend"><span><i class="gray"></i>2015</span><span><i class="green"></i><span id="comparison-label"></span></span></div></div><div id="ranking"></div><details><summary>Ver todos os grupos e bases de cálculo</summary><div id="ranking-table" class="table-wrap"></div></details></article>
+    <div class="callout">Comparação descritiva: a composição de cursos e instituições pode mudar entre coortes. Ausência de um grupo não significa taxa zero. Grupos com base menor que 10 são omitidos.</div><p class="source">Fonte: INEP · Trajetórias. Agregação por contagens, sem média simples das taxas dos cursos.</p>
+  </section>
+  <section id="redes" class="page" hidden aria-labelledby="title-p3">
+    <div class="eyebrow">P3 · REDES E MODALIDADES</div><h1 id="title-p3">Outra lente:<br><em>a perda de cada ano.</em></h1><p class="intro">O Censo retrata a situação anual dos cursos. Esta medida não é a desistência acumulada de uma turma.</p>
+    <div class="filterbar"><label>Modalidade<select id="modality"><option value="1">Presencial</option><option value="2">Educação a distância</option></select></label><label>Matrículas no ano<select id="census-year"><option>2024</option><option>2023</option><option>2022</option><option>2021</option></select></label><span class="pill">Somente graduação</span></div>
+    <article class="card"><div class="section-heading"><div><h2>Evasão anual por rede</h2><p>Desvinculados ÷ (matriculados + desvinculados + transferidos)</p></div></div><div id="network-chart" class="chart"></div><div id="network-legend" class="legend"></div></article>
+    <div class="two-col"><article class="card"><h2>Onde estão as matrículas</h2><p class="muted" id="enrollment-caption"></p><div id="enrollment"></div></article><article class="card attention"><div class="eyebrow">ANOMALIA A INVESTIGAR</div><h2>O salto de 2023</h2><p id="anomaly"></p><p>Hipóteses: mudanças de registro, atualização de vínculos ou alteração real da permanência. Precisam de documentação adicional e validação com as instituições.</p></article></div>
+    <details class="card"><summary>Ver tabela anual</summary><div id="network-table" class="table-wrap"></div></details><p class="source">Fonte: INEP · Censo Superior 2021–2024. Polos agregados por curso/ano antes dos totais. Rede pública reúne federal, estadual e municipal. Categoria especial excluída; o município de polo EAD não é o endereço do aluno.</p>
+  </section>
+  <section id="qualidade" class="page" hidden aria-labelledby="title-p4">
+    <div class="eyebrow">P4 · QUALIDADE E RETENÇÃO</div><h1 id="title-p4">Qualidade retém?<br><em>Vamos olhar a relação.</em></h1><p class="intro">CPC do ciclo 2021–2023 cruzado com a desistência da coorte 2015 até 2024, pelo código do curso.</p>
+    <div id="cpc-stats" class="metric-grid"></div><article class="card"><h2>Desistência por faixa do CPC</h2><p class="muted">Taxa ponderada pelos ingressantes efetivos dos cursos elegíveis</p><div id="cpc-bars"></div><div id="cpc-table" class="table-wrap"></div></article><div class="callout">Associação exploratória, sem controle por área, rede, perfil dos ingressantes ou seleção. O CPC é medido depois do ingresso da coorte. Correlação não demonstra que a nota tenha provocado a permanência.</div><p class="source">Fonte: INEP · CPC 2021–2023 + Trajetória 2015. SC/ausentes excluídos do cálculo, nunca convertidos em zero.</p>
+  </section>
+  <section id="licenciaturas" class="page" hidden aria-labelledby="title-p5">
+    <div class="eyebrow">P5 · O FUNIL DAS LICENCIATURAS</div><h1 id="title-p5">Formar professores.<br><em>E observar a aprendizagem.</em></h1><p class="intro">Duas medidas dos mesmos cursos, em populações diferentes: trajetória da turma de 2015 e desempenho dos participantes do Enade 2025.</p>
+    <div id="lic-stats" class="metric-grid"></div><article class="card"><div class="section-heading"><div><h2>Conclusão e proficiência por área</h2><p>Áreas ordenadas pela menor conclusão acumulada</p></div><div class="legend"><span><i class="green"></i>Conclusão · 2015–24</span><span><i class="blue"></i>Proficiência · 2025</span></div></div><div id="lic-bars"></div><div id="lic-table" class="table-wrap"></div></article><div class="callout">Não multiplique essas taxas para estimar “professores formados com proficiência”: os participantes do Enade 2025 não são necessariamente os ingressantes de 2015. O recorte de trajetória disponível é presencial.</div><p class="source">Fonte: INEP · Enade Licenciaturas 2025 + Trajetória. Proficiência agregada = total no padrão ÷ participantes. Cursos com menos de 10 participantes, base de trajetória menor que 10 ou dados ausentes são excluídos deste cruzamento.</p>
+  </section>
+  <section id="evidencias" class="page" hidden aria-labelledby="title-eda">
+    <div class="eyebrow">ANÁLISE EXPLORATÓRIA · RASTREABILIDADE</div><h1 id="title-eda">Antes do gráfico,<br><em>a evidência.</em></h1><p class="intro">Volumes, granularidades, valores ausentes e cobertura das junções. Cada resultado parte de uma versão identificada das fontes.</p>
+    <div id="eda-stats" class="metric-grid"></div><article class="card"><h2>O que representa uma linha?</h2><div class="table-wrap"><table><thead><tr><th>Fonte</th><th>Granularidade</th><th>Leitura e chave</th></tr></thead><tbody><tr><td>Trajetória</td><td>Curso × coorte × ano de acompanhamento</td><td>XLSX, cabeçalho localizado · códigos em texto</td></tr><tr><td>Censo Superior</td><td>Curso × município de oferta × ano</td><td>CSV ; latin-1 · polos consolidados por curso</td></tr><tr><td>Indicadores</td><td>Curso × avaliação; IGC por instituição</td><td>XLSX · código de curso ou IES</td></tr><tr><td>IBGE</td><td>Localidade × período × variável × categorias</td><td>JSON · códigos e todas as dimensões preservados</td></tr></tbody></table></div></article>
+    <article class="card"><h2>Perfil das bases de trajetória e Censo</h2><p class="muted">Ausências: CINE/município na Trajetória; CINE/rede no Censo. Não é um perfil de todas as colunas.</p><div id="profile-table" class="table-wrap"></div></article>
+    <div class="two-col"><article class="card"><h2>Cobertura das junções</h2><div id="joins-table" class="table-wrap"></div><p class="caption">Correspondência não garante elegibilidade: notas ausentes e grupos pequenos recebem filtros adicionais.</p></article><article class="card"><h2>Verificações da extração</h2><ul id="checks" class="checks"></ul></article></div>
+    <article class="card"><h2>Ausências nos indicadores</h2><p class="muted">Contagem da métrica pertinente a cada fonte: contínuo ou proficiência. SC não é zero.</p><div id="indicator-table" class="table-wrap"></div></article>
+    <article class="card"><h2>IBGE · estados dos valores</h2><p class="muted">Categorias originais preservadas; grupos abaixo de dez permanecem omitidos nas visualizações.</p><div id="ibge-table" class="table-wrap"></div></article>
+    <article class="card"><h2>Limites desta entrega</h2><p>A página é uma fotografia agregada do PostgreSQL, atualizada pelo pipeline e pelo comando de exportação. Não consulta o banco ao navegar. IBGE foi carregado e perfilado, mas as perguntas bônus ainda não foram implementadas.</p><p>A investigação documental de 2023 e análises ajustadas por área/rede ainda precisam ser concluídas. A comparação CPC e Enade usa somente cursos com correspondência na trajetória presencial; não representa todos os cursos de MT.</p><details><summary>Ver manifesto das 31 fontes</summary><div id="sources-table" class="table-wrap"></div></details></article>
+  </section>
+  <footer><span>DataMind / Equipe 03</span><span id="snapshot-time"></span><a href="#evidencias">Fontes & método ↗</a></footer>
+</main>
+<noscript>Ative o JavaScript para explorar o painel. Os dados também estão disponíveis em sistema/outputs/analytics/prototipo/snapshot.json.</noscript>
+</body></html>

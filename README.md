@@ -28,7 +28,7 @@ DataMind/
 
 ## Operar manualmente
 
-Os cinco serviços foram parados, preservando os volumes do PostgreSQL e os logs. A nova pasta foi preparada e conferida sem iniciar o sistema novamente.
+Os serviços são controlados manualmente a partir de `sistema/`. Iniciar o ambiente sobe PostgreSQL e Airflow; isso não dispara o ETL automaticamente. Os scripts de parada preservam os volumes do PostgreSQL e os logs.
 
 No PowerShell:
 
@@ -68,7 +68,7 @@ A DAG principal `datamind_fonte_dado_etl` carregou 31 conjuntos de Mato Grosso n
 - [DAG principal](sistema/dags/datamind_fonte_dado_etl.py)
 - [Guia do evento](docs/guia_participante.html)
 
-O site na Vercel e a interpretação final de todas as perguntas não integram esta entrega. Os registros completos de uso de IA exigidos pelo evento devem ser incluídos pela equipe em `prompts/`; relatórios técnicos não substituem as conversas.
+O protótipo do dashboard responde inicialmente às cinco perguntas do desafio, com extração agregada do PostgreSQL para funcionar fora da máquina. Veja o [painel](sistema/dashboard/index.html), [plano e respostas da Fase 2](sistema/docs/fase2_prototipo.md), [como atualizar e rodar localmente](sistema/dashboard/README.md) e [publicação na Vercel](sistema/dashboard/vercel.md). Os registros completos de uso de IA exigidos pelo evento devem ser incluídos pela equipe em `prompts/`; relatórios técnicos não substituem as conversas.
 
 ## Reproduzir em outra máquina
 
