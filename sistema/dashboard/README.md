@@ -38,3 +38,7 @@ O painel também pode ser aberto sem rede pelo `index.html` se os arquivos estiv
 - O dado municipal de polo EAD não localiza o aluno. Descrições não identificam causalidade.
 
 O relatório da EDA, cobertura de junções, data da extração, manifesto e limitações aparecem na aba **Evidências e método**.
+
+## Regras e evidências
+
+A matriz de regras de negócio e a ligação entre EDA, PostgreSQL, fórmulas e visuais está em [docs/regras_negocio_dados.md](../docs/regras_negocio_dados.md). O painel resume o contrato na aba **Evidências e método**.

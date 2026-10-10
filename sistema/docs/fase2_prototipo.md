@@ -22,6 +22,10 @@ Os códigos permanecem texto. No Censo, filtramos nível de graduação, preserv
 
 As consultas validam 31 fontes ativas, unicidade das chaves curso/coorte/referência, reconciliação TCA+TDA+TAP pelo denominador efetivo, consistência de modalidade e rede entre polos, CPC único por curso no ciclo e mínimo de dez na base publicada. Perfil resumido verifica ausências em CINE e município da trajetória e CINE/rede no Censo; o dicionário completo por campo ainda é trabalho para a etapa final.
 
+## Regras de negócio e rastreabilidade
+
+A matriz completa de população, granularidade, campos, fórmula, denominador, elegibilidade, validação SQL e interpretação de cada gráfico está em [regras_negocio_dados.md](regras_negocio_dados.md). A aba **Evidências e método** do protótipo traz o resumo visual desse contrato. A EDA distingue os cinco recortes estruturais perfilados na Fase 1 das 31 versões carregadas; não generaliza os perfis por coluna às edições ainda não perfiladas.
+
 ## Plano do dashboard
 
 O painel atende gestores de IES, secretarias e equipes de políticas públicas. Cada aba abre pela pergunta do guia e informa fonte, medida, recorte, horizonte e limites. Os gráficos usam taxas agregadas por contagens, com tabela acessível e botão para baixar o snapshot; filtros não escondem a definição da métrica. Uma extração versionada do PostgreSQL permite acesso fora da máquina da equipe.
