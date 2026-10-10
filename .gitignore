@@ -1,7 +1,7 @@
 # Dados e credenciais locais
 /Fonte de Dados/
-/sistema/data/
-/sistema/runtime/
+/DataMin.03/data/
+/DataMin.03/runtime/
 .env
 .env.*
 !.env.example

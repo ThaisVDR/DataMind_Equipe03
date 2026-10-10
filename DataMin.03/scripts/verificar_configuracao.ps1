@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath (Split-Path -Parent $PSScriptRoot)
-foreach ($path in @('../Fonte de Dados','dags','src','sql/init','data/raw','outputs/fase1','outputs/analytics','runtime/etl','runtime/private')) {
+foreach ($path in @('../Fonte de Dados','dags','src','sql/init','sql/queries','data/raw','outputs/fase1','outputs/analytics','runtime/etl','runtime/private')) {
     if (-not (Test-Path -LiteralPath $path -PathType Container)) { throw "Pasta ausente: $path" }
 }
 foreach ($path in @('.env','runtime/private/passwords.json','outputs/fase1/manifesto.json')) {

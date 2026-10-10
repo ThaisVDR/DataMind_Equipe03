@@ -1,3 +1,5 @@
+> Registro da primeira DAG de trajetória. Para a ingestão atual das 31 fontes, use o manual em [ETL fonteDado](etl_fonte_dado.md) e o lançador da pasta DataMin.03.
+
 > Registro da etapa anterior. O diretório e os comandos atuais estão no [README do sistema](../README.md). A nova pasta foi organizada com os serviços parados.
 
 # Primeira orquestração baseada na apresentação
@@ -6,7 +8,7 @@ Base: `Estrategia_Equipe_Rota_do_Diploma_Infografico.pptx.pdf`, recebido da past
 
 ## Começar pela interface
 
-1. Abrir http://localhost:8080 e entrar com usuário `datamind`. A senha está somente no arquivo local `runtime/private/ACESSO_LOCAL.txt`.
+1. Abrir http://localhost:8080 e entrar com usuário `datamind03`. A senha está somente no arquivo local `runtime/private/ACESSO_LOCAL.txt`.
 2. Abrir a DAG `datamind_trajetoria_2015` e clicar em **Trigger** para uma execução manual, sem parâmetros.
 3. Acompanhar o gráfico: `extrair → carregar → transformar → conferir → decidir → publicar` ou `quarentena`.
 4. Consultar o log da tarefa quando houver erro. Uma tarefa cinza `skipped` no ramo não escolhido é esperada.
@@ -19,7 +21,7 @@ Alternativa no terminal, a partir da raiz do projeto:
 ```powershell
 docker compose exec -T airflow-scheduler airflow dags trigger datamind_trajetoria_2015
 docker compose exec -T airflow-scheduler airflow dags list-runs datamind_trajetoria_2015
-docker compose exec -T postgres-data psql -U datamind -d datamind -c "SELECT * FROM mart.p1_trajectory_active ORDER BY referencia"
+docker compose exec -T postgres-data psql -U datamind -d datamind03 -c "SELECT * FROM mart.p1_trajectory_active ORDER BY referencia"
 ```
 
 ## Correspondência com os slides

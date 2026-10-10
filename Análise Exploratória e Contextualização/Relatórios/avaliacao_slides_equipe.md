@@ -1,6 +1,6 @@
 # Avaliação da apresentação da equipe
 
-Arquivo revisado: Estrategia_Equipe_Rota_do_Diploma_Infografico.pptx.pdf, cinco páginas. Revisão textual e visual, com todas as páginas renderizadas e inspecionadas. Original preservado.
+Arquivo revisado: ../Materiais do grupo/Estrategia_Equipe_Rota_do_Diploma_Infografico.pptx.pdf, cinco páginas. Revisão textual e visual, com todas as páginas renderizadas e inspecionadas. Original preservado.
 
 ## Leitura geral
 
@@ -27,8 +27,8 @@ O guia pede 3–4 slides ou uma página para a Fase 1. Este PDF tem cinco págin
 - Camadas staging, core e mart, complementadas por raw e audit.
 - Publicação condicionada a validações, com exportações para o site.
 
-Estas decisões orientam a implementação. A DAG inicial registra manifesto e verifica conectividade. Uma segunda DAG, `datamind_trajetoria_2015`, implementa agora o recorte inicial da P1 conforme o fluxo da apresentação; consulte [primeira orquestração](primeira_orquestracao.md) para uso, evidências e limites. O fluxo completo P1–P5 permanece em desenvolvimento.
+Estas decisões orientam a implementação. A DAG inicial registra manifesto e verifica conectividade. Uma segunda DAG, `datamind_trajetoria_2015`, implementa agora o recorte inicial da P1 conforme o fluxo da apresentação; consulte [primeira orquestração](../../DataMin.03/docs/primeira_orquestracao.md) para uso, evidências e limites. O fluxo completo P1–P5 permanece em desenvolvimento.
 
 ## Verificação adicional da página 5
 
-Após a revisão, foi executado src/check_trajectory_method.py. O ajuste por falecimentos foi reconciliado em todos os 5.150 registros MT da coorte 2015: saldo exato e cinco taxas com erro máximo menor que 0,000000005 ponto percentual. Assim, esse item tem evidência para a coorte examinada. Preservar as taxas publicadas e a documentação da fórmula continua necessário.
+Após a revisão, foi executado ../../DataMin.03/src/check_trajectory_method.py. O ajuste por falecimentos foi reconciliado em todos os 5.150 registros MT da coorte 2015: saldo exato e cinco taxas com erro máximo menor que 0,000000005 ponto percentual. Assim, esse item tem evidência para a coorte examinada. Preservar as taxas publicadas e a documentação da fórmula continua necessário.

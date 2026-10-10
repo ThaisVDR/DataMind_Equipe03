@@ -10,7 +10,7 @@ x-airflow: &airflow
     AIRFLOW__CORE__PARALLELISM: "2"
     AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG: "2"
     AIRFLOW__CORE__AUTH_MANAGER: airflow.api_fastapi.auth.managers.simple.simple_auth_manager.SimpleAuthManager
-    AIRFLOW__CORE__SIMPLE_AUTH_MANAGER_USERS: datamind:admin
+    AIRFLOW__CORE__SIMPLE_AUTH_MANAGER_USERS: datamind03:admin
     AIRFLOW__CORE__SIMPLE_AUTH_MANAGER_PASSWORDS_FILE: /opt/airflow/private/passwords.json
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${AIRFLOW_DB_PASSWORD}@postgres-meta:5432/airflow
     AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY}
@@ -18,7 +18,7 @@ x-airflow: &airflow
     AIRFLOW__CORE__EXECUTION_API_SERVER_URL: http://airflow-api:8080/execution/
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: "true"
     AIRFLOW__DAG_PROCESSOR__REFRESH_INTERVAL: "20"
-    DATAMIND_DB_DSN: postgresql://datamind:${DATAMIND_DB_PASSWORD}@postgres-data:5432/datamind
+    DATAMIND_DB_DSN: postgresql://datamind:${DATAMIND_DB_PASSWORD}@postgres-data:5432/datamind03
   volumes:
     - ./dags:/opt/airflow/dags:ro
     - ./src:/opt/airflow/project/src:ro
@@ -58,14 +58,14 @@ services:
     environment:
       POSTGRES_USER: datamind
       POSTGRES_PASSWORD: ${DATAMIND_DB_PASSWORD}
-      POSTGRES_DB: datamind
+      POSTGRES_DB: datamind03
     ports:
       - "127.0.0.1:15432:5432"
     volumes:
       - postgres-data:/var/lib/postgresql/data
       - ./sql/init:/docker-entrypoint-initdb.d:ro
     healthcheck:
-      test: [CMD-SHELL, "pg_isready -U datamind -d datamind"]
+      test: [CMD-SHELL, "pg_isready -U datamind -d datamind03"]
       interval: 5s
       timeout: 5s
       retries: 20

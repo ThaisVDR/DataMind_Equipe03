@@ -93,6 +93,6 @@ O teste de idempotência no PostgreSQL ainda não foi executado. Reproduzir a pe
 
 ## Limites desta entrega
 
-Atualização após a Fase 1: ambiente local implementado e testado conforme docs/ambiente_docker.md. Dois PostgreSQL separados, serviços Airflow saudáveis e duas execuções de validação do manifesto concluídas. O parágrafo abaixo descreve o estado original da proposta, antes dessa implementação.
+Atualização após a Fase 1: ambiente local implementado e testado conforme ../../DataMin.03/docs/ambiente_docker.md. Dois PostgreSQL separados, serviços Airflow saudáveis e duas execuções de validação do manifesto concluídas. O parágrafo abaixo descreve o estado original da proposta, antes dessa implementação.
 
 Arquitetura planejada. Sem contêineres iniciados, banco carregado, DAG executada ou página publicada nesta etapa. As verificações concluídas estão no relatório de exploração e nos JSONs gerados pelo script.

@@ -12,8 +12,8 @@ A unidade e a população variam por pergunta. Trajetória do INEP permite acomp
 
 A EDA foi feita em duas etapas, que devem continuar claramente separadas nas apresentações:
 
-1. **Perfil estrutural da Fase 1:** cinco recortes representativos, com todas as linhas de MT das edições escolhidas: Trajetória 2015 (5.150 registros), Censo 2021 (12.278 antes do filtro de nível), CPC 2021 (155), Enade Licenciaturas 2025 (97) e IBGE tabela 9514 em nível estadual N3 (2.412 observações longas). Foram verificados cabeçalhos, tipos de armazenamento, ausências, marcadores, chaves candidatas e junções diagnósticas. Isto não é amostra aleatória nem validação de todas as edições. Evidências reproduzíveis: `outputs/fase1/resumo.json`, `perfil_colunas.csv`, `manifesto.json`, `juncoes_diagnosticas.json` e `reconciliacao_trajetoria.json`.
-2. **Carga usada pelo protótipo:** 31 versões ativas (6 Trajetória, 4 Censo, 14 indicadores, 7 tabelas IBGE), total de 1.720.436 linhas nas granularidades próprias das fontes. São linhas de fatos/tabelas, não pessoas únicas. As estatísticas e resultados do painel vêm do snapshot exportado por `src/export_dashboard.py` em transação PostgreSQL somente de leitura.
+1. **Perfil estrutural da Fase 1:** cinco recortes representativos, com todas as linhas de MT das edições escolhidas: Trajetória 2015 (5.150 registros), Censo 2021 (12.278 antes do filtro de nível), CPC 2021 (155), Enade Licenciaturas 2025 (97) e IBGE tabela 9514 em nível estadual N3 (2.412 observações longas). Foram verificados cabeçalhos, tipos de armazenamento, ausências, marcadores, chaves candidatas e junções diagnósticas. Isto não é amostra aleatória nem validação de todas as edições. Evidências reproduzíveis: `../../DataMin.03/outputs/fase1/resumo.json`, `perfil_colunas.csv`, `manifesto.json`, `juncoes_diagnosticas.json` e `reconciliacao_trajetoria.json`.
+2. **Carga usada pelo protótipo:** 31 versões ativas (6 Trajetória, 4 Censo, 14 indicadores, 7 tabelas IBGE), total de 1.720.436 linhas nas granularidades próprias das fontes. São linhas de fatos/tabelas, não pessoas únicas. As estatísticas e resultados do painel vêm do snapshot exportado por `../../DataMin.03/src/export_dashboard.py` em transação PostgreSQL somente de leitura.
 
 ### Achados estruturais que viraram regras
 
@@ -58,7 +58,7 @@ A EDA foi feita em duas etapas, que devem continuar claramente separadas nas apr
 | `mart` | Visões agregadas reutilizáveis por coorte e por Censo/rede/modalidade. | Concentra fórmulas estáveis e deixa as perguntas analíticas reproduzíveis. |
 | Snapshot estático | JSON agregado exportado por consulta somente leitura e transação consistente. | Separa publicação Vercel do banco local; atualiza somente após nova exportação e publicação do site. |
 
-O DDL está em `sql/init/002_fonte_dado.sql`; a extração e montagem do contrato estão em `src/export_dashboard.py`. A regra no documento deve ser alterada junto da SQL/exportação e da definição exibida na interface quando a equipe mudar uma métrica.
+O DDL está em `../../DataMin.03/sql/init/002_fonte_dado.sql`; a extração e montagem do contrato estão em `../../DataMin.03/src/export_dashboard.py`. A regra no documento deve ser alterada junto da SQL/exportação e da definição exibida na interface quando a equipe mudar uma métrica.
 
 ## Próximas verificações antes da banca
 

@@ -21,9 +21,9 @@ def main():
     parser.add_argument('--first-run-id', default='trajetoria_validacao_01')
     parser.add_argument('--start-first', action='store_true', help='Inicia a primeira carga; use identificador novo')
     args = parser.parse_args()
-    password = json.loads((ROOT/'runtime/private/passwords.json').read_text())['datamind']
+    password = json.loads((ROOT/'runtime/private/passwords.json').read_text())['datamind03']
     request = urllib.request.Request('http://localhost:8080/auth/token',
-        data=json.dumps({'username':'datamind','password':password}).encode(),
+        data=json.dumps({'username':'datamind03','password':password}).encode(),
         headers={'Content-Type':'application/json'})
     with urllib.request.urlopen(request, timeout=15) as response:
         token = json.load(response)['access_token']
@@ -56,7 +56,7 @@ def main():
           'publication',(SELECT row_to_json(p) FROM audit.publication p WHERE product='p1_trajetoria_2015'),
           'runs',(SELECT json_agg(r ORDER BY airflow_run_id) FROM audit.trajectory_run r));"""
         out = subprocess.check_output(['docker','compose','exec','-T','postgres-data',
-            'psql','-U','datamind','-d','datamind','-Atc',sql],cwd=ROOT,text=True,encoding='utf-8')
+            'psql','-U','datamind','-d','datamind03','-Atc',sql],cwd=ROOT,text=True,encoding='utf-8')
         result = json.loads(out)
         pointer_bytes = (ROOT/'outputs/analytics/current.json').read_bytes()
         pointer = json.loads(pointer_bytes)

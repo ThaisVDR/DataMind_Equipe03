@@ -17,9 +17,9 @@ O Docker Desktop foi consultado e apresentou backend Linux, 20 CPUs e cerca de 7
 ## Acesso
 
 - Airflow: http://localhost:8080
-- Usuário: datamind
+- Usuário: datamind03
 - Senha: arquivo local runtime/private/ACESSO_LOCAL.txt
-- PostgreSQL analítico: host localhost, porta 15432, banco datamind, usuário datamind.
+- PostgreSQL analítico: host localhost, porta 15432, banco datamind03, usuário datamind.
 - Senha do banco: variável DATAMIND_DB_PASSWORD do arquivo .env.
 
 Não enviar .env ou runtime/private ao GitHub/Drive. Há .env.example sem credenciais reais. O arquivo .gitignore já exclui esses caminhos.

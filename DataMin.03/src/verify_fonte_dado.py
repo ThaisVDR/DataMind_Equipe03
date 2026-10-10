@@ -15,8 +15,8 @@ def main():
     parser.add_argument('--first-run-id',default='fonte_dado_carga_01')
     parser.add_argument('--start-first',action='store_true')
     args=parser.parse_args()
-    password=json.loads((ROOT/'runtime/private/passwords.json').read_text())['datamind']
-    req=urllib.request.Request('http://localhost:8080/auth/token',data=json.dumps({'username':'datamind','password':password}).encode(),headers={'Content-Type':'application/json'})
+    password=json.loads((ROOT/'runtime/private/passwords.json').read_text())['datamind03']
+    req=urllib.request.Request('http://localhost:8080/auth/token',data=json.dumps({'username':'datamind03','password':password}).encode(),headers={'Content-Type':'application/json'})
     with urllib.request.urlopen(req,timeout=30) as response:token=json.load(response)['access_token']
     def api(path,data=None):
         req=urllib.request.Request('http://localhost:8080/api/v2/'+path,data=None if data is None else json.dumps(data).encode(),headers={'Content-Type':'application/json','Authorization':'Bearer '+token})
@@ -36,7 +36,7 @@ def main():
             time.sleep(5)
         raise TimeoutError(run_id)
     def query(statement):
-        return subprocess.check_output(['docker','compose','exec','-T','postgres-data','psql','-U','datamind','-d','datamind','-Atc',statement],cwd=ROOT,text=True,encoding='utf-8').strip()
+        return subprocess.check_output(['docker','compose','exec','-T','postgres-data','psql','-U','datamind','-d','datamind03','-Atc',statement],cwd=ROOT,text=True,encoding='utf-8').strip()
     def snapshot():
         result={}
         result['active']=json.loads(query('SELECT json_agg(a ORDER BY source_key) FROM audit.fd_active a'))

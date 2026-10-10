@@ -1,11 +1,11 @@
 # ETL de fonteDado para PostgreSQL
 
-A DAG `datamind_fonte_dado_etl` lê os arquivos de `../Fonte de Dados`, montados internamente como `fonteDado` e publica um lote coerente de dados de Mato Grosso no banco `datamind`.
+A DAG `datamind_fonte_dado_etl` lê os arquivos de `../Fonte de Dados`, montados internamente como `fonteDado` e publica um lote coerente de dados de Mato Grosso no banco `datamind03`.
 
 ## Executar
 
 1. Iniciar o Docker Desktop em modo Linux e executar `scripts/iniciar.ps1` na raiz do repositório.
-2. Abrir http://localhost:8080. Usuário `datamind`; senha no arquivo local `runtime/private/ACESSO_LOCAL.txt`.
+2. Abrir http://localhost:8080. Usuário `datamind03`; senha no arquivo local `runtime/private/ACESSO_LOCAL.txt`.
 3. Abrir `datamind_fonte_dado_etl` e clicar em **Trigger**, sem parâmetros.
 4. Acompanhar `inventariar`, as 31 instâncias de `extrair_transformar_carregar` e `publicar_lote`.
 5. Consultar `audit.fd_cobertura` para confirmar quais fontes foram publicadas.
@@ -15,7 +15,7 @@ Pelo terminal:
 ```powershell
 docker compose exec -T airflow-scheduler airflow dags unpause datamind_fonte_dado_etl
 docker compose exec -T airflow-scheduler airflow dags trigger datamind_fonte_dado_etl
-docker compose exec -T postgres-data psql -U datamind -d datamind -c "SELECT * FROM audit.fd_cobertura ORDER BY source_key"
+docker compose exec -T postgres-data psql -U datamind -d datamind03 -c "SELECT * FROM audit.fd_cobertura ORDER BY source_key"
 ```
 
 O limite de duas tarefas simultâneas evita carregar todos os arquivos grandes na memória ao mesmo tempo. Não modificar as fontes ou o código durante uma execução.
@@ -24,8 +24,8 @@ O limite de duas tarefas simultâneas evita carregar todos os arquivos grandes n
 
 | Uso | Host | Porta | Banco / usuário |
 | --- | --- | --- | --- |
-| DBeaver, pgAdmin ou outra aplicação nesta máquina | `localhost` | `15432` | `datamind` / `datamind` |
-| Tarefas Airflow dentro do Compose | `postgres-data` | `5432` | `datamind` / `datamind` |
+| DBeaver, pgAdmin ou outra aplicação nesta máquina | `localhost` | `15432` | `datamind03` / `datamind` |
+| Tarefas Airflow dentro do Compose | `postgres-data` | `5432` | `datamind03` / `datamind` |
 
 A senha está em `DATAMIND_DB_PASSWORD`, no `.env` local. As tarefas usam a variável `DATAMIND_DB_DSN` já configurada no Compose. Credenciais não são gravadas no código nem nos relatórios.
 

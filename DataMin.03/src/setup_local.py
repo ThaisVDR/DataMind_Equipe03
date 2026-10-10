@@ -21,9 +21,9 @@ if not env.exists():
 passwords=private/'passwords.json'
 if not passwords.exists():
     password=secrets.token_urlsafe(18)
-    passwords.write_text(json.dumps({'datamind':password}),encoding='utf-8')
+    passwords.write_text(json.dumps({'datamind03':password}),encoding='utf-8')
     (private/'ACESSO_LOCAL.txt').write_text(
-        'Airflow: http://localhost:8080\nUsuario: datamind\nSenha: '+password+
-        '\nPostgreSQL analitico: localhost:15432 / banco datamind / usuario datamind\n'
+        'Airflow: http://localhost:8080\nUsuario: datamind03\nSenha: '+password+
+        '\nPostgreSQL analitico: localhost:15432 / banco datamind03 / usuario datamind\n'
         'Senha do PostgreSQL: DATAMIND_DB_PASSWORD em .env\n',encoding='utf-8')
 print('Configuracao local pronta. Credenciais em runtime/private/ACESSO_LOCAL.txt; nao versionar.')

@@ -7,7 +7,7 @@ Site estático de exploração das cinco perguntas obrigatórias do DataHack UNI
 No PowerShell, com o Docker em execução e o ETL já carregado:
 
 ```powershell
-Set-Location -LiteralPath 'C:\Users\THAIII\DATAHCK_2026\DataMind\sistema'
+Set-Location -LiteralPath 'C:\Users\THAIII\DATAHCK_2026\DataMind\DataMin.03'
 .\scripts\atualizar_prototipo.ps1
 ```
 
@@ -25,7 +25,7 @@ Abra `http://127.0.0.1:4173/`. A hospedagem local não inicia nem para Airflow o
 .\scripts\parar_prototipo.ps1
 ```
 
-O painel também pode ser aberto sem rede pelo `index.html` se os arquivos estiverem na mesma pasta, mas o servidor local é o modo recomendado. Os comandos da [Vercel](vercel.md) usam a pasta `sistema/dashboard` como raiz.
+O painel também pode ser aberto sem rede pelo `index.html` se os arquivos estiverem na mesma pasta, mas o servidor local é o modo recomendado. Os comandos da [Vercel](vercel.md) usam a pasta `DataMin.03/dashboard` como raiz.
 
 ## Perguntas e cautelas
 
@@ -41,4 +41,4 @@ O relatório da EDA, cobertura de junções, data da extração, manifesto e lim
 
 ## Regras e evidências
 
-A matriz de regras de negócio e a ligação entre EDA, PostgreSQL, fórmulas e visuais está em [docs/regras_negocio_dados.md](../docs/regras_negocio_dados.md). O painel resume o contrato na aba **Evidências e método**.
+A matriz de regras de negócio e a ligação entre EDA, PostgreSQL, fórmulas e visuais está em [docs/regras_negocio_dados.md](../../An%C3%A1lise%20Explorat%C3%B3ria%20e%20Contextualiza%C3%A7%C3%A3o/Relat%C3%B3rios/regras_negocio_dados.md). O painel resume o contrato na aba **Evidências e método**.

@@ -96,7 +96,7 @@ Esta execução reproduziu a inspeção de estrutura e chaves para os cinco reco
 
 ### Complemento posterior à revisão dos slides
 
-O script src/check_trajectory_method.py confrontou o saldo e as cinco taxas nos 5.150 registros MT da coorte 2015. Para este arquivo, a soma acumulada de concluintes, desistentes e falecidos, adicionada à permanência, coincide exatamente com os ingressantes. O denominador QT_INGRESSANTE menos falecidos acumulados reproduz TAP, TCA, TDA, TCAN e TADA com erro máximo inferior a 0,000000005 ponto percentual. TCA e TDA usam contagens acumuladas; TCAN e TADA usam contagens do ano. A evidência está em outputs/fase1/reconciliacao_trajetoria.json. Essa verificação confirma o ajuste citado pelo grupo para esta coorte, sem generalizar a outras edições. Para uma agregação pelas contagens, usar o denominador elegível reconciliado e documentar diferenças em relação à ponderação simplificada por ingressantes sugerida no guia.
+O script ../../DataMin.03/src/check_trajectory_method.py confrontou o saldo e as cinco taxas nos 5.150 registros MT da coorte 2015. Para este arquivo, a soma acumulada de concluintes, desistentes e falecidos, adicionada à permanência, coincide exatamente com os ingressantes. O denominador QT_INGRESSANTE menos falecidos acumulados reproduz TAP, TCA, TDA, TCAN e TADA com erro máximo inferior a 0,000000005 ponto percentual. TCA e TDA usam contagens acumuladas; TCAN e TADA usam contagens do ano. A evidência está em ../../DataMin.03/outputs/fase1/reconciliacao_trajetoria.json. Essa verificação confirma o ajuste citado pelo grupo para esta coorte, sem generalizar a outras edições. Para uma agregação pelas contagens, usar o denominador elegível reconciliado e documentar diferenças em relação à ponderação simplificada por ingressantes sugerida no guia.
 
 1. Estender perfilagem às coortes 2016–2020, Censo 2022–2024, CPC 2022–2023 e lotes municipais IBGE.
 2. Validar dicionários, regras de acumulação e denominadores da trajetória antes de calcular taxas agregadas.
@@ -107,11 +107,11 @@ O script src/check_trajectory_method.py confrontou o saldo e as cinco taxas nos 
 
 ## Arquivos de evidência
 
-- outputs/fase1/manifesto.json: origem Drive, bytes e SHA-256 dos cinco arquivos.
-- outputs/fase1/perfil_colunas.csv: cabeçalhos normalizados, tipos, vazios e marcadores de todas as colunas perfiladas.
-- outputs/fase1/resumo.json e perfis individuais: escopo, chaves, contagens e verificações.
-- outputs/fase1/juncoes_diagnosticas.json: cobertura por código.
-- src/profile_phase1.py: código executado.
-- docs/arquitetura_fase1.md: camadas, modelo e estratégia de idempotência ainda a implementar.
+- ../../DataMin.03/outputs/fase1/manifesto.json: origem Drive, bytes e SHA-256 dos cinco arquivos.
+- ../../DataMin.03/outputs/fase1/perfil_colunas.csv: cabeçalhos normalizados, tipos, vazios e marcadores de todas as colunas perfiladas.
+- ../../DataMin.03/outputs/fase1/resumo.json e perfis individuais: escopo, chaves, contagens e verificações.
+- ../../DataMin.03/outputs/fase1/juncoes_diagnosticas.json: cobertura por código.
+- ../../DataMin.03/src/profile_phase1.py: código executado.
+- arquitetura_fase1.md: camadas, modelo e estratégia de idempotência ainda a implementar.
 
 Os relatórios não exportam contagens de alunos por curso nem resultados de grupos pequenos. As quantidades nesta página são registros, cursos e diagnósticos estruturais, não indicadores de estudantes.

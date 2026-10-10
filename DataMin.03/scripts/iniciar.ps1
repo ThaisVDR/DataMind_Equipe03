@@ -46,7 +46,7 @@ Invoke-Docker -Arguments @('compose','config','--quiet')
 $imageMissing = $LASTEXITCODE -ne 0
 if ($Build -or $imageMissing) { Invoke-Docker -Arguments @('compose','build') }
 Invoke-Docker -Arguments @('compose','up','-d','--wait','postgres-meta','postgres-data')
-Invoke-Docker -Arguments @('compose','exec','-T','postgres-data','psql','-v','ON_ERROR_STOP=1','-U','datamind','-d','datamind','-f','/docker-entrypoint-initdb.d/001_schemas.sql')
+Invoke-Docker -Arguments @('compose','exec','-T','postgres-data','psql','-v','ON_ERROR_STOP=1','-U','datamind','-d','datamind03','-f','/docker-entrypoint-initdb.d/001_schemas.sql')
 Invoke-Docker -Arguments @('compose','run','--rm','airflow-init')
 Invoke-Docker -Arguments @('compose','up','-d','--wait','airflow-api','airflow-scheduler','airflow-dag-processor')
 Write-Output 'Airflow pronto em http://localhost:8080. Credenciais: runtime/private/ACESSO_LOCAL.txt'
